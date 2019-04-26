@@ -33,6 +33,17 @@ public class Card : MonoBehaviour
 
     }
 
+    /*
+     Main Battle Method
+     -1 if attack kills attacker (backfires)
+      0 if attack kills both
+      1 if attack succeeds
+    */
+    public int Battle(Card target)
+    {
+        return cardPower > target.cardPower ? 1 : (cardPower == target.cardPower ? 0 : -1); 
+    }
+
     public void ManaTap()
     {
         isManaTapped = true;

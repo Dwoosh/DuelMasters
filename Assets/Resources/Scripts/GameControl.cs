@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//TODO: design structure that actually fulfills design patterns
-//TODO: command design pattern for undo action
-//TODO: selector class
-
 public class GameControl : MonoBehaviour
 {
 
@@ -125,7 +121,7 @@ public class GameControl : MonoBehaviour
                 currentPlayer.SetHandPositions();
                 currentPlayer.manaZone.SetPositions(currentPlayer.isPlayerOne);
                 //reset for next stage
-                turnStage = TurnStage.CardCall_Choose;
+                ///turnStage = TurnStage.CardCall_Choose;
                 selectedCardToManaID = currentPlayer.manaZone.cards.Count - 1;
                 selectedCardID = -1;
                 selectedCard = null;
@@ -134,7 +130,7 @@ public class GameControl : MonoBehaviour
         if (inputController.isShiftPressed)
         {
             if (selectedCard != null) { selectedCard.Dehighlight(); }
-            turnStage = TurnStage.CardCall_Choose;
+            ///turnStage = TurnStage.CardCall_Choose;
             selectedCardID = -1;
             selectedCard = null;
         }
@@ -339,7 +335,6 @@ public class GameControl : MonoBehaviour
 
     private void ManageFightTargetStage()
     {
-        //TODO: make targetable player object
         Debug.Log("fight target stage");
         if (battlefield.IsOtherPlayerFieldFull())
         {
@@ -446,13 +441,13 @@ public class GameControl : MonoBehaviour
     {
         if (currentPlayer.isPlayerOne)
         {
-            currentPlayer.isPlayerOne = false;
+            //currentPlayer.isPlayerOne = false;
             currentPlayer = playerTwo;
             otherPlayer = playerOne;
         }
         else
         {
-            currentPlayer.isPlayerOne = true;
+            //currentPlayer.isPlayerOne = true;
             currentPlayer = playerOne;
             otherPlayer = playerTwo;
         }
