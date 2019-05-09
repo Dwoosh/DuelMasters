@@ -6,6 +6,9 @@ public class ManaStage : GameStage
 {
     public int selectedCardToManaID {get; set;}
 
+    public new string controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
+                                    "Enter to select card to put to mana\nShift to skip to next stage";
+
     public ManaStage(StageFSM stageFSM) : base(stageFSM) { }
 
     public override GameStage ManageStage()

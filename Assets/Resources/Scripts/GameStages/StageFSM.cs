@@ -13,15 +13,19 @@ public class StageFSM : MonoBehaviour
     public PlayerScript playerTwo;
     public InputController inputController;
     public Battlefield battlefield;
+    public EventManager eventManager;
     public GameObject gameCamera;
 
     public GameStage currentGameStage = null;
+
+    public QueueControl queueControl;
 
     public static ManaStage manaStage;
     public static CardCallChooseStage callChooseStage;
     public static CardCallPayStage callPayStage;
     public static FightChooseStage fightChooseStage;
-    public static FightTargetStage fightTargetStage;
+    public static FightTargetFieldStage fightTargetFieldStage;
+    public static FightTargetShieldStage fightTargetShieldStage;
     public static BattleStage battleStage;
     public static EndStage endStage;
 
@@ -33,7 +37,8 @@ public class StageFSM : MonoBehaviour
         callChooseStage = new CardCallChooseStage(this);
         callPayStage = new CardCallPayStage(this);
         fightChooseStage = new FightChooseStage(this);
-        fightTargetStage = new FightTargetStage(this);
+        fightTargetFieldStage = new FightTargetFieldStage(this);
+        fightTargetShieldStage = new FightTargetShieldStage(this);
         battleStage = new BattleStage(this);
         endStage = new EndStage(this);
         currentGameStage = manaStage;
@@ -42,27 +47,31 @@ public class StageFSM : MonoBehaviour
     void Update()
     {
         inputController.PollForInput();
-        GameStage stage = currentGameStage.ManageStage();
-        if(stage != null)
+        
+        if (queueControl.CheckQueue()) { }
+        else
         {
-            currentGameStage.OnEnd();
-            currentGameStage = stage;
-            currentGameStage.OnStart();
+            GameStage stage = currentGameStage.ManageStage();
+            if (stage != null)
+            {
+                currentGameStage.OnEnd();
+                currentGameStage = stage;
+                currentGameStage.OnStart();
+            }
         }
     }
 
     public void SwitchPlayers()
     {
+        queueControl.SwitchPlayers();
         if (currentPlayer.Equals(playerOne))
         {
-            //currentPlayer.isPlayerOne = false;
             currentPlayer = playerTwo;
             otherPlayer = playerOne;
             MoveCameraToPlayerTwo();
         }
         else
         {
-            //currentPlayer.isPlayerOne = true;
             currentPlayer = playerOne;
             otherPlayer = playerTwo;
             MoveCameraToPlayerOne();

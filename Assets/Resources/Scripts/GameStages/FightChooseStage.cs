@@ -8,13 +8,16 @@ public class FightChooseStage : GameStage
     public int selectedCardToFightID { get; set; }
     public Card selectedCardToFight { get; set; }
 
+    public new string controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
+                                    "Enter to select card to fight\nShift to skip to next stage";
+
     public FightChooseStage(StageFSM stageFSM) : base(stageFSM) {
         battlefield = stageFSM.battlefield;
     }
 
     public override GameStage ManageStage()
     {
-        if (battlefield.IsCurrentPlayerFieldFull())
+        if (battlefield.IsCurrentPlayerFieldNotEmpty())
         {
             selectedCardID = selectedCardID == -1 ? 0 : selectedCardID;   //select first card if there are any
             //selectedCardID = selectedCardID == battlefield.currentPlayerCards.Count ? selectedCardID - 1 : selectedCardID;
@@ -69,7 +72,7 @@ public class FightChooseStage : GameStage
             selectedCardToFightID = selectedCardID;
             selectedCardToFight = battlefield.currentPlayerCards[selectedCardToFightID];
             selectedCardToFight.Tap();
-            return StageFSM.fightTargetStage;
+            return StageFSM.fightTargetFieldStage;
         }
         return null;
     }

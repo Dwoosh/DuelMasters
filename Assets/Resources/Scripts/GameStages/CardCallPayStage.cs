@@ -7,6 +7,10 @@ public class CardCallPayStage : GameStage
 
     public Battlefield battlefield { get; set; }
 
+    public new string controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
+                                    "Enter to tap card\nShift to summon\n" +
+                                    "Backspace to go back to previous stage";
+
     public CardCallPayStage(StageFSM stageFSM) : base(stageFSM) {
         battlefield = stageFSM.battlefield;
     }
@@ -92,6 +96,8 @@ public class CardCallPayStage : GameStage
             currentPlayer.manaZone.FinalizeManaTap();
             var card = currentPlayer.GetCardFromList(ref currentPlayer.hand, StageFSM.callChooseStage.selectedCardToCallID);
             battlefield.AddCardToBattlefield(card, currentPlayer.isPlayerOne);
+            card.OnCall();
+
             //set positions
             currentPlayer.SetHandPositions();
             battlefield.SetPositions();
