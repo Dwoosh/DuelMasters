@@ -21,15 +21,9 @@ public class Graveyard
         cards.Add(card);
     }
 
-    public Card RemoveCardFromGraveyard(int index)
+    public void RemoveCardFromGraveyard(Card card)
     {
-        if (cards.Count - 1 < index)
-        {
-            return null;
-        }
-        var card = cards[index];
-        cards.RemoveAt(index);
-        return card;
+        cards.Remove(card);
     }
 
     public void SetPositions(bool isPlayerOne)

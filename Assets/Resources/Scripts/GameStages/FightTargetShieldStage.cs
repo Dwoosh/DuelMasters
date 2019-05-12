@@ -22,7 +22,7 @@ public class FightTargetShieldStage : GameStage
         {
             selectedCardID = selectedCardID == -1 ? 0 : selectedCardID;   //select first card if there are any
             //selectedCardID = selectedCardID == otherPlayer.shieldZone.shields.Count ? selectedCardID - 1 : selectedCardID;
-            selectedCard = otherPlayer.shieldZone.shields[selectedCardID];
+            selectedCard = otherPlayer.GetShieldAt(selectedCardID);
             selectedCard.Highlight();
         }
         if (inputController.isLeftArrowPressed)
@@ -54,18 +54,18 @@ public class FightTargetShieldStage : GameStage
         {
             selectedCard.Dehighlight();
             selectedCardID -= 1;
-            selectedCard = otherPlayer.shieldZone.shields[selectedCardID];
+            selectedCard = otherPlayer.GetShieldAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
 
     public override void OnRightArrowPress()
     {
-        if (selectedCardID < otherPlayer.shieldZone.shields.Count - 1)
+        if (selectedCardID < otherPlayer.GetShieldCount() - 1)
         {
             selectedCard.Dehighlight();
             selectedCardID += 1;
-            selectedCard = otherPlayer.shieldZone.shields[selectedCardID];
+            selectedCard = otherPlayer.GetShieldAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
@@ -75,23 +75,17 @@ public class FightTargetShieldStage : GameStage
         if (IsCardSelected()){selectedCard.Dehighlight();}
         return StageFSM.fightTargetFieldStage;
     }
-
-    //TODO: abilities..., double breaker, possible return this stage again
+    
     public override GameStage OnEnterPress()
     {
-        if (IsCardSelected())
+        if (IsCardSelected() && !StageFSM.fightChooseStage.selectedCardToFight.cantAttackPlayers)
         {
             selectedCard.Dehighlight();
             StageFSM.fightChooseStage.selectedCardToFight.Dehighlight();
-            
-            eventManager.CallOnShieldAttackEvent();
-
-            var card = otherPlayer.shieldZone.RemoveShield(selectedCardID);
-            otherPlayer.AddCardToList(ref otherPlayer.hand, card);
-            otherPlayer.SetHandPositions();
-            otherPlayer.shieldZone.SetPositions(otherPlayer.isPlayerOne);
+            StageFSM.blockerStage.nextStage = StageFSM.fightChooseStage;
+            return StageFSM.blockerStage;
         }
-        return StageFSM.fightChooseStage;
+        return null;
     }
 
     public override GameStage OnBackspacePress()

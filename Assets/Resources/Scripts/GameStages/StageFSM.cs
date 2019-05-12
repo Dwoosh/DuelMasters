@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //TODO: make onEnd write selectedCardID = selectedToMana or selectedToFight?
+//TODO: changes in gamestages: remove selectCard setting in each frame
 
 public class StageFSM : MonoBehaviour
 {
@@ -26,6 +27,7 @@ public class StageFSM : MonoBehaviour
     public static FightChooseStage fightChooseStage;
     public static FightTargetFieldStage fightTargetFieldStage;
     public static FightTargetShieldStage fightTargetShieldStage;
+    public static BlockerStage blockerStage;
     public static BattleStage battleStage;
     public static EndStage endStage;
 
@@ -39,6 +41,7 @@ public class StageFSM : MonoBehaviour
         fightChooseStage = new FightChooseStage(this);
         fightTargetFieldStage = new FightTargetFieldStage(this);
         fightTargetShieldStage = new FightTargetShieldStage(this);
+        blockerStage = new BlockerStage(this);
         battleStage = new BattleStage(this);
         endStage = new EndStage(this);
         currentGameStage = manaStage;
@@ -64,6 +67,7 @@ public class StageFSM : MonoBehaviour
     public void SwitchPlayers()
     {
         queueControl.SwitchPlayers();
+        battlefield.SwitchListRef();
         if (currentPlayer.Equals(playerOne))
         {
             currentPlayer = playerTwo;
@@ -76,6 +80,7 @@ public class StageFSM : MonoBehaviour
             otherPlayer = playerTwo;
             MoveCameraToPlayerOne();
         }
+        GameStage.UpdatePlayers();
     }
 
     private void MoveCameraToPlayerOne()

@@ -17,7 +17,7 @@ public class ManaStage : GameStage
         {
             selectedCardID = selectedCardID == -1 ? 0 : selectedCardID;   //select first card if there are any
             //selectedCardID = selectedCardID == currentPlayer.hand.Count ? selectedCardID - 1 : selectedCardID;  //select last card if cards amount changed
-            selectedCard = currentPlayer.hand[selectedCardID];
+            selectedCard = currentPlayer.GetHandAt(selectedCardID);
             selectedCard.Highlight();
         }
         if (inputController.isLeftArrowPressed)
@@ -45,18 +45,18 @@ public class ManaStage : GameStage
         {
             selectedCard.Dehighlight();
             selectedCardID -= 1;
-            selectedCard = currentPlayer.hand[selectedCardID];
+            selectedCard = currentPlayer.GetHandAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
 
     public override void OnRightArrowPress()
     {
-        if (selectedCardID < currentPlayer.hand.Count - 1)
+        if (selectedCardID < currentPlayer.GetHandCount() - 1)
         {
             selectedCard.Dehighlight();
             selectedCardID += 1;
-            selectedCard = currentPlayer.hand[selectedCardID];
+            selectedCard = currentPlayer.GetHandAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
@@ -67,13 +67,9 @@ public class ManaStage : GameStage
         {
             //move card
             selectedCard.Dehighlight();
-            var card = currentPlayer.GetCardFromList(ref currentPlayer.hand, selectedCardID);
-            currentPlayer.AddCardToList(ref currentPlayer.manaZone.cards, card);
-            //set positions
-            currentPlayer.SetHandPositions();
-            currentPlayer.manaZone.SetPositions(currentPlayer.isPlayerOne);
+            currentPlayer.RemoveHandAddMana(selectedCardID);
             //set for next stage
-            selectedCardToManaID = currentPlayer.manaZone.cards.Count - 1;
+            selectedCardToManaID = currentPlayer.GetManaCount() - 1;
             return StageFSM.callChooseStage;
         }
         return null;

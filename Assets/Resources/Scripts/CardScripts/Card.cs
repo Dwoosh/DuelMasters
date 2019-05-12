@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Card : MonoBehaviour
 {
-
+    //basic fields
     public string cardName { get; set; }
     public Enums.Race cardRace { get; set; }
     public Enums.Civilization cardCiv { get; set; }
@@ -12,14 +12,23 @@ public class Card : MonoBehaviour
     public int manaCost { get; set; }
     public int cardPower { get; set; }
 
+    //game logic fields
     public bool isManaTapped = false;
     public bool isTapped = false;
     public int costPaid = 0;
 
+    //simple ability fields
+    public bool cantBeBlocked = false;
+    public int powerAttacker = 0;
+    public bool cantAttackPlayers = false;
+
+    //technical fields
+    public PlayerScript owner;
     public Material normalMat;
     public Material outlinedMat;
     Renderer rend;
     bool isOutlined;
+
 
     protected void BaseStart()
     {
@@ -33,10 +42,23 @@ public class Card : MonoBehaviour
 
     }
 
+    public virtual void OnCall() { costPaid = 0; }
 
-    public virtual void OnCall() { }
+    public virtual void OnAfterCall() { }
+
+    public virtual void OnShieldAttack() { }
+
+    public virtual void OnAfterShieldAttack() { }
 
     public virtual void OnDeath() { }
+
+    public virtual void OnAfterDeath() { }
+
+    public virtual void SubscribeToTurnEvents() { }
+    public virtual void UnsubscribeToTurnEvents() { }
+    public virtual void SubscribeToOddTurnEvents() { }
+    public virtual void UnsubscribeToOddTurnEvents() { }
+
 
 
     /*
@@ -47,31 +69,48 @@ public class Card : MonoBehaviour
     */
     public int Battle(Card target)
     {
-        return cardPower > target.cardPower ? 1 : (cardPower == target.cardPower ? 0 : -1); 
+        return cardPower + powerAttacker > target.cardPower ? 1 : (cardPower + powerAttacker == target.cardPower ? 0 : -1); 
+    }
+
+    public void AddOwner(PlayerScript player)
+    {
+        owner = player;
     }
 
     public void ManaTap()
     {
-        isManaTapped = true;
-        transform.eulerAngles = transform.eulerAngles + 90f * Vector3.up;
+        if (!isManaTapped)
+        {
+            isManaTapped = true;
+            transform.eulerAngles = transform.eulerAngles + 90f * Vector3.up;
+        }
     }
 
     public void ManaUntap()
     {
-        isManaTapped = false;
-        transform.eulerAngles = transform.eulerAngles - 90f * Vector3.up;
+        if (isManaTapped)
+        {
+            isManaTapped = false;
+            transform.eulerAngles = transform.eulerAngles - 90f * Vector3.up;
+        }
     }
 
     public void Tap()
     {
-        isTapped = true;
-        transform.eulerAngles = transform.eulerAngles + 90f * Vector3.up;
+        if (!isTapped)
+        {
+            isTapped = true;
+            transform.eulerAngles = transform.eulerAngles + 90f * Vector3.up;
+        }
     }
 
     public void Untap()
     {
-        isTapped = false;
-        transform.eulerAngles = transform.eulerAngles - 90f * Vector3.up;
+        if (isTapped)
+        {
+            isTapped = false;
+            transform.eulerAngles = transform.eulerAngles - 90f * Vector3.up;
+        }
     }
 
     public bool IsCostPaid()

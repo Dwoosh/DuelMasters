@@ -17,11 +17,11 @@ public class CardCallPayStage : GameStage
 
     public override GameStage ManageStage()
     {
-        if (currentPlayer.manaZone.cards.Count > 0)
+        if (currentPlayer.GetManaCount() > 0)
         {
             selectedCardID = selectedCardID == -1 ? 0 : selectedCardID;   //select first card if there are any
             //selectedCardID = selectedCardID == currentPlayer.manaZone.cards.Count ? selectedCardID - 1 : selectedCardID;  //select last card if cards amount changed
-            selectedCard = currentPlayer.manaZone.cards[selectedCardID];
+            selectedCard = currentPlayer.GetManaAt(selectedCardID);
             selectedCard.Highlight();
         }
         if (inputController.isLeftArrowPressed)
@@ -53,18 +53,18 @@ public class CardCallPayStage : GameStage
         {
             selectedCard.Dehighlight();
             selectedCardID -= 1;
-            selectedCard = currentPlayer.manaZone.cards[selectedCardID];
+            selectedCard = currentPlayer.GetManaAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
 
     public override void OnRightArrowPress()
     {
-        if (selectedCardID < currentPlayer.manaZone.cards.Count - 1)
+        if (selectedCardID < currentPlayer.GetManaCount() - 1)
         {
             selectedCard.Dehighlight();
             selectedCardID += 1;
-            selectedCard = currentPlayer.manaZone.cards[selectedCardID];
+            selectedCard = currentPlayer.GetManaAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
@@ -93,14 +93,8 @@ public class CardCallPayStage : GameStage
         {
             //move card
             selectedCard.Dehighlight();
-            currentPlayer.manaZone.FinalizeManaTap();
-            var card = currentPlayer.GetCardFromList(ref currentPlayer.hand, StageFSM.callChooseStage.selectedCardToCallID);
-            battlefield.AddCardToBattlefield(card, currentPlayer.isPlayerOne);
-            card.OnCall();
-
-            //set positions
-            currentPlayer.SetHandPositions();
-            battlefield.SetPositions();
+            currentPlayer.FinalizeManaTap();
+            currentPlayer.RemoveHandAddField(StageFSM.callChooseStage.selectedCardToCallID);
             return StageFSM.callChooseStage;
         }
         return null;

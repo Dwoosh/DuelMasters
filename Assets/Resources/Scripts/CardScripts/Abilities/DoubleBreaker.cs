@@ -1,8 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//Double Breaker ability - if any shields exists, it allows to destroy additional one - first one is already being destroyed in stage
 public class DoubleBreaker : IAbility
 {
+    private int selectedCardID = -1;
+    private Card selectedCard = null;
+
     public void SubscribeToEvent()
     {
         EventManager.OnShieldAttackEvent += AddScriptToQueue;
@@ -19,55 +23,57 @@ public class DoubleBreaker : IAbility
     }
 
     public IEnumerator DoubleBreakerCoroutine(PlayerScript currentPlayer, PlayerScript otherPlayer, 
-        InputController inputController, Battlefield battlefield, EventManager eventManager)
+        InputController inputController)
     {
-        int selectedCardID = -1;
-        Card selectedCard = null;
         if (!otherPlayer.shieldZone.IsEmpty())
         {
             selectedCardID = selectedCardID == -1 ? 0 : selectedCardID;   //select first card if there are any
-            selectedCard = otherPlayer.shieldZone.shields[selectedCardID];
+            selectedCard = otherPlayer.GetShieldAt(selectedCardID);
             selectedCard.Highlight();
             StageFSM.fightChooseStage.selectedCardToFight.Highlight();
             while (true)
             {
                 if (inputController.isLeftArrowPressed)
                 {
-                    if (selectedCardID > 0)
-                    {
-                        selectedCard.Dehighlight();
-                        selectedCardID -= 1;
-                        selectedCard = otherPlayer.shieldZone.shields[selectedCardID];
-                        selectedCard.Highlight();
-                    }
+                    OnLeftArrowPress(otherPlayer);
                 }
                 if (inputController.isRightArrowPressed)
                 {
-                    if (selectedCardID < otherPlayer.shieldZone.shields.Count - 1)
-                    {
-                        selectedCard.Dehighlight();
-                        selectedCardID += 1;
-                        selectedCard = otherPlayer.shieldZone.shields[selectedCardID];
-                        selectedCard.Highlight();
-                    }
+                    OnRightArrowPress(otherPlayer);
                 }
                 if (inputController.isEnterPressed)
                 {
                     selectedCard.Dehighlight();
                     StageFSM.fightChooseStage.selectedCardToFight.Dehighlight();
-                    
-                    eventManager.CallOnShieldAttackEvent();
-
-                    var card = otherPlayer.shieldZone.RemoveShield(selectedCardID);
-                    otherPlayer.AddCardToList(ref otherPlayer.hand, card);
-                    otherPlayer.SetHandPositions();
-                    otherPlayer.shieldZone.SetPositions(otherPlayer.isPlayerOne);
+                    otherPlayer.RemoveShieldAddHand(selectedCardID);
                     break;
                 }
                 yield return null;
             }
         }
         QueueControl.SignalCoroutineEnd();
+    }
+
+    private void OnRightArrowPress(PlayerScript otherPlayer)
+    {
+        if (selectedCardID < otherPlayer.GetShieldCount() - 1)
+        {
+            selectedCard.Dehighlight();
+            selectedCardID += 1;
+            selectedCard = otherPlayer.GetShieldAt(selectedCardID);
+            selectedCard.Highlight();
+        }
+    }
+
+    private void OnLeftArrowPress(PlayerScript otherPlayer)
+    {
+        if (selectedCardID > 0)
+        {
+            selectedCard.Dehighlight();
+            selectedCardID -= 1;
+            selectedCard = otherPlayer.GetShieldAt(selectedCardID);
+            selectedCard.Highlight();
+        }
     }
 
 }

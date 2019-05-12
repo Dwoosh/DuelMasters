@@ -532,6 +532,7 @@ MonoBehaviour:
   deck: []
   hand: []
   battlefield: {fileID: 690630926}
+  eventManager: {fileID: 68957597}
   isPlayerOne: 0
 --- !u!1 &674636718
 GameObject:
@@ -861,6 +862,7 @@ MonoBehaviour:
   deck: []
   hand: []
   battlefield: {fileID: 690630926}
+  eventManager: {fileID: 68957597}
   isPlayerOne: 1
 --- !u!1 &1019096414
 GameObject:

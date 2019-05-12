@@ -32,7 +32,7 @@ public class Battlefield : MonoBehaviour
         }
     }
 
-    public void RemoveCardfromBattlefield(Card card, bool isPlayerOne)
+    public void RemoveCardFromBattlefield(Card card, bool isPlayerOne)
     {
         int index = isPlayerOne ? playerOneCards.IndexOf(card) : playerTwoCards.IndexOf(card);
         if (index == -1) { return; }

@@ -15,11 +15,11 @@ public class CardCallChooseStage : GameStage
 
     public override GameStage ManageStage()
     {
-        if (currentPlayer.hand.Count > 0)
+        if (currentPlayer.GetHandCount() > 0)
         {
             selectedCardID = selectedCardID == -1 ? 0 : selectedCardID;   //select first card if there are any
             //selectedCardID = selectedCardID == currentPlayer.hand.Count ? selectedCardID - 1 : selectedCardID;  //select last card if cards amount changed
-            selectedCard = currentPlayer.hand[selectedCardID];
+            selectedCard = currentPlayer.GetHandAt(selectedCardID);
             selectedCard.Highlight();
         }
         if (inputController.isLeftArrowPressed)
@@ -51,18 +51,18 @@ public class CardCallChooseStage : GameStage
         {
             selectedCard.Dehighlight();
             selectedCardID -= 1;
-            selectedCard = currentPlayer.hand[selectedCardID];
+            selectedCard = currentPlayer.GetHandAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
 
     public override void OnRightArrowPress()
     {
-        if (selectedCardID < currentPlayer.hand.Count - 1)
+        if (selectedCardID < currentPlayer.GetHandCount() - 1)
         {
             selectedCard.Dehighlight();
             selectedCardID += 1;
-            selectedCard = currentPlayer.hand[selectedCardID];
+            selectedCard = currentPlayer.GetHandAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
@@ -73,7 +73,7 @@ public class CardCallChooseStage : GameStage
         {
             //change "pointers" and go to pay stage
             selectedCardToCallID = selectedCardID;
-            selectedCardToCall = currentPlayer.hand[selectedCardToCallID];
+            selectedCardToCall = currentPlayer.GetHandAt(selectedCardToCallID);
             return StageFSM.callPayStage;
         }
         return null;
@@ -94,12 +94,8 @@ public class CardCallChooseStage : GameStage
         if (IsCardSelected()) { selectedCard.Dehighlight(); }
         if (StageFSM.manaStage.selectedCardToManaID != -1)
         {
-            var card = currentPlayer.GetCardFromList(ref currentPlayer.manaZone.cards, StageFSM.manaStage.selectedCardToManaID);
-            currentPlayer.AddCardToList(ref currentPlayer.hand, card);
+            currentPlayer.RemoveManaAddHand(StageFSM.manaStage.selectedCardToManaID);
         }
-        //set positions
-        currentPlayer.SetHandPositions();
-        currentPlayer.manaZone.SetPositions(currentPlayer.isPlayerOne);
         return StageFSM.manaStage;
     }
 

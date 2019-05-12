@@ -28,7 +28,7 @@ public class QueueControl : MonoBehaviour
         {
             EventQueue.EventCoroutine eventCoroutine = EventQueue.Dequeue();
             coroutineRunning = true;
-            StartCoroutine(eventCoroutine(currentPlayer, otherPlayer, inputController, battlefield, eventManager));
+            StartCoroutine(eventCoroutine(currentPlayer, otherPlayer, inputController));
             return true;
         }
         return false;

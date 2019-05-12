@@ -29,16 +29,12 @@ public class BattleStage : GameStage
         if(battleResult != -1) //if it kills target or both
         {
             //kill target
-            battlefield.RemoveCardfromBattlefield(targetCard, otherPlayer.isPlayerOne);
-            targetCard.OnDeath();
-            otherPlayer.graveyard.AddCardToGraveyard(targetCard);
+            otherPlayer.RemoveFieldAddGraveyard(targetCard);
         }
         if(battleResult != 1) //if it kills attacker or both
         {
             //kill attacker
-            battlefield.RemoveCardfromBattlefield(attackerCard, currentPlayer.isPlayerOne);
-            attackerCard.OnDeath();
-            currentPlayer.graveyard.AddCardToGraveyard(attackerCard);
+            currentPlayer.RemoveFieldAddGraveyard(attackerCard);
         }
     }
 

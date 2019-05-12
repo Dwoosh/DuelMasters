@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class EventQueue
 {
     public delegate IEnumerator EventCoroutine(PlayerScript currentPlayer, PlayerScript otherPlayer, 
-        InputController inputController, Battlefield battlefield, EventManager eventManager);
+        InputController inputController);
 
     private static Queue<EventCoroutine> eventQueue = new Queue<EventCoroutine>();
     
@@ -17,6 +17,11 @@ public class EventQueue
     public static EventCoroutine Dequeue()
     {
         return eventQueue.Dequeue();
+    }
+
+    public static void Clear()
+    {
+        eventQueue.Clear();
     }
 
     public static bool IsNotEmpty()

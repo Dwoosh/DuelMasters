@@ -10,11 +10,11 @@ public class GameStage
     public string controlsText = "Controls:";
     public string infoText = "";
 
-    protected PlayerScript currentPlayer;
-    protected PlayerScript otherPlayer;
-    protected InputController inputController;
-    protected StageFSM stageFSM;
-    protected EventManager eventManager;
+    protected static PlayerScript currentPlayer;
+    protected static PlayerScript otherPlayer;
+    protected static InputController inputController;
+    protected static StageFSM stageFSM;
+    protected static EventManager eventManager;
     protected static UITextController textController = new UITextController();
 
     public GameStage(StageFSM FSM)
@@ -45,6 +45,12 @@ public class GameStage
     }
 
     public virtual void OnEnd() { }
+
+    public static void UpdatePlayers()
+    {
+        currentPlayer = stageFSM.currentPlayer;
+        otherPlayer = stageFSM.otherPlayer;
+    }
 
     protected bool IsCardSelected()
     {

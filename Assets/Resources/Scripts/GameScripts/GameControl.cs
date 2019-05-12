@@ -412,7 +412,7 @@ public class GameControl : MonoBehaviour
                     var card = otherPlayer.shieldZone.RemoveShield(selectedCardID);
                     otherPlayer.AddCardToList(ref otherPlayer.hand, card);
                     otherPlayer.SetHandPositions();
-                    otherPlayer.shieldZone.SetPositions(otherPlayer.isPlayerOne);
+                    otherPlayer.SetShieldPositions();
                 }
                 else
                 {

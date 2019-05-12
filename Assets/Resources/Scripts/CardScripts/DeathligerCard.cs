@@ -1,21 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public class HanusaCard : Card
+public class DeathligerCard : Card
 {
-
     public DoubleBreaker doubleBreaker;
 
     void Start()
     {
         BaseStart();
-        cardName = "Hanusa, Radiance Elemental";
-        cardRace = Enums.Race.Angel_Command;
-        cardCiv = Enums.Civilization.Light;
+        cardName = "Deathliger, Lion of Chaos";
+        cardRace = Enums.Race.Demon_Command;
+        cardCiv = Enums.Civilization.Darkness;
         cardType = Enums.Type.Creature;
         manaCost = 7;
-        cardPower = 9500;
+        cardPower = 9000;
         doubleBreaker = new DoubleBreaker();
     }
 
@@ -23,6 +21,7 @@ public class HanusaCard : Card
     {
         BaseUpdate();
     }
+
 
     public override void OnShieldAttack()
     {
@@ -38,5 +37,4 @@ public class HanusaCard : Card
     {
         doubleBreaker.UnsubscribeToEvent();
     }
-
 }

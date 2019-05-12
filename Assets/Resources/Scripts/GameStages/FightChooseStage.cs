@@ -21,7 +21,7 @@ public class FightChooseStage : GameStage
         {
             selectedCardID = selectedCardID == -1 ? 0 : selectedCardID;   //select first card if there are any
             //selectedCardID = selectedCardID == battlefield.currentPlayerCards.Count ? selectedCardID - 1 : selectedCardID;
-            selectedCard = battlefield.currentPlayerCards[selectedCardID];
+            selectedCard = currentPlayer.GetFieldAt(selectedCardID);
             selectedCard.Highlight();
         }
         if (inputController.isLeftArrowPressed)
@@ -49,18 +49,18 @@ public class FightChooseStage : GameStage
         {
             selectedCard.Dehighlight();
             selectedCardID -= 1;
-            selectedCard = battlefield.currentPlayerCards[selectedCardID];
+            selectedCard = currentPlayer.GetFieldAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
 
     public override void OnRightArrowPress()
     {
-        if (selectedCardID < battlefield.currentPlayerCards.Count - 1)
+        if (selectedCardID < currentPlayer.GetFieldCount() - 1)
         {
             selectedCard.Dehighlight();
             selectedCardID += 1;
-            selectedCard = battlefield.currentPlayerCards[selectedCardID];
+            selectedCard = currentPlayer.GetFieldAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
@@ -70,7 +70,7 @@ public class FightChooseStage : GameStage
         if (IsCardSelected() && !selectedCard.isTapped)
         {
             selectedCardToFightID = selectedCardID;
-            selectedCardToFight = battlefield.currentPlayerCards[selectedCardToFightID];
+            selectedCardToFight = currentPlayer.GetFieldAt(selectedCardToFightID);
             selectedCardToFight.Tap();
             return StageFSM.fightTargetFieldStage;
         }

@@ -1,22 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public class HanusaCard : Card
+public class KingDepthconCard : Card
 {
-
     public DoubleBreaker doubleBreaker;
 
     void Start()
     {
         BaseStart();
-        cardName = "Hanusa, Radiance Elemental";
-        cardRace = Enums.Race.Angel_Command;
-        cardCiv = Enums.Civilization.Light;
+        cardName = "King Depthcon";
+        cardRace = Enums.Race.Leviathan;
+        cardCiv = Enums.Civilization.Water;
         cardType = Enums.Type.Creature;
         manaCost = 7;
-        cardPower = 9500;
+        cardPower = 6000;
         doubleBreaker = new DoubleBreaker();
+        cantBeBlocked = true;
     }
 
     void Update()
@@ -38,5 +37,4 @@ public class HanusaCard : Card
     {
         doubleBreaker.UnsubscribeToEvent();
     }
-
 }

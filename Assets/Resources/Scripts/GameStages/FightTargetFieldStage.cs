@@ -22,7 +22,7 @@ public class FightTargetFieldStage : GameStage
         {
             selectedCardID = selectedCardID == -1 ? 0 : selectedCardID;   //select first card if there are any
             //selectedCardID = selectedCardID == battlefield.otherPlayerCards.Count ? selectedCardID - 1 : selectedCardID;
-            selectedCard = battlefield.otherPlayerCards[selectedCardID];
+            selectedCard = otherPlayer.GetFieldAt(selectedCardID);
             selectedCard.Highlight();
         }
         if (inputController.isLeftArrowPressed)
@@ -54,18 +54,18 @@ public class FightTargetFieldStage : GameStage
         {
             selectedCard.Dehighlight();
             selectedCardID -= 1;
-            selectedCard = battlefield.otherPlayerCards[selectedCardID];
+            selectedCard = otherPlayer.GetFieldAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
 
     public override void OnRightArrowPress()
     {
-        if (selectedCardID < battlefield.otherPlayerCards.Count - 1)
+        if (selectedCardID < otherPlayer.GetFieldCount() - 1)
         {
             selectedCard.Dehighlight();
             selectedCardID += 1;
-            selectedCard = battlefield.otherPlayerCards[selectedCardID];
+            selectedCard = otherPlayer.GetFieldAt(selectedCardID);
             selectedCard.Highlight();
         }
     }
@@ -80,11 +80,12 @@ public class FightTargetFieldStage : GameStage
     {
         if (IsCardSelected())
         {
-            selectedCardAsTarget = battlefield.otherPlayerCards[selectedCardID];
+            selectedCardAsTarget = otherPlayer.GetFieldAt(selectedCardID);
             if (selectedCardAsTarget.isTapped)
             {
                 selectedCard.Tap();
-                return StageFSM.battleStage;
+                StageFSM.blockerStage.nextStage = StageFSM.battleStage;
+                return StageFSM.blockerStage;
             }
         }
         return null;

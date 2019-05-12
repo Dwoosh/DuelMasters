@@ -12,8 +12,13 @@ public class EndStage : GameStage
 
     public override GameStage ManageStage()
     {
-        stageFSM.SwitchPlayers();
-        battlefield.SwitchListRef();
+        eventManager.CallOnEndTurnEvent(); //possibility of problem with reference switch?
+        currentPlayer.UnsubscribeToTurnEvents(); //unsub cards abilities which invoke only on current player turn
+        currentPlayer.SubscribeToOddTurnEvents(); //sub cards abilities which invoke only on other player turn
+        stageFSM.SwitchPlayers(); //switch current and other player
+        currentPlayer.UnsubscribeToOddTurnEvents();  //unsub cards abilities which invoke only on other player turn
+        currentPlayer.SubscribeToTurnEvents();  //sub cards abilities which invoke only on current player turn
+        currentPlayer.DrawCard();
         return StageFSM.manaStage;
     }
 }

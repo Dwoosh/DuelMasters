@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public class HanusaCard : Card
+public class AstrocometDragonCard : Card
 {
 
     public DoubleBreaker doubleBreaker;
@@ -10,12 +9,13 @@ public class HanusaCard : Card
     void Start()
     {
         BaseStart();
-        cardName = "Hanusa, Radiance Elemental";
-        cardRace = Enums.Race.Angel_Command;
-        cardCiv = Enums.Civilization.Light;
+        cardName = "Astrocomet Dragon";
+        cardRace = Enums.Race.Armored_Dragon;
+        cardCiv = Enums.Civilization.Fire;
         cardType = Enums.Type.Creature;
         manaCost = 7;
-        cardPower = 9500;
+        cardPower = 6000;
+        powerAttacker = 4000;
         doubleBreaker = new DoubleBreaker();
     }
 

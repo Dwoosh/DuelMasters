@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public class HanusaCard : Card
+public class RoaringGreathornCard : Card
 {
 
     public DoubleBreaker doubleBreaker;
@@ -10,12 +9,13 @@ public class HanusaCard : Card
     void Start()
     {
         BaseStart();
-        cardName = "Hanusa, Radiance Elemental";
-        cardRace = Enums.Race.Angel_Command;
-        cardCiv = Enums.Civilization.Light;
+        cardName = "Roaring Great-Horn";
+        cardRace = Enums.Race.Horned_Beast;
+        cardCiv = Enums.Civilization.Nature;
         cardType = Enums.Type.Creature;
         manaCost = 7;
-        cardPower = 9500;
+        cardPower = 8000;
+        powerAttacker = 2000;
         doubleBreaker = new DoubleBreaker();
     }
 
@@ -38,5 +38,4 @@ public class HanusaCard : Card
     {
         doubleBreaker.UnsubscribeToEvent();
     }
-
 }
