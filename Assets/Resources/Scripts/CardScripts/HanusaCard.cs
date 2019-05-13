@@ -5,8 +5,6 @@ using UnityEngine;
 public class HanusaCard : Card
 {
 
-    public DoubleBreaker doubleBreaker;
-
     void Start()
     {
         BaseStart();
@@ -16,27 +14,7 @@ public class HanusaCard : Card
         cardType = Enums.Type.Creature;
         manaCost = 7;
         cardPower = 9500;
-        doubleBreaker = new DoubleBreaker();
+        abilities.Add(new DoubleBreaker());
     }
-
-    void Update()
-    {
-        BaseUpdate();
-    }
-
-    public override void OnShieldAttack()
-    {
-        doubleBreaker.SubscribeToEvent();
-    }
-
-    public override void OnAfterShieldAttack()
-    {
-        doubleBreaker.UnsubscribeToEvent();
-    }
-
-    public override void OnAfterDeath()
-    {
-        doubleBreaker.UnsubscribeToEvent();
-    }
-
+    
 }

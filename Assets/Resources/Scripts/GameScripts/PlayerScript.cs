@@ -213,6 +213,7 @@ public class PlayerScript : MonoBehaviour
         if (isPlayerOne) { return battlefield.playerOneCards.Count != 0; }
         else return battlefield.playerTwoCards.Count != 0;
     }
+    
 
     /*
     Other methods 

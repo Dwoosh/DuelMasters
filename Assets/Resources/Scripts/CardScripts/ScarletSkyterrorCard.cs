@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Linq;
 
 //TODO: finish ability
 public class ScarletSkyterrorCard : Card
 {
-    public OnCallDestroyOnField onCallDestroyOnField;
-
     void Start()
     {
         BaseStart();
@@ -15,27 +14,7 @@ public class ScarletSkyterrorCard : Card
         cardType = Enums.Type.Creature;
         manaCost = 8;
         cardPower = 3000;
-        onCallDestroyOnField = new OnCallDestroyOnField(x => { return x.GetType().GetProperty("blocker") != null; });
+        abilities.Add(new OnCallDestroyOnField(x => x.abilities.Any(i => i.GetType() == typeof(Blocker))));
     }
-
-    void Update()
-    {
-        BaseUpdate();
-    }
-
-    public override void OnCall()
-    {
-        base.OnCall();
-        onCallDestroyOnField.SubscribeToEvent();
-    }
-
-    public override void OnAfterCall()
-    {
-        onCallDestroyOnField.UnsubscribeToEvent();
-    }
-
-    public override void OnAfterDeath()
-    {
-        onCallDestroyOnField.UnsubscribeToEvent();
-    }
+    
 }

@@ -12,6 +12,8 @@ public class Card : MonoBehaviour
     public int manaCost { get; set; }
     public int cardPower { get; set; }
 
+    public List<Ability> abilities { get; set; }
+
     //game logic fields
     public bool isManaTapped = false;
     public bool isTapped = false;
@@ -35,6 +37,7 @@ public class Card : MonoBehaviour
         isOutlined = false;
         rend = GetComponent<Renderer>();
         rend.sharedMaterial = normalMat;
+        abilities = new List<Ability>();
     }
 
     protected void BaseUpdate()
@@ -42,22 +45,46 @@ public class Card : MonoBehaviour
 
     }
 
-    public virtual void OnCall() { costPaid = 0; }
+    public virtual void OnCall() {
+        costPaid = 0;
+        abilities.ForEach(x => x.OnCall());
+    }
 
-    public virtual void OnAfterCall() { }
+    public virtual void OnAfterCall() {
+        abilities.ForEach(x => x.OnAfterCall());
+    }
 
-    public virtual void OnShieldAttack() { }
+    public virtual void OnShieldAttack() {
+        abilities.ForEach(x => x.OnShieldAttack());
+    }
 
-    public virtual void OnAfterShieldAttack() { }
+    public virtual void OnAfterShieldAttack() {
+        abilities.ForEach(x => x.OnAfterShieldAttack());
+    }
 
-    public virtual void OnDeath() { }
+    public virtual void OnDeath() {
+        abilities.ForEach(x => x.OnDeath());
+    }
 
-    public virtual void OnAfterDeath() { }
+    public virtual void OnAfterDeath() {
+        abilities.ForEach(x => x.OnAfterDeath());
+    }
 
-    public virtual void SubscribeToTurnEvents() { }
-    public virtual void UnsubscribeToTurnEvents() { }
-    public virtual void SubscribeToOddTurnEvents() { }
-    public virtual void UnsubscribeToOddTurnEvents() { }
+    public virtual void SubscribeToTurnEvents() {
+        abilities.ForEach(x => x.SubscribeToTurnEvents());
+    }
+
+    public virtual void UnsubscribeToTurnEvents() {
+        abilities.ForEach(x => x.UnsubscribeToTurnEvents());
+    }
+
+    public virtual void SubscribeToOddTurnEvents() {
+        abilities.ForEach(x => x.SubscribeToOddTurnEvents());
+    }
+
+    public virtual void UnsubscribeToOddTurnEvents() {
+        abilities.ForEach(x => x.UnsubscribeToOddTurnEvents());
+    }
 
 
 

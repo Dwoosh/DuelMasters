@@ -1,19 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public class IereCard : Card
+public class FreiCard : Card
 {
 
     void Start()
     {
         BaseStart();
-        cardName = "Iere, Vizier of Bullets";
+        cardName = "Frei, Vizier of Air";
         cardRace = Enums.Race.Initiate;
         cardCiv = Enums.Civilization.Light;
         cardType = Enums.Type.Creature;
-        manaCost = 3;
+        manaCost = 4;
         cardPower = 3000;
+        abilities.Add(new EndTurnUntap(this));
     }
     
 }

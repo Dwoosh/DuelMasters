@@ -2,22 +2,37 @@
 using System.Collections;
 
 //Double Breaker ability - if any shields exists, it allows to destroy additional one - first one is already being destroyed in stage
-public class DoubleBreaker : IAbility
+public class DoubleBreaker : Ability
 {
     private int selectedCardID = -1;
     private Card selectedCard = null;
 
-    public void SubscribeToEvent()
+    public override void OnShieldAttack()
+    {
+        SubscribeToEvent();
+    }
+
+    public override void OnAfterShieldAttack()
+    {
+        UnsubscribeToEvent();
+    }
+
+    public override void OnAfterDeath()
+    {
+        UnsubscribeToEvent();
+    }
+
+    public override void SubscribeToEvent()
     {
         EventManager.OnShieldAttackEvent += AddScriptToQueue;
     }
 
-    public void UnsubscribeToEvent()
+    public override void UnsubscribeToEvent()
     {
         EventManager.OnShieldAttackEvent -= AddScriptToQueue;
     }
     
-    public void AddScriptToQueue()
+    public override void AddScriptToQueue()
     {
         EventQueue.Enqueue(DoubleBreakerCoroutine);
     }

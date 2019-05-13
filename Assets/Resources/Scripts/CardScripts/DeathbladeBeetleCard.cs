@@ -3,9 +3,6 @@ using System.Collections;
 
 public class DeathbladeBeetleCard : Card
 {
-
-    public DoubleBreaker doubleBreaker;
-
     void Start()
     {
         BaseStart();
@@ -16,26 +13,7 @@ public class DeathbladeBeetleCard : Card
         manaCost = 5;
         cardPower = 3000;
         powerAttacker = 4000;
-        doubleBreaker = new DoubleBreaker();
+        abilities.Add(new DoubleBreaker());
     }
-
-    void Update()
-    {
-        BaseUpdate();
-    }
-
-    public override void OnShieldAttack()
-    {
-        doubleBreaker.SubscribeToEvent();
-    }
-
-    public override void OnAfterShieldAttack()
-    {
-        doubleBreaker.UnsubscribeToEvent();
-    }
-
-    public override void OnAfterDeath()
-    {
-        doubleBreaker.UnsubscribeToEvent();
-    }
+    
 }

@@ -1,20 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DiaNorkCard : Card
+public class LaUraGigaCard : Card
 {
-    
+
     void Start()
     {
         BaseStart();
-        cardName = "Dia Nork, Moonlight Guardian";
+        cardName = "La Ura Giga, Sky Guardian";
         cardRace = Enums.Race.Guardian;
         cardCiv = Enums.Civilization.Light;
         cardType = Enums.Type.Creature;
-        manaCost = 4;
-        cardPower = 5000;
+        manaCost = 1;
+        cardPower = 2000;
         abilities.Add(new Blocker(this));
         cantAttackPlayers = true;
     }
-    
+
 }

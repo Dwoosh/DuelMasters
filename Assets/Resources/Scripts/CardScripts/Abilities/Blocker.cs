@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Blocker : IAbility
+public class Blocker : Ability
 {
     private Card attackerCard;
     private Card ownerCard;
@@ -11,17 +11,37 @@ public class Blocker : IAbility
         ownerCard = owner;
     }
 
-    public void AddScriptToQueue()
+    public override void SubscribeToOddTurnEvents()
+    {
+        SubscribeToEvent();
+    }
+
+    public override void UnsubscribeToOddTurnEvents()
+    {
+        UnsubscribeToEvent();
+    }
+
+    public override void OnCall()
+    {
+        SubscribeToEvent();
+    }
+
+    public override void OnAfterDeath()
+    {
+        UnsubscribeToEvent();
+    }
+
+    public override void AddScriptToQueue()
     {
         EventQueue.Enqueue(BlockerCoroutine);
     }
 
-    public void SubscribeToEvent()
+    public override void SubscribeToEvent()
     {
         EventManager.OnBlockerEvent += AddScriptToQueue;
     }
 
-    public void UnsubscribeToEvent()
+    public override void UnsubscribeToEvent()
     {
         EventManager.OnBlockerEvent -= AddScriptToQueue;
     }

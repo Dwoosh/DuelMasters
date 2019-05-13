@@ -2,7 +2,7 @@
 using System.Collections;
 
 //"When this creature would be destroyed, put it into your hand instead" ability
-public class OnDeathReturnToHand : IAbility
+public class OnDeathReturnToHand : Ability
 {
     private Card ownerCard;
 
@@ -11,17 +11,27 @@ public class OnDeathReturnToHand : IAbility
         ownerCard = card;
     }
 
-    public void AddScriptToQueue()
+    public override void OnDeath()
+    {
+        SubscribeToEvent();
+    }
+
+    public override void OnAfterDeath()
+    {
+        UnsubscribeToEvent();
+    }
+
+    public override void AddScriptToQueue()
     {
         EventQueue.Enqueue(OnDeathCoroutine);
     }
 
-    public void SubscribeToEvent()
+    public override void SubscribeToEvent()
     {
         EventManager.OnDeathEvent += AddScriptToQueue;
     }
 
-    public void UnsubscribeToEvent()
+    public override void UnsubscribeToEvent()
     {
         EventManager.OnDeathEvent -= AddScriptToQueue;
     }

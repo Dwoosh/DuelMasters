@@ -1,18 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DiaNorkCard : Card
+public class GranGureCard : Card
 {
-    
+
     void Start()
     {
         BaseStart();
-        cardName = "Dia Nork, Moonlight Guardian";
+        cardName = "Gran Gure, Space Guardian";
         cardRace = Enums.Race.Guardian;
         cardCiv = Enums.Civilization.Light;
         cardType = Enums.Type.Creature;
-        manaCost = 4;
-        cardPower = 5000;
+        manaCost = 6;
+        cardPower = 9000;
         abilities.Add(new Blocker(this));
         cantAttackPlayers = true;
     }

@@ -8,9 +8,10 @@ public class Enums
 
     public enum Type { Creature, Spell }
 
-    public enum Race { Demon_Command,
+    public enum Race { None, 
+        Demon_Command,
         Armored_Dragon, Armored_Wyvern,
-        Initiate, Angel_Command, Light_Bringer, Guardian,
+        Initiate, Angel_Command, Light_Bringer, Guardian, Starlight_Tree, Berserker,
         Giant_Insect, Horned_Beast,
         Liquid_People, Leviathan }
 

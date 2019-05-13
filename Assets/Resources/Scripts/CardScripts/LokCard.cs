@@ -1,19 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ChiliasCard : Card
+public class LokCard : Card
 {
 
     void Start()
     {
         BaseStart();
-        cardName = "Chilias, the Oracle";
-        cardRace = Enums.Race.Light_Bringer;
+        cardName = "Lok, Vizier of Hunting";
+        cardRace = Enums.Race.Initiate;
         cardCiv = Enums.Civilization.Light;
         cardType = Enums.Type.Creature;
         manaCost = 4;
-        cardPower = 2500;
-        abilities.Add(new OnDeathReturnToHand(this));
+        cardPower = 4000;
     }
-    
 }

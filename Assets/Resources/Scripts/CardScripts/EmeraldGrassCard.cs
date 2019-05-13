@@ -1,18 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DiaNorkCard : Card
+public class EmeraldGrassCard : Card
 {
-    
+
     void Start()
     {
         BaseStart();
-        cardName = "Dia Nork, Moonlight Guardian";
-        cardRace = Enums.Race.Guardian;
+        cardName = "Emerald Grass";
+        cardRace = Enums.Race.Starlight_Tree;
         cardCiv = Enums.Civilization.Light;
         cardType = Enums.Type.Creature;
-        manaCost = 4;
-        cardPower = 5000;
+        manaCost = 2;
+        cardPower = 3000;
         abilities.Add(new Blocker(this));
         cantAttackPlayers = true;
     }

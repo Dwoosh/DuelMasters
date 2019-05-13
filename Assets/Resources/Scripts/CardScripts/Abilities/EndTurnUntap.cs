@@ -2,7 +2,7 @@
 using System.Collections;
 
 //"At the end of each turn, you can untap this creature" ability
-public class EndTurnUntap : IAbility
+public class EndTurnUntap : Ability
 {
     private Card owner;
 
@@ -11,17 +11,37 @@ public class EndTurnUntap : IAbility
         owner = card;
     }
 
-    public void AddScriptToQueue()
+    public override void SubscribeToTurnEvents()
+    {
+        SubscribeToEvent();
+    }
+
+    public override void UnsubscribeToTurnEvents()
+    {
+        UnsubscribeToEvent();
+    }
+
+    public override void OnCall()
+    {
+        SubscribeToEvent();
+    }
+
+    public override void OnAfterDeath()
+    {
+        UnsubscribeToEvent();
+    }
+
+    public override void AddScriptToQueue()
     {
         EventQueue.Enqueue(EndTurnUntapCoroutine);
     }
 
-    public void SubscribeToEvent()
+    public override void SubscribeToEvent()
     {
         EventManager.OnEndTurnEvent += AddScriptToQueue;
     }
 
-    public void UnsubscribeToEvent()
+    public override void UnsubscribeToEvent()
     {
         EventManager.OnEndTurnEvent -= AddScriptToQueue;
     }

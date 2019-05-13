@@ -3,9 +3,7 @@ using System.Collections;
 
 public class AquaSniperCard : Card
 {
-
-    public OnCallReturnToHand onCallReturn;
-
+    
     void Start()
     {
         BaseStart();
@@ -15,28 +13,7 @@ public class AquaSniperCard : Card
         cardType = Enums.Type.Creature;
         manaCost = 8;
         cardPower = 5000;
-        onCallReturn = new OnCallReturnToHand(2);
-    }
-
-    void Update()
-    {
-        BaseUpdate();
-    }
-
-    public override void OnCall()
-    {
-        base.OnCall();
-        onCallReturn.SubscribeToEvent();
-    }
-
-    public override void OnAfterCall()
-    {
-        onCallReturn.UnsubscribeToEvent();
-    }
-
-    public override void OnAfterDeath()
-    {
-        onCallReturn.UnsubscribeToEvent();
+        abilities.Add(new OnCallReturnToHand(2));
     }
 
 }
