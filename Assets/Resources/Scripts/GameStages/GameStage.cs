@@ -7,13 +7,13 @@ public class GameStage
 
     protected int selectedCardID = -1;
     protected Card selectedCard = null;
-    public string controlsText = "Controls:";
-    public string infoText = "";
+    public virtual string controlsText { get; set; }
+    public virtual string infoText { get; set; }
 
+    public static StageFSM stageFSM;
     protected static PlayerScript currentPlayer;
     protected static PlayerScript otherPlayer;
     protected static InputController inputController;
-    protected static StageFSM stageFSM;
     protected static EventManager eventManager;
     protected static UITextController textController = new UITextController();
 
@@ -24,9 +24,14 @@ public class GameStage
         otherPlayer = stageFSM.otherPlayer;
         inputController = stageFSM.inputController;
         eventManager = stageFSM.eventManager;
+        controlsText = "Controls:";
+        infoText = string.Empty;
     }
 
-    public virtual GameStage ManageStage() { return null; }
+    public virtual GameStage ManageStage() {
+        UpdateInfoText();
+        return null;
+    }
 
     public virtual void OnLeftArrowPress() { }
     public virtual void OnRightArrowPress() { }
@@ -40,11 +45,20 @@ public class GameStage
         currentPlayer = stageFSM.currentPlayer;
         otherPlayer = stageFSM.otherPlayer;
 
-        textController.UpdateControlsText(controlsText);
-        textController.UpdateInfoText(infoText);
+        UpdateControlsText();
     }
 
     public virtual void OnEnd() { }
+
+    public void UpdateControlsText()
+    {
+        textController.UpdateControlsText(controlsText);
+    }
+
+    public void UpdateInfoText()
+    {
+        textController.UpdateInfoText(infoText);
+    }
 
     public static void UpdatePlayers()
     {

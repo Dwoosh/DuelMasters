@@ -7,8 +7,8 @@ public class SpellCard : Card
     protected void SpellStart()
     {
         BaseStart();
-        cardRace = Enums.Race.None;
-        cardType = Enums.Type.Spell;
+        cardRace = Race.None;
+        cardType = Type.Spell;
         cardPower = 0;
     }
 
@@ -17,10 +17,11 @@ public class SpellCard : Card
         BaseUpdate();
     }
 
+    //below implementation allows to add ability as item in list or override method spellability
     public override void OnCall()
     {
-        base.OnCall();
         SpellAbility();
+        base.OnCall();
     }
 
     public override void OnAfterCall()

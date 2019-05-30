@@ -8,10 +8,10 @@ public class DeathligerCard : Card
     {
         BaseStart();
         cardName = "Deathliger, Lion of Chaos";
-        cardRace = Enums.Race.Demon_Command;
-        cardCiv = Enums.Civilization.Darkness;
-        cardType = Enums.Type.Creature;
-        manaCost = 7;
+        cardRace = Race.Demon_Command;
+        cardCiv = Civilization.Darkness;
+        cardType = Type.Creature;
+        cardCost = 7;
         cardPower = 9000;
         abilities.Add(new DoubleBreaker());
     }

@@ -9,10 +9,10 @@ public class HanusaCard : Card
     {
         BaseStart();
         cardName = "Hanusa, Radiance Elemental";
-        cardRace = Enums.Race.Angel_Command;
-        cardCiv = Enums.Civilization.Light;
-        cardType = Enums.Type.Creature;
-        manaCost = 7;
+        cardRace = Race.Angel_Command;
+        cardCiv = Civilization.Light;
+        cardType = Type.Creature;
+        cardCost = 7;
         cardPower = 9500;
         abilities.Add(new DoubleBreaker());
     }

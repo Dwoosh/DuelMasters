@@ -32,24 +32,7 @@ public class ManaZone
     public void AddCardToManaZone(Card card)
     {
         cards.Add(card);
-        switch (card.cardCiv)
-        {
-            case Enums.Civilization.Darkness:
-                mana[0] += 1;
-                break;
-            case Enums.Civilization.Fire:
-                mana[1] += 1;
-                break;
-            case Enums.Civilization.Light:
-                mana[2] += 1;
-                break;
-            case Enums.Civilization.Nature:
-                mana[3] += 1;
-                break;
-            case Enums.Civilization.Water:
-                mana[4] += 1;
-                break;
-        }
+        mana[(int)card.cardCiv] += 1;
     }
 
     public Card RemoveCardFromManaZone(int index)
@@ -58,24 +41,7 @@ public class ManaZone
         {
             return null;
         }
-        switch (cards[index].cardCiv)
-        {
-            case Enums.Civilization.Darkness:
-                mana[0] -= 1;
-                break;
-            case Enums.Civilization.Fire:
-                mana[1] -= 1;
-                break;
-            case Enums.Civilization.Light:
-                mana[2] -= 1;
-                break;
-            case Enums.Civilization.Nature:
-                mana[3] -= 1;
-                break;
-            case Enums.Civilization.Water:
-                mana[4] -= 1;
-                break;
-        }
+        mana[(int)cards[index].cardCiv] -= 1;
         var card = cards[index];
         cards.RemoveAt(index);
         return card;

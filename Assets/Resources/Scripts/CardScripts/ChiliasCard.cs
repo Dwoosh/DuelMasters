@@ -8,10 +8,10 @@ public class ChiliasCard : Card
     {
         BaseStart();
         cardName = "Chilias, the Oracle";
-        cardRace = Enums.Race.Light_Bringer;
-        cardCiv = Enums.Civilization.Light;
-        cardType = Enums.Type.Creature;
-        manaCost = 4;
+        cardRace = Race.Light_Bringer;
+        cardCiv = Civilization.Light;
+        cardType = Type.Creature;
+        cardCost = 4;
         cardPower = 2500;
         abilities.Add(new OnDeathReturnToHand(this));
     }

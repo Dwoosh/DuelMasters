@@ -8,10 +8,10 @@ public class EmeraldGrassCard : Card
     {
         BaseStart();
         cardName = "Emerald Grass";
-        cardRace = Enums.Race.Starlight_Tree;
-        cardCiv = Enums.Civilization.Light;
-        cardType = Enums.Type.Creature;
-        manaCost = 2;
+        cardRace = Race.Starlight_Tree;
+        cardCiv = Civilization.Light;
+        cardType = Type.Creature;
+        cardCost = 2;
         cardPower = 3000;
         abilities.Add(new Blocker(this));
         cantAttackPlayers = true;

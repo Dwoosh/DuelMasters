@@ -8,10 +8,10 @@ public class ZagaanCard : Card
     {
         BaseStart();
         cardName = "Zagaan, Knight of Darkness";
-        cardRace = Enums.Race.Demon_Command;
-        cardCiv = Enums.Civilization.Darkness;
-        cardType = Enums.Type.Creature;
-        manaCost = 6;
+        cardRace = Race.Demon_Command;
+        cardCiv = Civilization.Darkness;
+        cardType = Type.Creature;
+        cardCost = 6;
         cardPower = 7000;
         abilities.Add(new DoubleBreaker());
     }

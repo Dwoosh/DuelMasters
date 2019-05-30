@@ -8,10 +8,10 @@ public class LahCard : Card
     {
         BaseStart();
         cardName = "Lah, Purification Enforcer";
-        cardRace = Enums.Race.Berserker;
-        cardCiv = Enums.Civilization.Light;
-        cardType = Enums.Type.Creature;
-        manaCost = 5;
+        cardRace = Race.Berserker;
+        cardCiv = Civilization.Light;
+        cardType = Type.Creature;
+        cardCost = 5;
         cardPower = 5500;
     }
 }

@@ -8,10 +8,10 @@ public class AstrocometDragonCard : Card
     {
         BaseStart();
         cardName = "Astrocomet Dragon";
-        cardRace = Enums.Race.Armored_Dragon;
-        cardCiv = Enums.Civilization.Fire;
-        cardType = Enums.Type.Creature;
-        manaCost = 7;
+        cardRace = Race.Armored_Dragon;
+        cardCiv = Civilization.Fire;
+        cardType = Type.Creature;
+        cardCost = 7;
         cardPower = 6000;
         powerAttacker = 4000;
         abilities.Add(new DoubleBreaker());

@@ -5,13 +5,11 @@ public class BlockerStage : GameStage
 {
 
     public BlockerStage(StageFSM stageFSM) : base(stageFSM) { }
-
-    public GameStage nextStage { get; set; }
-
+    
     public bool wasBlocked { get; set; }
 
     public Card attackerCard { get; set; }
-
+    
     private bool waitingForEvent { get; set; }
 
     public override GameStage ManageStage()
@@ -22,22 +20,19 @@ public class BlockerStage : GameStage
             waitingForEvent = false;
             return null;
         }
-        if (!wasBlocked)
-        {
-            if (nextStage.Equals(StageFSM.fightChooseStage))//shield was chosen
-            {
-                otherPlayer.RemoveShieldAddHand(selectedCardID);
-            }
-            return nextStage;
+        if (!wasBlocked && StageFSM.fightTargetShieldStage.selectedCardAsTarget != null)
+        { //if wasnt blocked and shield was targeted
+            StageFSM.fightChooseStage.selectedCardToFight.Tap();
+            otherPlayer.RemoveShieldAddHand(selectedCardID);
+            return StageFSM.fightChooseStage;
         }
-        else return StageFSM.fightChooseStage;
+        else return StageFSM.battleStage;
     }
     
     public override void OnStart()
     {
         base.OnStart();
         Debug.Log("blocker stage");
-        nextStage = StageFSM.battleStage;
         wasBlocked = false;
         waitingForEvent = true;
         attackerCard = StageFSM.fightChooseStage.selectedCardToFight;

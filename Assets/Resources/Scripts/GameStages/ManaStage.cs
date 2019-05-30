@@ -6,13 +6,19 @@ public class ManaStage : GameStage
 {
     public int selectedCardToManaID {get; set;}
 
-    public new string controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
-                                    "Enter to select card to put to mana\nShift to skip to next stage";
+    public override string controlsText { get; set; }
 
-    public ManaStage(StageFSM stageFSM) : base(stageFSM) { }
+    public override string infoText { get; set; }
+
+    public ManaStage(StageFSM stageFSM) : base(stageFSM) {
+        controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
+                       "Enter to select card to put to mana\nShift to skip to next stage";
+        infoText = string.Empty;
+    }
 
     public override GameStage ManageStage()
     {
+        UpdateInfoText();
         if (currentPlayer.hand.Count > 0)
         {
             selectedCardID = selectedCardID == -1 ? 0 : selectedCardID;   //select first card if there are any
@@ -60,7 +66,7 @@ public class ManaStage : GameStage
             selectedCard.Highlight();
         }
     }
-
+    
     public override GameStage OnEnterPress()
     {
         if (IsCardSelected())

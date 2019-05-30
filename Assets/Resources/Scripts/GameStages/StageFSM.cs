@@ -45,6 +45,7 @@ public class StageFSM : MonoBehaviour
         battleStage = new BattleStage(this);
         endStage = new EndStage(this);
         currentGameStage = manaStage;
+        currentGameStage.OnStart();
     }
 
     void Update()

@@ -4,11 +4,13 @@ using System.Collections;
 //"At the end of each turn, you can untap this creature" ability
 public class EndTurnUntap : Ability
 {
-    private Card owner;
+    private Card ownerCard { get; set; }
+    private bool untapAllCards { get; set; }
 
-    public EndTurnUntap(Card card)
+    public EndTurnUntap(Card card, bool untapAll)
     {
-        owner = card;
+        ownerCard = card;
+        untapAllCards = untapAll;
     }
 
     public override void SubscribeToTurnEvents()
@@ -49,18 +51,27 @@ public class EndTurnUntap : Ability
     public IEnumerator EndTurnUntapCoroutine(PlayerScript currentPlayer, PlayerScript otherPlayer,
         InputController inputController)
     {
-        owner.Highlight();
+        ownerCard.Highlight();
         while (true)
         {
             if (inputController.isEnterPressed)
             {
-                owner.Untap();
-                owner.Dehighlight();
-                break;
+                if (!untapAllCards)
+                {
+                    ownerCard.Untap();
+                    ownerCard.Dehighlight();
+                    break;
+                }
+                else
+                {
+                    ownerCard.Dehighlight();
+                    ownerCard.owner.ActOnField(card => card.Untap());
+                    break;
+                }
             }
             if (inputController.isBackspacePressed)
             {
-                owner.Dehighlight();
+                ownerCard.Dehighlight();
                 break;
             }
             yield return null;

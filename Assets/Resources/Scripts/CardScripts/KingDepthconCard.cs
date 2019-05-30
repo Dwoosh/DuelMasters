@@ -8,10 +8,10 @@ public class KingDepthconCard : Card
     {
         BaseStart();
         cardName = "King Depthcon";
-        cardRace = Enums.Race.Leviathan;
-        cardCiv = Enums.Civilization.Water;
-        cardType = Enums.Type.Creature;
-        manaCost = 7;
+        cardRace = Race.Leviathan;
+        cardCiv = Civilization.Water;
+        cardType = Type.Creature;
+        cardCost = 7;
         cardPower = 6000;
         abilities.Add(new DoubleBreaker());
         cantBeBlocked = true;

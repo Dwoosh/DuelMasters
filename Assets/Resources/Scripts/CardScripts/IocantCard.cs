@@ -9,10 +9,10 @@ public class IocantCard : Card
     {
         BaseStart();
         cardName = "Iocant, the Oracle";
-        cardRace = Enums.Race.Light_Bringer;
-        cardCiv = Enums.Civilization.Light;
-        cardType = Enums.Type.Creature;
-        manaCost = 2;
+        cardRace = Race.Light_Bringer;
+        cardCiv = Civilization.Light;
+        cardType = Type.Creature;
+        cardCost = 2;
         cardPower = 2000;
         abilities.Add(new Blocker(this));
         cantAttackPlayers = true;
@@ -28,11 +28,7 @@ public class IocantCard : Card
 
     private bool HasAngelCommand()
     {
-        if (owner.isPlayerOne)
-        {
-            return owner.battlefield.playerOneCards.Any(x => x.cardRace == Enums.Race.Angel_Command);
-        }
-        else return owner.battlefield.playerTwoCards.Any(x => x.cardRace == Enums.Race.Angel_Command);
+        return owner.field.Any(x => x.cardRace == Race.Angel_Command);
     }
 
 }

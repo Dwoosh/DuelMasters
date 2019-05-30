@@ -4,88 +4,27 @@ using System.Collections;
 public class LaserWingCard : SpellCard
 {
 
-    private Card firstCard = null;
-    private Card secondCard = null;
-    private int cardsToChoose = 2;
-    private int selectedCardID = -1;
-    private Card selectedCard = null;
-
     void Start()
     {
         SpellStart();
         cardName = "Laser Wing";
-        cardCiv = Enums.Civilization.Light;
-        manaCost = 5;
+        cardCiv = Civilization.Light;
+        cardCost = 5;
+        abilities.Add(new OnCallActionChoose(card => { card.cantBeBlocked = true; }, 2, false, true, false));
     }
 
     public override void SpellAbility()
     {
-        EventQueue.Enqueue(ChooseCoroutine);
-        EventManager.OnEndTurnEvent += RemoveAbilities;
+        EventManager.OnEndTurnEvent += UndoAbilityOnEnd;
     }
 
-    private void RemoveAbilities()
+    private void UndoAbilityOnEnd()
     {
+        OnCallActionChoose ability = (OnCallActionChoose) abilities[0];
+        Card firstCard = ability.chosenCards[0];
+        Card secondCard = ability.chosenCards[1];
         if(firstCard != null) { firstCard.cantBeBlocked = false; }
         if(secondCard != null) { secondCard.cantBeBlocked = false; }
-        EventManager.OnEndTurnEvent -= RemoveAbilities; //unsubscribe itself after its done
+        EventManager.OnEndTurnEvent -= UndoAbilityOnEnd; //unsubscribe itself after its done
     }
-
-    public IEnumerator ChooseCoroutine(PlayerScript currentPlayer, PlayerScript otherPlayer,
-        InputController inputController)
-    {
-        while(cardsToChoose != 0)
-        {
-            if(selectedCardID == -1 && owner.IsFieldNotEmpty())
-            {
-                selectedCardID = 0;   //select first card if there are any
-                selectedCard = owner.GetFieldAt(selectedCardID);
-                selectedCard.Highlight();
-            }
-            if (inputController.isLeftArrowPressed)
-            {
-                OnLeftArrowPress();
-            }
-            if (inputController.isRightArrowPressed)
-            {
-                OnRightArrowPress();
-            }
-            if (inputController.isEnterPressed)
-            {
-                if (selectedCard != null && firstCard != selectedCard) {
-                    firstCard = selectedCard;
-                    cardsToChoose -= 1;
-                }
-            }
-            if (inputController.isBackspacePressed)
-            {
-                cardsToChoose -= 1;
-            }
-            yield return null;
-        }
-        QueueControl.SignalCoroutineEnd();
-    }
-
-    private void OnLeftArrowPress()
-    {
-        if (selectedCardID > 0)
-        {
-            selectedCard.Dehighlight();
-            selectedCardID -= 1;
-            selectedCard = owner.GetFieldAt(selectedCardID);
-            selectedCard.Highlight();
-        }
-    }
-
-    private void OnRightArrowPress()
-    {
-        if (selectedCardID < owner.GetFieldCount() - 1)
-        {
-            selectedCard.Dehighlight();
-            selectedCardID += 1;
-            selectedCard = owner.GetFieldAt(selectedCardID);
-            selectedCard.Highlight();
-        }
-    }
-
 }

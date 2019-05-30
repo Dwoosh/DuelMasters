@@ -9,12 +9,13 @@ public class ScarletSkyterrorCard : Card
     {
         BaseStart();
         cardName = "Skarlet Skyterror";
-        cardRace = Enums.Race.Armored_Wyvern;
-        cardCiv = Enums.Civilization.Fire;
-        cardType = Enums.Type.Creature;
-        manaCost = 8;
+        cardRace = Race.Armored_Wyvern;
+        cardCiv = Civilization.Fire;
+        cardType = Type.Creature;
+        cardCost = 8;
         cardPower = 3000;
-        abilities.Add(new OnCallDestroyOnField(x => x.abilities.Any(i => i.GetType() == typeof(Blocker))));
+        abilities.Add(new OnCallActionAll(card => card.abilities.Any(i => i.GetType() == typeof(Blocker)),
+                                         (card, player) => { player.RemoveFieldAddGraveyard(card); }, false));
     }
     
 }

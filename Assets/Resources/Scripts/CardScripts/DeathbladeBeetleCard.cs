@@ -7,10 +7,10 @@ public class DeathbladeBeetleCard : Card
     {
         BaseStart();
         cardName = "Deathblade Beetle";
-        cardRace = Enums.Race.Giant_Insect;
-        cardCiv = Enums.Civilization.Nature;
-        cardType = Enums.Type.Creature;
-        manaCost = 5;
+        cardRace = Race.Giant_Insect;
+        cardCiv = Civilization.Nature;
+        cardType = Type.Creature;
+        cardCost = 5;
         cardPower = 3000;
         powerAttacker = 4000;
         abilities.Add(new DoubleBreaker());

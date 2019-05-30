@@ -7,12 +7,13 @@ public class CardCallPayStage : GameStage
 
     public Battlefield battlefield { get; set; }
 
-    public new string controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
-                                    "Enter to tap card\nShift to summon\n" +
-                                    "Backspace to go back to previous stage";
+    public override string controlsText { get; set; }
 
     public CardCallPayStage(StageFSM stageFSM) : base(stageFSM) {
         battlefield = stageFSM.battlefield;
+        controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
+                                    "Enter to tap card\nShift to summon\n" +
+                                    "Backspace to go back to previous stage";
     }
 
     public override GameStage ManageStage()

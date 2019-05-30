@@ -6,6 +6,8 @@ public class EventManager : MonoBehaviour
     public delegate void EventDelegate();
     
     public static event EventDelegate OnShieldAttackEvent;
+
+    public static event EventDelegate OnShieldDestroyedEvent;
     
     public static event EventDelegate OnEndTurnEvent;
     
@@ -20,6 +22,11 @@ public class EventManager : MonoBehaviour
     public void CallOnShieldAttackEvent()
     {
         OnShieldAttackEvent?.Invoke();
+    }
+
+    public void CallOnShieldDestroyedEvent()
+    {
+        OnShieldDestroyedEvent?.Invoke();
     }
 
     public void CallOnEndTurnEvent()

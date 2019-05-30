@@ -8,13 +8,14 @@ public class HolyAweCard : SpellCard
     {
         SpellStart();
         cardName = "Holy Awe";
-        cardCiv = Enums.Civilization.Light;
-        manaCost = 6;
+        cardCiv = Civilization.Light;
+        cardCost = 6;
+        abilities.Add(new ShieldTrigger(this));
     }
     
     public override void SpellAbility()
     {
-        owner.battlefield.otherPlayerCards.ForEach(x => x.Tap());
+        owner.battlefield.otherPlayerCards.ForEach(card => card.Tap());
     }
 
 }

@@ -6,10 +6,10 @@ public class Card : MonoBehaviour
 {
     //basic fields
     public string cardName { get; set; }
-    public Enums.Race cardRace { get; set; }
-    public Enums.Civilization cardCiv { get; set; }
-    public Enums.Type cardType { get; set; }
-    public int manaCost { get; set; }
+    public Race cardRace { get; set; }
+    public Civilization cardCiv { get; set; }
+    public Type cardType { get; set; }
+    public int cardCost { get; set; }
     public int cardPower { get; set; }
 
     public List<Ability> abilities { get; set; }
@@ -23,6 +23,9 @@ public class Card : MonoBehaviour
     public bool cantBeBlocked = false;
     public int powerAttacker = 0;
     public bool cantAttackPlayers = false;
+    public bool cantAttack = false;
+    public bool dieOnWin = false;
+    public bool slayer = false;
 
     //technical fields
     public PlayerScript owner;
@@ -62,6 +65,16 @@ public class Card : MonoBehaviour
         abilities.ForEach(x => x.OnAfterShieldAttack());
     }
 
+    public virtual void OnShieldDestroyed()
+    {
+        abilities.ForEach(x => x.OnShieldDestroyed());
+    }
+
+    public virtual void OnAfterShieldDestroyed()
+    {
+        abilities.ForEach(x => x.OnAfterShieldDestroyed());
+    }
+
     public virtual void OnDeath() {
         abilities.ForEach(x => x.OnDeath());
     }
@@ -96,10 +109,21 @@ public class Card : MonoBehaviour
     */
     public int Battle(Card target)
     {
-        return cardPower + powerAttacker > target.cardPower ? 1 : (cardPower + powerAttacker == target.cardPower ? 0 : -1); 
+        int result = cardPower + powerAttacker > target.cardPower ? 1 : (cardPower + powerAttacker == target.cardPower ? 0 : -1);
+        if(result == 1 && (dieOnWin || target.slayer)) //if attacker wins but has dieOnWin or target has slayer the both die
+        {
+            result = 0;
+            return result;
+        }
+        if(result == -1 && (target.dieOnWin || slayer)) //if target wins but this has slayer or target has dieOnWin
+        {
+            result = 0;
+            return result;
+        }
+        return result;
     }
 
-    public void AddOwner(PlayerScript player)
+    public void SetOwner(PlayerScript player)
     {
         owner = player;
     }
@@ -142,7 +166,7 @@ public class Card : MonoBehaviour
 
     public bool IsCostPaid()
     {
-        return costPaid == manaCost;
+        return costPaid == cardCost;
     }
 
     public void ResetOnStart()

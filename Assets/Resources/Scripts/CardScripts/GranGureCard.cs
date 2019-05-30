@@ -8,10 +8,10 @@ public class GranGureCard : Card
     {
         BaseStart();
         cardName = "Gran Gure, Space Guardian";
-        cardRace = Enums.Race.Guardian;
-        cardCiv = Enums.Civilization.Light;
-        cardType = Enums.Type.Creature;
-        manaCost = 6;
+        cardRace = Race.Guardian;
+        cardCiv = Civilization.Light;
+        cardType = Type.Creature;
+        cardCost = 6;
         cardPower = 9000;
         abilities.Add(new Blocker(this));
         cantAttackPlayers = true;

@@ -8,10 +8,10 @@ public class LokCard : Card
     {
         BaseStart();
         cardName = "Lok, Vizier of Hunting";
-        cardRace = Enums.Race.Initiate;
-        cardCiv = Enums.Civilization.Light;
-        cardType = Enums.Type.Creature;
-        manaCost = 4;
+        cardRace = Race.Initiate;
+        cardCiv = Civilization.Light;
+        cardType = Type.Creature;
+        cardCost = 4;
         cardPower = 4000;
     }
 }

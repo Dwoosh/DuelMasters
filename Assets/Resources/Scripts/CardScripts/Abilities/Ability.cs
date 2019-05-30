@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Ability
+public abstract class Ability
 {
     public virtual void SubscribeToEvent() { }
     public virtual void UnsubscribeToEvent() { }
@@ -11,6 +11,8 @@ public class Ability
     public virtual void OnAfterCall() { }
     public virtual void OnShieldAttack() { }
     public virtual void OnAfterShieldAttack() { }
+    public virtual void OnShieldDestroyed() { }
+    public virtual void OnAfterShieldDestroyed() { }
     public virtual void OnDeath() { }
     public virtual void OnAfterDeath() { }
 

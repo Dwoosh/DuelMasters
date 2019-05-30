@@ -8,10 +8,10 @@ public class RoaringGreathornCard : Card
     {
         BaseStart();
         cardName = "Roaring Great-Horn";
-        cardRace = Enums.Race.Horned_Beast;
-        cardCiv = Enums.Civilization.Nature;
-        cardType = Enums.Type.Creature;
-        manaCost = 7;
+        cardRace = Race.Horned_Beast;
+        cardCiv = Civilization.Nature;
+        cardType = Type.Creature;
+        cardCost = 7;
         cardPower = 8000;
         powerAttacker = 2000;
         abilities.Add(new DoubleBreaker());

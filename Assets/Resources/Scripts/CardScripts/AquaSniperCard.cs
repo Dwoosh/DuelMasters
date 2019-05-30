@@ -8,12 +8,12 @@ public class AquaSniperCard : Card
     {
         BaseStart();
         cardName = "Aqua Sniper";
-        cardRace = Enums.Race.Liquid_People;
-        cardCiv = Enums.Civilization.Water;
-        cardType = Enums.Type.Creature;
-        manaCost = 8;
+        cardRace = Race.Liquid_People;
+        cardCiv = Civilization.Water;
+        cardType = Type.Creature;
+        cardCost = 8;
         cardPower = 5000;
-        abilities.Add(new OnCallReturnToHand(2));
+        abilities.Add(new OnCallActionChoose((card, player) => { player.RemoveFieldAddHand(card); }, 2, false, false, false));
     }
 
 }

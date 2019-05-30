@@ -8,11 +8,12 @@ public class FightChooseStage : GameStage
     public int selectedCardToFightID { get; set; }
     public Card selectedCardToFight { get; set; }
 
-    public new string controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
-                                    "Enter to select card to fight\nShift to skip to next stage";
+    public override string controlsText { get; set; }
 
     public FightChooseStage(StageFSM stageFSM) : base(stageFSM) {
         battlefield = stageFSM.battlefield;
+        controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
+                                    "Enter to select card to fight\nShift to skip to next stage";
     }
 
     public override GameStage ManageStage()
@@ -71,7 +72,6 @@ public class FightChooseStage : GameStage
         {
             selectedCardToFightID = selectedCardID;
             selectedCardToFight = currentPlayer.GetFieldAt(selectedCardToFightID);
-            selectedCardToFight.Tap();
             return StageFSM.fightTargetFieldStage;
         }
         return null;

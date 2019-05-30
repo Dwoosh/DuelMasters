@@ -57,18 +57,9 @@ public class Blocker : Ability
                 if (inputController.isEnterPressed)
                 {
                     EventQueue.Clear(); //this blocker handled so other blockers are not needed
-                    ownerCard.Tap();
-                    int battleResult = ownerCard.Battle(attackerCard);
-                    if (battleResult != -1) //if it kills attackerCard or both
-                    {
-                        //kill attacker
-                        currentPlayer.RemoveFieldAddGraveyard(attackerCard);
-                    }
-                    if (battleResult != 1) //if it kills blocker or both
-                    {
-                        //kill blocker
-                        otherPlayer.RemoveFieldAddGraveyard(ownerCard);
-                    }
+                    StageFSM.battleStage.blockerCard = ownerCard;
+                    StageFSM.blockerStage.wasBlocked = true;
+                    break;
                 }
                 if (inputController.isBackspacePressed)
                 {

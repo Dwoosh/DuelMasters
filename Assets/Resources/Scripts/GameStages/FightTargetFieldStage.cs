@@ -7,12 +7,13 @@ public class FightTargetFieldStage : GameStage
     public Battlefield battlefield { get; set; }
     public Card selectedCardAsTarget { get; set; }
 
-    public new string controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
-                                    "Up/Down Arrow to switch between shields and field\n" +
-                                    "Enter to select card as target\nShift to skip to next stage";
+    public override string controlsText { get; set; }
 
     public FightTargetFieldStage(StageFSM stageFSM) : base(stageFSM) {
         battlefield = stageFSM.battlefield;
+        controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
+                                    "Up/Down Arrow to switch between shields and field\n" +
+                                    "Enter to select card as target\nShift to skip to next stage";
     }
 
     public override GameStage ManageStage()
@@ -78,13 +79,11 @@ public class FightTargetFieldStage : GameStage
 
     public override GameStage OnEnterPress()
     {
-        if (IsCardSelected())
+        if (IsCardSelected() && !StageFSM.fightChooseStage.selectedCardToFight.cantAttack)
         {
             selectedCardAsTarget = otherPlayer.GetFieldAt(selectedCardID);
             if (selectedCardAsTarget.isTapped)
             {
-                selectedCard.Tap();
-                StageFSM.blockerStage.nextStage = StageFSM.battleStage;
                 return StageFSM.blockerStage;
             }
         }

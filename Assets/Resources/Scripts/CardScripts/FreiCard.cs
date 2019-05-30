@@ -8,12 +8,12 @@ public class FreiCard : Card
     {
         BaseStart();
         cardName = "Frei, Vizier of Air";
-        cardRace = Enums.Race.Initiate;
-        cardCiv = Enums.Civilization.Light;
-        cardType = Enums.Type.Creature;
-        manaCost = 4;
+        cardRace = Race.Initiate;
+        cardCiv = Civilization.Light;
+        cardType = Type.Creature;
+        cardCost = 4;
         cardPower = 3000;
-        abilities.Add(new EndTurnUntap(this));
+        abilities.Add(new EndTurnUntap(this, false));
     }
     
 }

@@ -9,10 +9,10 @@ public class IereCard : Card
     {
         BaseStart();
         cardName = "Iere, Vizier of Bullets";
-        cardRace = Enums.Race.Initiate;
-        cardCiv = Enums.Civilization.Light;
-        cardType = Enums.Type.Creature;
-        manaCost = 3;
+        cardRace = Race.Initiate;
+        cardCiv = Civilization.Light;
+        cardType = Type.Creature;
+        cardCost = 3;
         cardPower = 3000;
     }
     

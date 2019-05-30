@@ -7,11 +7,13 @@ public class CardCallChooseStage : GameStage
     public int selectedCardToCallID { get; set; }
     public Card selectedCardToCall { get; set; }
 
-    public new string controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
-                                    "Enter to select card to summon\nShift to skip to next stage\n" +
-                                    "Backspace to go back to previous stage";
+    public override string controlsText { get; set; }
 
-    public CardCallChooseStage(StageFSM stageFSM) : base(stageFSM) { }
+    public CardCallChooseStage(StageFSM stageFSM) : base(stageFSM) {
+        controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
+                       "Enter to select card to summon\nShift to skip to next stage\n" +
+                       "Backspace to go back to previous stage";
+    }
 
     public override GameStage ManageStage()
     {

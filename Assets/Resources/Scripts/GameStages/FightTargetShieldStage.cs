@@ -4,14 +4,16 @@ using System.Collections;
 public class FightTargetShieldStage : GameStage
 {
     public Battlefield battlefield { get; set; }
+    public Card selectedCardAsTarget { get; set; }
 
-    public new string controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
-                                    "Up/Down Arrow to switch between shields and field\n" +
-                                    "Enter to select card as target\nShift to skip to next stage";
+    public override string controlsText { get; set; }
 
     public FightTargetShieldStage(StageFSM stageFSM) : base(stageFSM)
     {
         battlefield = stageFSM.battlefield;
+        controlsText = "Controls:\nLeft/Right Arrow to choose card\n" +
+                                    "Up/Down Arrow to switch between shields and field\n" +
+                                    "Enter to select card as target\nShift to skip to next stage";
     }
 
     public override GameStage ManageStage()
@@ -78,11 +80,12 @@ public class FightTargetShieldStage : GameStage
     
     public override GameStage OnEnterPress()
     {
-        if (IsCardSelected() && !StageFSM.fightChooseStage.selectedCardToFight.cantAttackPlayers)
+        if (IsCardSelected() && !StageFSM.fightChooseStage.selectedCardToFight.cantAttackPlayers
+            && !StageFSM.fightChooseStage.selectedCardToFight.cantAttack)
         {
             selectedCard.Dehighlight();
+            selectedCardAsTarget = selectedCard;
             StageFSM.fightChooseStage.selectedCardToFight.Dehighlight();
-            StageFSM.blockerStage.nextStage = StageFSM.fightChooseStage;
             return StageFSM.blockerStage;
         }
         return null;
@@ -100,6 +103,7 @@ public class FightTargetShieldStage : GameStage
         Debug.Log("fight target shield stage");
         selectedCardID = -1;
         selectedCard = null;
+        selectedCardAsTarget = null;
     }
 
 }

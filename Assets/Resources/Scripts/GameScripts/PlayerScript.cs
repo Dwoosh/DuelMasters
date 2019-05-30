@@ -10,9 +10,10 @@ public class PlayerScript : MonoBehaviour
     public ShieldZone shieldZone = new ShieldZone();
     public ManaZone manaZone = new ManaZone();
     public Graveyard graveyard = new Graveyard();
+    public List<Card> field { get; set; }
+
     public Battlefield battlefield;
     public EventManager eventManager;
-
     public bool isPlayerOne;
 
     private const float cardSizeX = 2f;
@@ -25,10 +26,12 @@ public class PlayerScript : MonoBehaviour
         if (name == "PlayerOne")
         {
             isPlayerOne = true;
+            field = battlefield.playerOneCards;
         }
         else
         {
             isPlayerOne = false;
+            field = battlefield.playerTwoCards;
             RotateDeck();
         }
         SetUpShields();
@@ -42,7 +45,7 @@ public class PlayerScript : MonoBehaviour
         {
             Card card = Instantiate(Resources.Load<Card>("Prefabs/IereCard"));
             deck.Add(card);
-            card.AddOwner(this);
+            card.SetOwner(this);
         }
     }
 
@@ -87,6 +90,15 @@ public class PlayerScript : MonoBehaviour
     Card control methods
     Abilities needs to be activated from EventManager in these methods
     */
+    public void RemoveDeckAddHand(int index)
+    {
+        var card = deck[index];
+        deck.Remove(card);
+        hand.Add(card);
+        SetDeckPositions();
+        SetHandPositions();
+    }
+    
     public void RemoveHandAddMana(int index)
     {
         var card = hand[index];
@@ -96,12 +108,31 @@ public class PlayerScript : MonoBehaviour
         SetManaPositions();
     }
 
+    public void RemoveHandAddGraveyard(int index)
+    {
+        var card = hand[index];
+        hand.Remove(card);
+        graveyard.AddCardToGraveyard(card);
+        SetHandPositions();
+        SetGraveyardPositions();
+    }
+
     public void RemoveHandAddField(int index)
     {
         var card = hand[index];
         hand.RemoveAt(index);
         SetHandPositions();
-        battlefield.AddCardToBattlefield(card, isPlayerOne);
+        field.Add(card);
+        battlefield.SetPositions();
+        card.OnCall();
+        eventManager.CallOnCallEvent();
+        card.OnAfterCall();
+    }
+
+    public void RemoveHandAddField(Card card)
+    {
+        hand.Remove(card);
+        field.Add(card);
         battlefield.SetPositions();
         card.OnCall();
         eventManager.CallOnCallEvent();
@@ -118,7 +149,7 @@ public class PlayerScript : MonoBehaviour
 
     public void RemoveFieldAddHand(Card card)
     {
-        battlefield.RemoveCardFromBattlefield(card, isPlayerOne);
+        field.Remove(card);
         hand.Add(card);
         battlefield.SetPositions();
         SetHandPositions();
@@ -126,7 +157,7 @@ public class PlayerScript : MonoBehaviour
 
     public void RemoveFieldAddGraveyard(Card card)
     {
-        battlefield.RemoveCardFromBattlefield(card, isPlayerOne);
+        field.Remove(card);
         graveyard.AddCardToGraveyard(card);
         battlefield.SetPositions();
         SetGraveyardPositions();
@@ -140,9 +171,15 @@ public class PlayerScript : MonoBehaviour
         StageFSM.fightChooseStage.selectedCardToFight.OnShieldAttack();
         eventManager.CallOnShieldAttackEvent();
         StageFSM.fightChooseStage.selectedCardToFight.OnAfterShieldAttack();
+
         var card = shieldZone.RemoveShield(index);
-        SetShieldPositions();
         hand.Add(card);
+
+        card.OnShieldDestroyed();
+        eventManager.CallOnShieldDestroyedEvent();
+        card.OnAfterShieldDestroyed();
+
+        SetShieldPositions();
         SetHandPositions();
     }
 
@@ -157,6 +194,16 @@ public class PlayerScript : MonoBehaviour
     /*
     Fields interaction methods 
     */
+
+    public Card GetDeckAt(int index)
+    {
+        return deck[index];
+    }
+    
+    public int GetDeckCount()
+    {
+        return deck.Count;
+    }
 
     public Card GetHandAt(int index)
     {
@@ -195,25 +242,33 @@ public class PlayerScript : MonoBehaviour
 
     public Card GetFieldAt(int index)
     {
-        if (isPlayerOne)
-        {
-            return battlefield.playerOneCards[index];
-        }
-        else return battlefield.playerTwoCards[index];
+        return field[index];
     }
 
     public int GetFieldCount()
     {
-        if (isPlayerOne) { return battlefield.playerOneCards.Count; }
-        else return battlefield.playerTwoCards.Count;
+        return field.Count;
     }
 
     public bool IsFieldNotEmpty()
     {
-        if (isPlayerOne) { return battlefield.playerOneCards.Count != 0; }
-        else return battlefield.playerTwoCards.Count != 0;
+        return field.Count != 0;
     }
     
+    public Card GetGraveAt(int index)
+    {
+        return graveyard.cards[index];
+    }
+
+    public int GetGraveCount()
+    {
+        return graveyard.cards.Count;
+    }
+
+    public void ActOnField(System.Action<Card> action)
+    {
+        field.ForEach(action);
+    }
 
     /*
     Other methods 
