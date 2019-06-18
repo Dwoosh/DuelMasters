@@ -13,6 +13,6 @@ public class FaerieChildCard : Card
         cardType = Type.Creature;
         cardCost = 4;
         cardPower = 2000;
-        cantBeBlocked = true;
+        cantBeBlockedCondition = (blocker) => { return true; };
     }
 }

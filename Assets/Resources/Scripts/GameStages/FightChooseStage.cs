@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class FightChooseStage : GameStage
@@ -79,6 +80,10 @@ public class FightChooseStage : GameStage
 
     public override GameStage OnShiftPress()
     {
+        if (currentPlayer.field.Any(card => card.attacksEachTurn && !card.isTapped && !card.cantAttack))
+        {
+            return null;
+        }
         if (IsCardSelected()) { selectedCard.Dehighlight(); }
         return StageFSM.endStage;
     }

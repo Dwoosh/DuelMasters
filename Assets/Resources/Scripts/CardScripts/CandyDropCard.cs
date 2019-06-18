@@ -13,6 +13,6 @@ public class CandyDropCard : Card
         cardType = Type.Creature;
         cardCost = 3;
         cardPower = 1000;
-        cantBeBlocked = true;
+        cantBeBlockedCondition = (blocker) => { return true; };
     }
 }

@@ -82,7 +82,8 @@ public class FightTargetFieldStage : GameStage
         if (IsCardSelected() && !StageFSM.fightChooseStage.selectedCardToFight.cantAttack)
         {
             selectedCardAsTarget = otherPlayer.GetFieldAt(selectedCardID);
-            if (selectedCardAsTarget.isTapped)
+            if ((selectedCardAsTarget.isTapped || selectedCardAsTarget.vulnerableUntapped)
+                ^ StageFSM.fightChooseStage.selectedCardToFight.canAttackUntapped)
             {
                 return StageFSM.blockerStage;
             }

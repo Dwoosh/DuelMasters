@@ -14,7 +14,7 @@ public class KingDepthconCard : Card
         cardCost = 7;
         cardPower = 6000;
         abilities.Add(new DoubleBreaker());
-        cantBeBlocked = true;
+        cantBeBlockedCondition = (blocker) => { return true; };
     }
     
 }

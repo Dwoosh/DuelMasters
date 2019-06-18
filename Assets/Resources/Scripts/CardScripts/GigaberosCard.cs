@@ -6,6 +6,7 @@ public class GigaberosCard : Card
 
     void Start()
     {
+        BaseStart();
         cardName = "Gigaberos";
         cardRace = Race.Chimera;
         cardCiv = Civilization.Darkness;

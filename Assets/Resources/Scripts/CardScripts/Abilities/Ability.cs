@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public abstract class Ability
+public abstract class Ability : MonoBehaviour
 {
     public virtual void SubscribeToEvent() { }
     public virtual void UnsubscribeToEvent() { }

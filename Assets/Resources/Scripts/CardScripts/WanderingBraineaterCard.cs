@@ -6,6 +6,7 @@ public class WanderingBraineaterCard : Card
 
     void Start()
     {
+        BaseStart();
         cardName = "Wandering Braineater";
         cardRace = Race.Living_Dead;
         cardCiv = Civilization.Darkness;

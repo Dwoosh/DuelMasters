@@ -10,7 +10,7 @@ public class LaserWingCard : SpellCard
         cardName = "Laser Wing";
         cardCiv = Civilization.Light;
         cardCost = 5;
-        abilities.Add(new OnCallActionChoose(card => { card.cantBeBlocked = true; }, 2, false, true, false));
+        abilities.Add(new OnCallActionChoose(card => { card.cantBeBlockedCondition = (blocker) => { return true; }; }, 2, false, true, false));
     }
 
     public override void SpellAbility()
@@ -23,8 +23,8 @@ public class LaserWingCard : SpellCard
         OnCallActionChoose ability = (OnCallActionChoose) abilities[0];
         Card firstCard = ability.chosenCards[0];
         Card secondCard = ability.chosenCards[1];
-        if(firstCard != null) { firstCard.cantBeBlocked = false; }
-        if(secondCard != null) { secondCard.cantBeBlocked = false; }
+        if(firstCard != null) { firstCard.cantBeBlockedCondition = (blocker) => { return false; }; }
+        if(secondCard != null) { secondCard.cantBeBlockedCondition = (blocker) => { return false; }; }
         EventManager.OnEndTurnEvent -= UndoAbilityOnEnd; //unsubscribe itself after its done
     }
 }

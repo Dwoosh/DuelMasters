@@ -15,7 +15,7 @@ public class ScarletSkyterrorCard : Card
         cardCost = 8;
         cardPower = 3000;
         abilities.Add(new OnCallActionAll(card => card.abilities.Any(i => i.GetType() == typeof(Blocker)),
-                                         (card, player) => { player.RemoveFieldAddGraveyard(card); }, false));
+                                         (card, player) => { player.RemoveFieldAddGraveyard(card); }, true, true));
     }
     
 }

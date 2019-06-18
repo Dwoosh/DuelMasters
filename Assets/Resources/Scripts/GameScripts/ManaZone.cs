@@ -41,10 +41,16 @@ public class ManaZone
         {
             return null;
         }
-        mana[(int)cards[index].cardCiv] -= 1;
         var card = cards[index];
+        mana[(int)card.cardCiv] -= 1;
         cards.RemoveAt(index);
         return card;
+    }
+
+    public void RemoveCardFromManaZone(Card card)
+    {
+        mana[(int)card.cardCiv] -= 1;
+        cards.Remove(card);
     }
 
     public void SetPositions(bool isPlayerOne)

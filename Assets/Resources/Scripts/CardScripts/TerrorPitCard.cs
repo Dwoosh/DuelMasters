@@ -11,6 +11,6 @@ public class TerrorPitCard : SpellCard
         cardCiv = Civilization.Darkness;
         cardCost = 6;
         abilities.Add(new ShieldTrigger(this));
-        abilities.Add(new OnCallActionChoose((card, owner) => owner.RemoveFieldAddGraveyard(card), 1, true, false, true));
+        abilities.Add(new OnCallActionChoose((card, owner) => owner.RemoveFieldAddGraveyard(card), 1, true, false, false));
     }
 }

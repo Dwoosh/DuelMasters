@@ -13,6 +13,6 @@ public class AquaSoldierCard : Card
         cardType = Type.Creature;
         cardCost = 3;
         cardPower = 1000;
-        abilities.Add(new OnDeathReturnToHand(this));
+        abilities.Add(new OnDeathActionSimple(this, (card, owner) => { owner.RemoveGraveyardAddHand(card); }));
     }
 }

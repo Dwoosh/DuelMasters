@@ -6,6 +6,7 @@ public class DarkClownCard : Card
 
     void Start()
     {
+        BaseStart();
         cardName = "Dark Clown";
         cardRace = Race.Brain_Jacker;
         cardCiv = Civilization.Darkness;

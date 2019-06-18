@@ -98,10 +98,28 @@ public class PlayerScript : MonoBehaviour
         SetDeckPositions();
         SetHandPositions();
     }
+
+    public void RemoveDeckAddMana(int index = 0)
+    {
+        if(deck.Count == 0) { return; }
+        var card = deck[index];
+        deck.Remove(card);
+        manaZone.AddCardToManaZone(card);
+        SetDeckPositions();
+        SetManaPositions();
+    }
     
     public void RemoveHandAddMana(int index)
     {
         var card = hand[index];
+        hand.Remove(card);
+        manaZone.AddCardToManaZone(card);
+        SetHandPositions();
+        SetManaPositions();
+    }
+
+    public void RemoveHandAddMana(Card card)
+    {
         hand.Remove(card);
         manaZone.AddCardToManaZone(card);
         SetHandPositions();
@@ -147,6 +165,22 @@ public class PlayerScript : MonoBehaviour
         SetHandPositions();
     }
 
+    public void RemoveManaAddGraveyard(int index)
+    {
+        var card = manaZone.RemoveCardFromManaZone(index);
+        graveyard.AddCardToGraveyard(card);
+        SetManaPositions();
+        SetGraveyardPositions();
+    }
+
+    public void RemoveManaAddGraveyard(Card card)
+    {
+        manaZone.RemoveCardFromManaZone(card);
+        graveyard.AddCardToGraveyard(card);
+        SetManaPositions();
+        SetGraveyardPositions();
+    }
+
     public void RemoveFieldAddHand(Card card)
     {
         field.Remove(card);
@@ -164,6 +198,14 @@ public class PlayerScript : MonoBehaviour
         card.OnDeath();
         eventManager.CallOnDeathEvent();
         card.OnAfterDeath();
+    }
+
+    public void RemoveFieldAddMana(Card card)
+    {
+        field.Remove(card);
+        manaZone.AddCardToManaZone(card);
+        battlefield.SetPositions();
+        SetManaPositions();
     }
 
     public void RemoveShieldAddHand(int index)
@@ -191,12 +233,21 @@ public class PlayerScript : MonoBehaviour
         SetHandPositions();
     }
 
+    public void RemoveGraveyardAddMana(Card card)
+    {
+        graveyard.RemoveCardFromGraveyard(card);
+        SetGraveyardPositions();
+        manaZone.AddCardToManaZone(card);
+        SetManaPositions();
+    }
+
     /*
     Fields interaction methods 
     */
 
     public Card GetDeckAt(int index)
     {
+        if(index >= GetDeckCount()) { return null; }
         return deck[index];
     }
     
@@ -207,6 +258,7 @@ public class PlayerScript : MonoBehaviour
 
     public Card GetHandAt(int index)
     {
+        if (index >= GetHandCount()) { return null; }
         return hand[index];
     }
 
@@ -217,6 +269,7 @@ public class PlayerScript : MonoBehaviour
 
     public Card GetManaAt(int index)
     {
+        if (index >= GetManaCount()) { return null; }
         return manaZone.cards[index];
     }
 
@@ -232,6 +285,7 @@ public class PlayerScript : MonoBehaviour
 
     public Card GetShieldAt(int index)
     {
+        if (index >= GetShieldCount()) { return null; }
         return shieldZone.shields[index];
     }
 
@@ -242,6 +296,7 @@ public class PlayerScript : MonoBehaviour
 
     public Card GetFieldAt(int index)
     {
+        if (index >= GetFieldCount()) { return null; }
         return field[index];
     }
 
@@ -257,6 +312,7 @@ public class PlayerScript : MonoBehaviour
     
     public Card GetGraveAt(int index)
     {
+        if (index >= GetGraveCount()) { return null; }
         return graveyard.cards[index];
     }
 

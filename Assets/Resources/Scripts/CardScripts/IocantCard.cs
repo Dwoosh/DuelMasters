@@ -22,13 +22,8 @@ public class IocantCard : Card
     void Update()
     {
         BaseUpdate();
-        if (HasAngelCommand()) { cardPower = 4000; }
+        if (owner.field.Any(x => x.cardRace == Race.Angel_Command)) { cardPower = 4000; }
         else cardPower = 2000;
-    }
-
-    private bool HasAngelCommand()
-    {
-        return owner.field.Any(x => x.cardRace == Race.Angel_Command);
     }
 
 }

@@ -13,7 +13,7 @@ public class ChiliasCard : Card
         cardType = Type.Creature;
         cardCost = 4;
         cardPower = 2500;
-        abilities.Add(new OnDeathReturnToHand(this));
+        abilities.Add(new OnDeathActionSimple(this, (card, owner) => { owner.RemoveGraveyardAddHand(card); }));
     }
     
 }

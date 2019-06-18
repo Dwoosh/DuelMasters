@@ -6,6 +6,7 @@ using System.Collections.Generic;
 //TODO: possible change: add requirement to choose x cards, instead of possibility only
 //      possible softlock when theres forcedChoice and not enough cards to choose
 //TODO: get minimum of actionCount and field
+//TODO: who is choosing?
 public class OnCallActionChoose : OnCallAbility
 {
     private int actionCount { get; set; }

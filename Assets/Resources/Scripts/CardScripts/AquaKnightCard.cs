@@ -13,6 +13,6 @@ public class AquaKnightCard : Card
         cardType = Type.Creature;
         cardCost = 5;
         cardPower = 4000;
-        abilities.Add(new OnDeathReturnToHand(this));
+        abilities.Add(new OnDeathActionSimple(this, (card, owner) => { owner.RemoveGraveyardAddHand(card); }));
     }
 }

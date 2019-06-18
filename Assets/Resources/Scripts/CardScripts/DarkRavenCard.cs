@@ -6,6 +6,7 @@ public class DarkRavenCard : Card
 
     void Start()
     {
+        BaseStart();
         cardName = "Dark Raven, Shadow of Grief";
         cardRace = Race.Ghost;
         cardCiv = Civilization.Darkness;

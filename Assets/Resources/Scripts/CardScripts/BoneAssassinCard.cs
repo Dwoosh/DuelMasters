@@ -6,6 +6,7 @@ public class BoneAssassinCard : Card
     
     void Start()
     {
+        BaseStart();
         cardName = "Bone Assassin, the Ripper";
         cardRace = Race.Living_Dead;
         cardCiv = Civilization.Darkness;

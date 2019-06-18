@@ -56,10 +56,13 @@ public class Blocker : Ability
             {
                 if (inputController.isEnterPressed)
                 {
-                    EventQueue.Clear(); //this blocker handled so other blockers are not needed
-                    StageFSM.battleStage.blockerCard = ownerCard;
-                    StageFSM.blockerStage.wasBlocked = true;
-                    break;
+                    if (!attackerCard.cantBeBlockedCondition(ownerCard))
+                    {
+                        EventQueue.Clear(); //this blocker handled so other blockers are not needed
+                        StageFSM.battleStage.blockerCard = ownerCard;
+                        StageFSM.blockerStage.wasBlocked = true;
+                        break;
+                    }
                 }
                 if (inputController.isBackspacePressed)
                 {

@@ -13,6 +13,7 @@ public class SaucerHeadSharkCard : Card
         cardType = Type.Creature;
         cardCost = 5;
         cardPower = 3000;
-        abilities.Add(new OnCallActionAll(card => { return card.cardPower <= 2000; }, (card, player) => { player.RemoveFieldAddHand(card); }, false));
+        abilities.Add(new OnCallActionAll(card => { return card.cardPower <= 2000; }, 
+            (card, player) => { player.RemoveFieldAddHand(card); }, true, true));
     }
 }

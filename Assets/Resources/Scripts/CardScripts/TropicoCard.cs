@@ -17,6 +17,6 @@ public class TropicoCard : Card
 
     void Update()
     {
-        cantBeBlocked = owner.GetFieldCount() - 1 >= 2;
+        cantBeBlockedCondition = (blocker) => { return owner.GetFieldCount() - 1 >= 2; };
     }
 }

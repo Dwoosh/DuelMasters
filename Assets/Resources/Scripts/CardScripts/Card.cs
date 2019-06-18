@@ -20,12 +20,15 @@ public class Card : MonoBehaviour
     public int costPaid = 0;
 
     //simple ability fields
-    public bool cantBeBlocked = false;
     public int powerAttacker = 0;
+    public System.Func<Card, bool> cantBeBlockedCondition = (blocker) => { return false; };
     public bool cantAttackPlayers = false;
     public bool cantAttack = false;
     public bool dieOnWin = false;
     public bool slayer = false;
+    public bool attacksEachTurn = false;
+    public bool vulnerableUntapped = false;
+    public bool canAttackUntapped = false;
 
     //technical fields
     public PlayerScript owner;
