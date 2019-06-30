@@ -32,17 +32,15 @@ public class Card : MonoBehaviour
 
     //technical fields
     public PlayerScript owner;
-    public Material normalMat;
-    public Material outlinedMat;
-    Renderer rend;
+    private Material material;
     bool isOutlined;
 
 
     protected void BaseStart()
     {
         isOutlined = false;
-        rend = GetComponent<Renderer>();
-        rend.sharedMaterial = normalMat;
+        material = GetComponent<Renderer>().material;
+        material.SetFloat("_FirstOutlineWidth", 0.0f);
         abilities = new List<Ability>();
     }
 
@@ -183,7 +181,7 @@ public class Card : MonoBehaviour
     {
         if (isOutlined)
         {
-            rend.sharedMaterial = normalMat;
+            material.SetFloat("_FirstOutlineWidth", 0.0f);
             isOutlined = false;
         }
     }
@@ -192,7 +190,7 @@ public class Card : MonoBehaviour
     {
         if (!isOutlined)
         {
-            rend.sharedMaterial = outlinedMat;
+            material.SetFloat("_FirstOutlineWidth", 0.03f);
             isOutlined = true;
         }
     }

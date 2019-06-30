@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2811776297216270138}
   m_Layer: 0
   m_Name: IereCard
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2811776297216270141}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300000, guid: d301c6033132c9342ba1e95985ae0f34, type: 2}
 --- !u!23 &2811776297216270136
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7977932f7b8b22f42b91d0e5bb8fb811, type: 2}
+  - {fileID: 2100000, guid: b3d00141a02588047bac0ec0724879ed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,5 +107,12 @@ MonoBehaviour:
   isManaTapped: 0
   isTapped: 0
   costPaid: 0
-  normalMat: {fileID: 2100000, guid: 7977932f7b8b22f42b91d0e5bb8fb811, type: 2}
-  outlinedMat: {fileID: 2100000, guid: 9fe95c38aab973d42a50e7a4183bb9b5, type: 2}
+  powerAttacker: 0
+  cantAttackPlayers: 0
+  cantAttack: 0
+  dieOnWin: 0
+  slayer: 0
+  attacksEachTurn: 0
+  vulnerableUntapped: 0
+  canAttackUntapped: 0
+  owner: {fileID: 0}

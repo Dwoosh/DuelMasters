@@ -24,10 +24,12 @@ public class ShieldZone
             if (isPlayerOne)
             {
                 shields[i].transform.position = new Vector3(177f + cardSizeX + i * 5f, 155f, 138f);
+                shields[i].transform.eulerAngles = shields[i].transform.eulerAngles + 180f * Vector3.forward;
             }
             else
             {
                 shields[i].transform.position = new Vector3(235f - cardSizeX - i * 5f, 155f, 162f);
+                shields[i].transform.eulerAngles = shields[i].transform.eulerAngles + 180f * Vector3.forward;
             }
         }
     }

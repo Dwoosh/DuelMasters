@@ -399,10 +399,12 @@ public class PlayerScript : MonoBehaviour
             if (isPlayerOne)
             {
                 deck[i].transform.position = new Vector3(218f, 155f + i * cardSizeY, 138f);
+                deck[i].transform.eulerAngles = deck[i].transform.eulerAngles + 180f * Vector3.forward;
             }
             else
             {
                 deck[i].transform.position = new Vector3(194f, 155f + i * cardSizeY, 162f);
+                deck[i].transform.eulerAngles = deck[i].transform.eulerAngles + 180f * Vector3.forward;
             }
         }
     }
