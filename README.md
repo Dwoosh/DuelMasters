@@ -8,4 +8,6 @@ Game Screen
 
 State of game:
 
-Still working on abilities logic in cards
+Finished game/card logic
+Finished card prefabs
+Working on gameplay
