@@ -9,5 +9,7 @@ Game Screen
 State of game:
 
 Finished game/card logic
+
 Finished card prefabs
+
 Working on gameplay
