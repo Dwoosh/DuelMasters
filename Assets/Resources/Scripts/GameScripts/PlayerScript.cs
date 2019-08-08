@@ -43,7 +43,7 @@ public class PlayerScript : MonoBehaviour
     {
         for (int i = 0; i < 40; ++i)
         {
-            Card card = Instantiate(Resources.Load<Card>("Prefabs/IereCard"));
+            Card card = Instantiate(Resources.Load<Card>("Prefabs/Cards/IereCard"));
             deck.Add(card);
             card.SetOwner(this);
         }
