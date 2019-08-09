@@ -2,493 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46f6f7a-6a3c-4309-bd90-c701168ce6fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaHulcusCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaHulcusCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaKnightCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaKnightCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaSniperCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaSniperCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaSoldierCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaSoldierCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaVehicleCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaVehicleCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ArmoredWalkerUrherionCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ArmoredWalkerUrherionCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ArtisanPicoraCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ArtisanPicoraCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AstrocometDragonCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AstrocometDragonCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AuraBlastCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AuraBlastCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BlackFeatherCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BlackFeatherCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BloodySquitoCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BloodySquitoCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BolshackDragonCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BolshackDragonCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneAssassinCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneAssassinCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneSpiderCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneSpiderCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrainSerumCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrainSerumCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrawlerZylerCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrawlerZylerCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BronzeArmTribeCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BronzeArmTribeCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningManeCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningManeCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningPowerCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningPowerCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CandyDropCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CandyDropCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChaosStrikeCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChaosStrikeCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChiliasCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChiliasCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CoilingVinesCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CoilingVinesCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CreepingPlagueCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CreepingPlagueCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrimsonHammerCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrimsonHammerCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrystalMemoryCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrystalMemoryCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkClownCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkClownCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkRavenCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkRavenCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkReversalCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkReversalCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeadlyFighterBraidClawCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeadlyFighterBraidClawCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathSmokeCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathSmokeCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathbladeBeetleCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathbladeBeetleCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathligerCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathligerCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DiaNorkCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DiaNorkCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DimensionGateCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DimensionGateCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DomeShellCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DomeShellCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DraglideCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DraglideCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/EmeraldGrassCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/EmeraldGrassCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ExplosiveFighterUcarnCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ExplosiveFighterUcarnCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FaerieChildCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FaerieChildCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FatalAttackerHorvathCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FatalAttackerHorvathCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FearFangCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FearFangCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FireSweeperBurningHellionCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FireSweeperBurningHellionCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ForestHornetCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ForestHornetCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FreiCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FreiCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GatlingSkyterrorCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GatlingSkyterrorCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GhostTouchCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GhostTouchCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigaberosCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigaberosCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigagieleCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigagieleCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigargonCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigargonCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GoldenWingStrikerCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GoldenWingStrikerCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GranGureCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GranGureCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HanusaCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HanusaCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HolyAweCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HolyAweCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HunterFishCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HunterFishCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IereCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IereCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IllusionaryMerfolkCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IllusionaryMerfolkCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ImmortalBaronCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IocantCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IocantCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingCoralCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingCoralCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingDepthconCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingDepthconCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingRippedHideCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingRippedHideCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LaUraGigaCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LaUraGigaCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LahCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LahCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LaserWingCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LaserWingCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LokCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LokCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MagmaGazerCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MagmaGazerCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MarineFlowerCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MarineFlowerCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MaskedHorrorCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MaskedHorrorCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MeteosaurCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MeteosaurCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MieleCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MieleCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MightyShouterCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MightyShouterCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MoonlightFlashCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MoonlightFlashCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NaturalSnareCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NaturalSnareCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NightMasterCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NightMasterCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NomadHeroGigioCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NomadHeroGigioCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/OnslaughterTricepsCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/OnslaughterTricepsCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PangaeaSongCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PangaeaSongCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PhantomFishCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PhantomFishCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PoisonuousDahliaCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PoisonuousDahliaCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PoisonuousMushroomCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PoisonuousMushroomCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RaylaCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RaylaCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RedEyeScorpionCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RedEyeScorpionCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ReusolCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ReusolCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RevolverFishCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RevolverFishCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RoaringGreathornCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RoaringGreathornCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RothusCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RothusCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RubyGrassCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RubyGrassCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SaucerHeadSharkCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SaucerHeadSharkCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ScarletSkyterrorCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ScarletSkyterrorCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SeamineCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SeamineCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SenatineJadeTreeCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SenatineJadeTreeCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SkeletonSoldierCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SkeletonSoldierCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SolarRayCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SolarRayCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SonicWingCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SonicWingCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SpiralGateCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SpiralGateCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StampedingLonghornCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StampedingLonghornCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SteelSmasherCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SteelSmasherCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StingerWormCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StingerWormCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StonesaurCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StonesaurCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StormShellCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StormShellCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SuperExplosiveVolcanodonCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SuperExplosiveVolcanodonCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SwampWormCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SwampWormCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SzubsKinCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SzubsKinCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TeleportationCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TeleportationCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TerrorPitCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TerrorPitCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ThornyMandraCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ThornyMandraCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ToelCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ToelCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TornadoFlameCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TornadoFlameCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TowerShellCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TowerShellCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TrihornShepherdCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TrihornShepherdCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TropicoCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TropicoCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UltimateForceCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UltimateForceCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UnicornFishCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UnicornFishCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UrthCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UrthCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/VampireSilphyCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/VampireSilphyCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/VirtualTripwireCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/VirtualTripwireCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/WanderingBraineaterCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/WanderingBraineaterCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/WrithingBoneGhoulCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/WrithingBoneGhoulCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ZagaanCard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ZagaanCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/ObjectPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DM/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaHulcusCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaHulcusCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaKnightCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaKnightCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaSniperCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaSniperCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaSoldierCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaSoldierCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaVehicleCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaVehicleCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ArmoredWalkerUrherionCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ArmoredWalkerUrherionCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ArtisanPicoraCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ArtisanPicoraCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AstrocometDragonCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AstrocometDragonCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AuraBlastCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AuraBlastCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BlackFeatherCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BlackFeatherCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BloodySquitoCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BloodySquitoCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BolshackDragonCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BolshackDragonCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneAssassinCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneAssassinCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneSpiderCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneSpiderCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BrainSerumCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BrainSerumCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BrawlerZylerCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BrawlerZylerCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BronzeArmTribeCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BronzeArmTribeCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BurningManeCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BurningManeCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BurningPowerCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BurningPowerCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CandyDropCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CandyDropCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChaosStrikeCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChaosStrikeCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChiliasCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChiliasCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CoilingVinesCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CoilingVinesCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CreepingPlagueCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CreepingPlagueCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CrimsonHammerCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CrimsonHammerCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CrystalMemoryCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CrystalMemoryCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkClownCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkClownCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkRavenCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkRavenCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkReversalCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkReversalCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeadlyFighterBraidClawCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeadlyFighterBraidClawCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathSmokeCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathSmokeCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathbladeBeetleCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathbladeBeetleCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathligerCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathligerCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DiaNorkCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DiaNorkCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DimensionGateCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DimensionGateCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DomeShellCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DomeShellCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DraglideCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DraglideCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/EmeraldGrassCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/EmeraldGrassCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ExplosiveFighterUcarnCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ExplosiveFighterUcarnCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FaerieChildCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FaerieChildCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FatalAttackerHorvathCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FatalAttackerHorvathCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FearFangCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FearFangCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FireSweeperBurningHellionCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FireSweeperBurningHellionCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ForestHornetCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ForestHornetCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FreiCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FreiCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GatlingSkyterrorCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GatlingSkyterrorCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GhostTouchCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GhostTouchCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigaberosCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigaberosCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigagieleCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigagieleCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigargonCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigargonCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GoldenWingStrikerCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GoldenWingStrikerCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GranGureCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GranGureCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HanusaCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HanusaCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HolyAweCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HolyAweCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HunterFishCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HunterFishCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IereCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IereCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IllusionaryMerfolkCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IllusionaryMerfolkCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ImmortalBaronVorgCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ImmortalBaronVorgCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IocantCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IocantCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingCoralCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingCoralCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingDepthconCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingDepthconCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingRippedHideCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingRippedHideCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaUraGigaCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaUraGigaCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LahCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LahCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaserWingCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaserWingCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LokCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LokCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MagmaGazerCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MagmaGazerCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MarineFlowerCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MarineFlowerCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MaskedHorrorCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MaskedHorrorCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MeteosaurCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MeteosaurCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MieleCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MieleCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MightyShouterCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MightyShouterCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MoonlightFlashCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MoonlightFlashCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NaturalSnareCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NaturalSnareCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NightMasterCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NightMasterCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NomadHeroGigioCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NomadHeroGigioCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/OnslaughterTricepsCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/OnslaughterTricepsCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PangaeaSongCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PangaeaSongCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PhantomFishCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PhantomFishCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousDahliaCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousDahliaCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousMushroomCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousMushroomCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RaylaCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RaylaCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RedEyeScorpionCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RedEyeScorpionCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ReusolCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ReusolCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RevolverFishCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RevolverFishCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RoaringGreathornCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RoaringGreathornCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RothusCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RothusCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RubyGrassCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RubyGrassCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SaucerHeadSharkCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SaucerHeadSharkCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ScarletSkyterrorCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ScarletSkyterrorCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SeamineCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SeamineCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SenatineJadeTreeCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SenatineJadeTreeCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SkeletonSoldierCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SkeletonSoldierCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SolarRayCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SolarRayCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SonicWingCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SonicWingCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SpiralGateCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SpiralGateCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StampedingLonghornCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StampedingLonghornCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SteelSmasherCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SteelSmasherCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StingerWormCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StingerWormCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StonesaurCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StonesaurCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StormShellCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StormShellCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SuperExplosiveVolcanodonCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SuperExplosiveVolcanodonCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SwampWormCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SwampWormCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SzubsKinCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SzubsKinCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TeleportationCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TeleportationCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TerrorPitCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TerrorPitCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ThornyMandraCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ThornyMandraCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ToelCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ToelCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TornadoFlameCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TornadoFlameCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TowerShellCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TowerShellCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TrihornShepherdCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TrihornShepherdCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TropicoCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TropicoCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UltimateForceCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UltimateForceCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UnicornFishCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UnicornFishCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UrthCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UrthCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/VampireSilphyCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/VampireSilphyCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/VirtualTripwireCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/VirtualTripwireCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WanderingBraineaterCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WanderingBraineaterCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WrithingBoneGhoulCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WrithingBoneGhoulCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ZagaanCard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ZagaanCard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardFieldScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardFieldScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -499,14 +13,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingCoralCard.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="352">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
-                <marker date="1565331351622" expanded="false" signature="6:44" ph="..." />
-                <marker date="1565331351622" expanded="true" signature="79:364" ph="{...}" />
-                <marker date="1565331351622" expanded="true" signature="99:362" ph="{...}" />
+                <marker date="1565353462875" expanded="false" signature="6:88" ph="..." />
+                <marker date="1565353462875" expanded="true" signature="133:954" ph="{...}" />
+                <marker date="1565353462875" expanded="true" signature="250:298" ph="{...}" />
+                <marker date="1565353462875" expanded="true" signature="334:585" ph="{...}" />
+                <marker date="1565353462875" expanded="true" signature="437:579" ph="{...}" />
+                <marker date="1565353462875" expanded="true" signature="639:947" ph="{...}" />
+                <marker date="1565353462875" expanded="true" signature="742:840" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -545,6 +63,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CreepingPlagueCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigaberosCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaVehicleCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RoaringGreatHornCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GhostTouchCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrystalMemoryCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChaosStrikeCard.cs" root0="FORCE_HIGHLIGHTING" />
@@ -571,6 +90,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningManeCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HolyAweCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PangaeasSongCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ImmortalBaronCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathligerCard.cs" root0="FORCE_HIGHLIGHTING" />
@@ -625,9 +145,11 @@
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardFieldScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/cards.json" />
-        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ImmortalBaronCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PangaeasSongCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RoaringGreatHornCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs" />
       </list>
     </option>
   </component>
@@ -639,11 +161,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="2551" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="2578" />
-    <option name="height" value="1458" />
+    <option name="height" value="1420" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -701,8 +223,7 @@
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Resources" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="CardScripts" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Cards" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GameScripts" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -740,12 +261,12 @@
       <workItem from="1565332187766" duration="1620000" />
       <workItem from="1565348425390" duration="2527000" />
       <workItem from="1565350987869" duration="1240000" />
-      <workItem from="1565352272870" duration="582000" />
+      <workItem from="1565352272870" duration="1205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5969000" />
+    <option name="totallyTimeSpent" value="6592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -757,11 +278,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2553" y="-7" width="2062" height="1166" extended-state="7" />
+    <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26010984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Change Signature" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -798,42 +320,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneAssassinCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <marker date="1565332805883" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565332805883" expanded="true" signature="136:449" ph="{...}" />
-            <marker date="1565332805883" expanded="true" signature="160:447" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneSpiderCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <marker date="1565332816114" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565332816114" expanded="true" signature="134:431" ph="{...}" />
-            <marker date="1565332816114" expanded="true" signature="154:429" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrainSerumCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <marker date="1565331351594" expanded="false" signature="6:44" ph="..." />
-            <marker date="1565331351594" expanded="true" signature="85:363" ph="{...}" />
-            <marker date="1565331351594" expanded="true" signature="105:360" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrawlerZylerCard.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -842,20 +328,6 @@
             <marker date="1565331351595" expanded="false" signature="6:44" ph="..." />
             <marker date="1565331351595" expanded="true" signature="82:353" ph="{...}" />
             <marker date="1565331351595" expanded="true" signature="102:351" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <marker date="1565352190306" expanded="false" signature="6:88" ph="..." />
-            <marker date="1565352190306" expanded="true" signature="133:767" ph="{...}" />
-            <marker date="1565352190306" expanded="true" signature="250:320" ph="{...}" />
-            <marker date="1565352190306" expanded="true" signature="366:760" ph="{...}" />
-            <marker date="1565352190306" expanded="true" signature="469:577" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1415,14 +887,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RoaringGreatHornCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <marker date="1565352951877" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565352951877" expanded="true" signature="86:420" ph="{...}" />
+            <marker date="1565352951877" expanded="true" signature="106:413" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PangaeasSongCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1565352911955" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565352911955" expanded="true" signature="87:365" ph="{...}" />
+            <marker date="1565352911955" expanded="true" signature="107:363" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingCoralCard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="224">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
             <marker date="1565331351622" expanded="false" signature="6:44" ph="..." />
             <marker date="1565331351622" expanded="true" signature="79:364" ph="{...}" />
             <marker date="1565331351622" expanded="true" signature="99:362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/GameScripts/PlayerScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351671" expanded="false" signature="6:78" ph="..." />
+            <marker date="1565331351671" expanded="true" signature="122:10341" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="655:1032" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="714:814" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="827:954" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="1060:1275" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="1103:1269" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="1307:1477" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="1349:1471" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="1518:1743" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="1547:1587" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="1627:1737" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="1835:1932" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="2021:2058" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="2064:2169" ph="/* Card control methods ... */" />
+            <marker date="1565331351671" expanded="true" signature="2214:2365" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="2415:2624" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="2674:2843" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="2889:3026" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="3077:3253" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="3300:3554" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="3601:3792" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="3838:3989" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="4040:4216" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="4267:4431" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="4478:4606" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="4658:4905" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="4952:5098" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="5146:5615" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="5666:5812" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="5863:6027" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="6033:6074" ph="/* Fields interaction methods ... */" />
+            <marker date="1565331351671" expanded="true" signature="6112:6205" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="6240:6279" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="6317:6411" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="6442:6481" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="6519:6623" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="6654:6703" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="6738:6786" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="6826:6936" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="6969:7022" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="7061:7157" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="7189:7229" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="7264:7309" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="7352:7458" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="7490:7540" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="7596:7639" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="7645:7673" ph="/* Other methods ... */" />
+            <marker date="1565331351671" expanded="true" signature="7771:7904" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="7827:7898" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="7947:8082" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="8003:8076" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="8185:8321" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="8241:8315" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="8367:8505" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="8423:8499" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="8541:8736" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="8772:9192" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="8846:9186" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="8885:9022" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="9039:9176" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="9228:9826" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="9306:9820" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="9345:9569" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="9586:9810" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="9864:9922" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="9958:10014" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="10055:10112" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="10143:10338" ph="{...}" />
+            <marker date="1565331351671" expanded="true" signature="10217:10332" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <marker date="1565353462875" expanded="false" signature="6:88" ph="..." />
+            <marker date="1565353462875" expanded="true" signature="133:954" ph="{...}" />
+            <marker date="1565353462875" expanded="true" signature="250:298" ph="{...}" />
+            <marker date="1565353462875" expanded="true" signature="334:585" ph="{...}" />
+            <marker date="1565353462875" expanded="true" signature="437:579" ph="{...}" />
+            <marker date="1565353462875" expanded="true" signature="639:947" ph="{...}" />
+            <marker date="1565353462875" expanded="true" signature="742:840" ph="{...}" />
           </folding>
         </state>
       </provider>

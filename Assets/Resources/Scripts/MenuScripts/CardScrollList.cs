@@ -11,21 +11,30 @@ public class CardScrollList : MonoBehaviour
     
     void Start()
     {
-        var names = LoadCardNamesFromFile();
-        //..
+        SetupCardFields();
+        
     }
 
-    private string[] LoadCardNamesFromFile()
+    private void SetupCardFields()
+    {
+        var fieldsList = LoadCardNamesFromFile();
+        foreach (var field in fieldsList.list)
+        {
+            var fd = Instantiate(Resources.Load<CardField>("Prefabs/CardInputField"));
+            fd.Setup(field, this);
+        }
+    }
+    
+    private CardInfoList LoadCardNamesFromFile()
     {
         var path = Path.Combine(Application.dataPath, fileName);
         if (!File.Exists(path))
         {
             Debug.LogError("Cards file not found!");
-            return new string[]{};
+            return null;
         }
         var json = File.ReadAllText(path); 
-        var cardInfoList = JsonUtility.FromJson<CardInfoList>(json);
-        return cardInfoList.list.Select(x => x.name).ToArray();
+        return JsonUtility.FromJson<CardInfoList>(json);
     }
     
 }
