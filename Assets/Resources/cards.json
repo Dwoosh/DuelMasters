@@ -1,6 +1,364 @@
 {
   "cardList" : [
-    {},
-    {}
+    {
+      "name" : "Hanusa, Radiance Elemental"
+    },
+    {
+      "name" : "Urth, Purifying Elemental"
+    },
+    {
+      "name" : "Aqua Sniper"
+    },
+    {
+      "name" : "King Depthcon"
+    },
+    {
+      "name" : "Deathliger, Lion of Chaos"
+    },
+    {
+      "name" : "Zagaan, Knight of Darkness"
+    },
+    {
+      "name" : "Astrocomet Dragon"
+    },
+    {
+      "name" : "Scarlet Skyterror"
+    },
+    {
+      "name" : "Deathblade Beetle"
+    },
+    {
+      "name" : "Roaring Great-Horn"
+    },
+    {
+      "name" : "Chilias, the Oracle"
+    },
+    {
+      "name" : "Dia Nork, Moonlight Guardian"
+    },
+    {
+      "name" : "Emerald Grass"
+    },
+    {
+      "name" : "Frei, Vizier of Air"
+    },
+    {
+      "name" : "Gran Gure, Space Guardian"
+    },
+    {
+      "name" : "Holy Awe"
+    },
+    {
+      "name" : "Iere, Vizier of Bullets"
+    },
+    {
+      "name" : "Iocant, the Oracle"
+    },
+    {
+      "name" : "La Ura Giga, Sky Guardian"
+    },
+    {
+      "name" : "Lah, Purification Enforcer"
+    },
+    {
+      "name" : "Laser Wing"
+    },
+    {
+      "name" : "Lok, Vizier of Hunting"
+    },
+    {
+      "name" : "Miele, Vizier of Lightning"
+    },
+    {
+      "name" : "Moonlight Flash"
+    },
+    {
+      "name" : "Rayla, Truth Enforcer"
+    },
+    {
+      "name" : "Reusol, the Oracle"
+    },
+    {
+      "name" : "Ruby Grass"
+    },
+    {
+      "name" : "Senatine Jade Tree"
+    },
+    {
+      "name" : "Solar Ray"
+    },
+    {
+      "name" : "Sonic Wing"
+    },
+    {
+      "name" : "Szubs Kin, Twilight Guardian"
+    },
+    {
+      "name" : "Toel, Vizier of Hope"
+    },
+    {
+      "name" : "Aqua Hulcus"
+    },
+    {
+      "name" : "Aqua Knight"
+    },
+    {
+      "name" : "Aqua Soldier"
+    },
+    {
+      "name" : "Aqua Vehicle"
+    },
+    {
+      "name" : "Brain Serum"
+    },
+    {
+      "name" : "Candy Drop"
+    },
+    {
+      "name" : "Crystal Memory"
+    },
+    {
+      "name" : "Faerie Child"
+    },
+	{
+      "name" : "Hunter Fish"
+    },
+	{
+      "name" : "Illusionary Merfolk"
+    },
+	{
+      "name" : "King Coral"
+    },
+	{
+      "name" : "King Ripped-Hide"
+    },
+	{
+      "name" : "Marine Flower"
+    },
+	{
+      "name" : "Phantom Fish"
+    },
+	{
+      "name" : "Revolver Fish"
+    },
+	{
+      "name" : "Saucer-Head Shark"
+    },
+	{
+      "name" : "Seamine"
+    },
+	{
+      "name" : "Spiral Gate"
+    },
+	{
+      "name" : "Teleportation"
+    },
+	{
+      "name" : "Tropico"
+    },
+	{
+      "name" : "Unicorn Fish"
+    },
+	{
+      "name" : "Virtual Tripwire"
+    },
+	{
+      "name" : "Black Feather, Shadow of Rage"
+    },
+	{
+      "name" : "Bloody Squito"
+    },
+	{
+      "name" : "Bone Assassin, the Ripper"
+    },
+	{
+      "name" : "Bone Spider"
+    },
+	{
+      "name" : "Creeping Plague"
+    },
+	{
+      "name" : "Dark Clown"
+    },
+	{
+      "name" : "Dark Raven, Shadow of Grief"
+    },
+	{
+      "name" : "Dark Reversal"
+    },
+	{
+      "name" : "Death Smoke"
+    },
+	{
+      "name" : "Ghost Touch"
+    },
+	{
+      "name" : "Gigaberos"
+    },
+	{
+	  "name" : "Gigagiele"
+	},
+	{
+	  "name" : "Gigargon"
+	},
+	{
+	  "name" : "Masked Horror, Shadow of Scorn"
+	},
+	{
+	  "name" : "Night Master, Shadow of Decay"
+	},
+	{
+	  "name" : "Skeleton Soldier, the Defiled"
+	},
+	{
+	  "name" : "Stinger Worm"
+	},
+	{
+	  "name" : "Swamp Worm"
+	},
+	{
+	  "name" : "Terror Pit"
+	},
+	{
+	  "name" : "Vampire Silphy"
+	},
+	{
+	  "name" : "Wandering Braineater"
+	},
+	{
+	  "name" : "Writhing Bone Ghoul"
+	},
+	{
+	  "name" : "Armored Walker Urherion"
+	},
+	{
+	  "name" : "Artisan Picora"
+	},
+	{
+	  "name" : "Bolshack Dragon"
+	},
+	{
+	  "name" : "Brawler Zyler"
+	},
+	{
+	  "name" : "Burning Power"
+	},
+	{
+	  "name" : "Chaos Strike"
+	},
+	{
+	  "name" : "Crimson Hammer"
+	},
+	{
+	  "name" : "Deadly Fighter Braid Claw"
+	},
+	{
+	  "name" : "Draglide"
+	},
+	{
+	  "name" : "Explosive Fighter Ucarn"
+	},
+	{
+	  "name" : "Fatal Attacker Horvath"
+	},
+	{
+	  "name" : "Fire Sweeper Burning Hellion"
+	},
+	{
+	  "name" : "Gatling Skyterror"
+	},
+	{
+	  "name" : "Immortal Baron, Vorg"
+	},
+	{
+	  "name" : "Magma Gazer"
+	},
+	{
+	  "name" : "Meteosaur"
+	},
+	{
+	  "name" : "Nomad Hero Gigio"
+	},
+	{
+	  "name" : "Onslaughter Triceps"
+	},
+	{
+	  "name" : "Rothus, the Traveler"
+	},
+	{
+	  "name" : "Stonesaur"
+	},
+	{
+	  "name" : "Super Explosive Volcanodon"
+	},
+	{
+	  "name" : "Tornado Flame"
+	},
+	{
+	  "name" : "Aura Blast"
+	},
+	{
+	  "name" : "Bronze-Arm Tribe"
+	},
+	{
+	  "name" : "Burning Mane"
+	},
+	{
+	  "name" : "Coiling Vines"
+	},
+	{
+	  "name" : "Dimension Gate"
+	},
+	{
+	  "name" : "Dome Shell"
+	},
+	{
+	  "name" : "Fear Fang"
+	},
+	{
+	  "name" : "Forest Hornet"
+	},
+	{
+	  "name" : "Golden Wing Striker"
+	},
+	{
+	  "name" : "Mighty Shouter"
+	},
+	{
+	  "name" : "Natural Snare"
+	},
+	{
+	  "name" : "Pangaea's Song"
+	},
+	{
+	  "name" : "Poisonous Dahlia"
+	},
+	{
+	  "name" : "Poisonous Mushroom"
+	},
+	{
+	  "name" : "Red-Eye Scorpion"
+	},
+	{
+	  "name" : "Stampeding Longhorn"
+	},
+	{
+	  "name" : "Steel Smasher"
+	},
+	{
+	  "name" : "Storm Shell"
+	},
+	{
+	  "name" : "Thorny Mandra"
+	},
+	{
+	  "name" : "Tower Shell"
+	},
+	{
+	  "name" : "Tri-horn Shepherd"
+	},
+	{
+	  "name" : "Ultimate Force"
+	}
   ]
 }
