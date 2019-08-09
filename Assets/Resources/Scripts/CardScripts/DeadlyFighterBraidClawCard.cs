@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class DeadlyFighterBraidClawCard : Card
 {
@@ -13,6 +14,6 @@ public class DeadlyFighterBraidClawCard : Card
         cardType = Type.Creature;
         cardCost = 1;
         cardPower = 1000;
-        attacksEachTurn = true;
+        simpleAbility = SimpleAbility.AttacksEachTurn;
     }
 }

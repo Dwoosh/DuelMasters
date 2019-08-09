@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class SenatineJadeTreeCard : Card
 {
@@ -13,7 +14,7 @@ public class SenatineJadeTreeCard : Card
         cardType = Type.Creature;
         cardCost = 3;
         cardPower = 4000;
-        cantAttackPlayers = true;
+        simpleAbility = SimpleAbility.CantAttackPlayers;
         abilities.Add(new Blocker(this));
     }
 }

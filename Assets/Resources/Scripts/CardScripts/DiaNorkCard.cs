@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class DiaNorkCard : Card
 {
@@ -14,7 +15,7 @@ public class DiaNorkCard : Card
         cardCost = 4;
         cardPower = 5000;
         abilities.Add(new Blocker(this));
-        cantAttackPlayers = true;
+        simpleAbility = SimpleAbility.CantAttackPlayers;
     }
     
 }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class PhantomFishCard : Card
 {
@@ -14,6 +15,6 @@ public class PhantomFishCard : Card
         cardCost = 3;
         cardPower = 4000;
         abilities.Add(new Blocker(this));
-        cantAttack = true;
+        simpleAbility = SimpleAbility.CantAttack;
     }
 }

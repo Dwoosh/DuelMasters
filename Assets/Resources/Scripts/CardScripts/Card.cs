@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 using UnityEngine;
 
 public class Card : MonoBehaviour
@@ -22,13 +23,7 @@ public class Card : MonoBehaviour
     //simple ability fields
     public int powerAttacker = 0;
     public System.Func<Card, bool> cantBeBlockedCondition = (blocker) => { return false; };
-    public bool cantAttackPlayers = false;
-    public bool cantAttack = false;
-    public bool dieOnWin = false;
-    public bool slayer = false;
-    public bool attacksEachTurn = false;
-    public bool vulnerableUntapped = false;
-    public bool canAttackUntapped = false;
+    public SimpleAbility simpleAbility = SimpleAbility.None;
 
     //technical fields
     public PlayerScript owner;
@@ -111,12 +106,12 @@ public class Card : MonoBehaviour
     public int Battle(Card target)
     {
         int result = cardPower + powerAttacker > target.cardPower ? 1 : (cardPower + powerAttacker == target.cardPower ? 0 : -1);
-        if(result == 1 && (dieOnWin || target.slayer)) //if attacker wins but has dieOnWin or target has slayer the both die
+        if(result == 1 && (HasSimpleAbility(SimpleAbility.DieOnWin) || target.HasSimpleAbility(SimpleAbility.Slayer))) //if attacker wins but has dieOnWin or target has slayer the both die
         {
             result = 0;
             return result;
         }
-        if(result == -1 && (target.dieOnWin || slayer)) //if target wins but this has slayer or target has dieOnWin
+        if(result == -1 && (target.HasSimpleAbility(SimpleAbility.DieOnWin) || HasSimpleAbility(SimpleAbility.Slayer))) //if target wins but this has slayer or target has dieOnWin
         {
             result = 0;
             return result;
@@ -129,6 +124,21 @@ public class Card : MonoBehaviour
         owner = player;
     }
 
+    public void AddSimpleAbility(SimpleAbility ability)
+    {
+        simpleAbility |= ability;
+    }
+
+    public void RemoveSimpleAbility(SimpleAbility ability)
+    {
+        simpleAbility &= ~ability;
+    }
+    
+    public bool HasSimpleAbility(SimpleAbility ability)
+    {
+        return simpleAbility.HasFlag(ability);
+    }
+    
     public void ManaTap()
     {
         if (!isManaTapped)

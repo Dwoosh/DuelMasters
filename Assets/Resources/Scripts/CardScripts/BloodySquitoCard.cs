@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class BloodySquitoCard : Card
 {
@@ -14,7 +15,6 @@ public class BloodySquitoCard : Card
         cardCost = 2;
         cardPower = 4000;
         abilities.Add(new Blocker(this));
-        cantAttack = true;
-        dieOnWin = true;
+        simpleAbility = SimpleAbility.CantAttack | SimpleAbility.DieOnWin;
     }
 }

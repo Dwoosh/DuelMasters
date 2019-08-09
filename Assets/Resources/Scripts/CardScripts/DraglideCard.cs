@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class DraglideCard : Card
 {
@@ -13,6 +14,6 @@ public class DraglideCard : Card
         cardType = Type.Creature;
         cardCost = 5;
         cardPower = 5000;
-        attacksEachTurn = true;
+        simpleAbility = SimpleAbility.AttacksEachTurn;
     }
 }

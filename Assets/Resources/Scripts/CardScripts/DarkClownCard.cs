@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class DarkClownCard : Card
 {
@@ -14,7 +15,6 @@ public class DarkClownCard : Card
         cardCost = 4;
         cardPower = 6000;
         abilities.Add(new Blocker(this));
-        cantAttack = true;
-        dieOnWin = true;
+        simpleAbility = SimpleAbility.CantAttack | SimpleAbility.DieOnWin;
     }
 }

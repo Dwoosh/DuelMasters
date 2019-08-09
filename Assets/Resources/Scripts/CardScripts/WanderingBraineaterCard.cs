@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class WanderingBraineaterCard : Card
 {
@@ -14,6 +15,6 @@ public class WanderingBraineaterCard : Card
         cardCost = 2;
         cardPower = 2000;
         abilities.Add(new Blocker(this));
-        cantAttack = true;
+        simpleAbility = SimpleAbility.CantAttack;
     }
 }

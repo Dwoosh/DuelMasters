@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class GranGureCard : Card
 {
@@ -14,7 +15,7 @@ public class GranGureCard : Card
         cardCost = 6;
         cardPower = 9000;
         abilities.Add(new Blocker(this));
-        cantAttackPlayers = true;
+        simpleAbility = SimpleAbility.CantAttackPlayers;
     }
     
 }

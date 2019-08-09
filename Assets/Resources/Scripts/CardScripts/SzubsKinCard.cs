@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class SzubsKinCard : Card
 {
@@ -13,7 +14,7 @@ public class SzubsKinCard : Card
         cardType = Type.Creature;
         cardCost = 5;
         cardPower = 6000;
-        cantAttackPlayers = true;
+        simpleAbility = SimpleAbility.CantAttackPlayers;
         abilities.Add(new Blocker(this));
     }
     

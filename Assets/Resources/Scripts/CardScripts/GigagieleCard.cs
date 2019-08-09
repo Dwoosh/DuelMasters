@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class GigagieleCard : Card
 {
@@ -13,6 +14,6 @@ public class GigagieleCard : Card
         cardType = Type.Creature;
         cardCost = 5;
         cardPower = 3000;
-        slayer = true;
+        simpleAbility = SimpleAbility.Slayer;
     }
 }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class ChaosStrikeCard : SpellCard
 {
@@ -10,8 +11,8 @@ public class ChaosStrikeCard : SpellCard
         cardName = "Chaos Strike";
         cardCiv = Civilization.Fire;
         cardCost = 2;
-        abilities.Add(new OnCallChooseUntilTurnEnd(card => card.vulnerableUntapped = true,
-            card => card.vulnerableUntapped = false, 1, false, true));
+        abilities.Add(new OnCallChooseUntilTurnEnd(card => card.AddSimpleAbility(SimpleAbility.VulnerableUntapped),
+            card => card.RemoveSimpleAbility(SimpleAbility.VulnerableUntapped), 1, false, true));
     }
     
 }

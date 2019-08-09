@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class PoisonuousDahliaCard : Card
 {
@@ -13,6 +14,6 @@ public class PoisonuousDahliaCard : Card
         cardType = Type.Creature;
         cardCost = 4;
         cardPower = 5000;
-        cantAttackPlayers = true;
+        simpleAbility = SimpleAbility.CantAttackPlayers;
     }
 }

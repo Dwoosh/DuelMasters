@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 using UnityEngine;
 
 public class FightChooseStage : GameStage
@@ -80,7 +81,9 @@ public class FightChooseStage : GameStage
 
     public override GameStage OnShiftPress()
     {
-        if (currentPlayer.field.Any(card => card.attacksEachTurn && !card.isTapped && !card.cantAttack))
+        if (currentPlayer.field.Any(card => card.HasSimpleAbility(SimpleAbility.AttacksEachTurn) && 
+                                            !card.isTapped && 
+                                            !card.HasSimpleAbility(SimpleAbility.CantAttack)))
         {
             return null;
         }

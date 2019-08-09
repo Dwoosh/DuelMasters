@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class EmeraldGrassCard : Card
 {
@@ -14,7 +15,7 @@ public class EmeraldGrassCard : Card
         cardCost = 2;
         cardPower = 3000;
         abilities.Add(new Blocker(this));
-        cantAttackPlayers = true;
+        simpleAbility = SimpleAbility.CantAttackPlayers;
     }
     
 }

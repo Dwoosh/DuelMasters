@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class GatlingSkyterrorCard : Card
 {
@@ -13,7 +14,7 @@ public class GatlingSkyterrorCard : Card
         cardType = Type.Creature;
         cardCost = 7;
         cardPower = 7000;
-        canAttackUntapped = true;
+        simpleAbility = SimpleAbility.CanAttackUntapped;
         abilities.Add(new DoubleBreaker());
     }
 }

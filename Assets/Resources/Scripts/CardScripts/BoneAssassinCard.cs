@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class BoneAssassinCard : Card
 {
@@ -13,6 +14,6 @@ public class BoneAssassinCard : Card
         cardType = Type.Creature;
         cardCost = 4;
         cardPower = 2000;
-        slayer = true;
+        simpleAbility = SimpleAbility.Slayer;
     }
 }

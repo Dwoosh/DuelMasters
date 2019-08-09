@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class LaUraGigaCard : Card
 {
@@ -14,7 +15,7 @@ public class LaUraGigaCard : Card
         cardCost = 1;
         cardPower = 2000;
         abilities.Add(new Blocker(this));
-        cantAttackPlayers = true;
+        simpleAbility = SimpleAbility.CantAttackPlayers;
     }
 
 }

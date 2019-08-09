@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class FightTargetShieldStage : GameStage
 {
@@ -80,8 +81,8 @@ public class FightTargetShieldStage : GameStage
     
     public override GameStage OnEnterPress()
     {
-        if (IsCardSelected() && !StageFSM.fightChooseStage.selectedCardToFight.cantAttackPlayers
-            && !StageFSM.fightChooseStage.selectedCardToFight.cantAttack)
+        if (IsCardSelected() && !StageFSM.fightChooseStage.selectedCardToFight.HasSimpleAbility(SimpleAbility.CantAttackPlayers)
+            && !StageFSM.fightChooseStage.selectedCardToFight.HasSimpleAbility(SimpleAbility.CantAttack))
         {
             selectedCard.Dehighlight();
             selectedCardAsTarget = selectedCard;

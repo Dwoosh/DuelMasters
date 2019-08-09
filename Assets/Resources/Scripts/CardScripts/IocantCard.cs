@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Linq;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class IocantCard : Card
 {
@@ -15,7 +16,7 @@ public class IocantCard : Card
         cardCost = 2;
         cardPower = 2000;
         abilities.Add(new Blocker(this));
-        cantAttackPlayers = true;
+        simpleAbility = SimpleAbility.CantAttackPlayers;
     }
 
     //while angel command is in battlefield this gets +2000

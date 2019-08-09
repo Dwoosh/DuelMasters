@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class HunterFishCard : Card
 {
@@ -13,7 +14,7 @@ public class HunterFishCard : Card
         cardType = Type.Creature;
         cardCost = 2;
         cardPower = 3000;
-        cantAttack = true;
+        simpleAbility = SimpleAbility.CantAttack;
         abilities.Add(new Blocker(this));
     }
 }

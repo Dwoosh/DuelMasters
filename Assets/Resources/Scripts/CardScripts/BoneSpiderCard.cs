@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class BoneSpiderCard : Card
 {
@@ -13,6 +14,6 @@ public class BoneSpiderCard : Card
         cardType = Type.Creature;
         cardCost = 3;
         cardPower = 5000;
-        dieOnWin = true;
+        simpleAbility = SimpleAbility.DieOnWin;
     }
 }

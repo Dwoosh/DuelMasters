@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class RevolverFishCard : Card
 {
@@ -14,6 +15,6 @@ public class RevolverFishCard : Card
         cardCost = 4;
         cardPower = 5000;
         abilities.Add(new Blocker(this));
-        cantAttack = true;
+        simpleAbility = SimpleAbility.CantAttack;
     }
 }

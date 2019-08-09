@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class MarineFlowerCard : Card
 {
@@ -14,6 +15,6 @@ public class MarineFlowerCard : Card
         cardCost = 1;
         cardPower = 2000;
         abilities.Add(new Blocker(this));
-        cantAttack = true;
+        simpleAbility = SimpleAbility.CantAttack;
     }
 }

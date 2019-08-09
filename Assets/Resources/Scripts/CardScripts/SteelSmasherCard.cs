@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class SteelSmasherCard : Card
 {
@@ -13,6 +14,6 @@ public class SteelSmasherCard : Card
         cardType = Type.Creature;
         cardCost = 2;
         cardPower = 3000;
-        cantAttackPlayers = true;
+        simpleAbility = SimpleAbility.CantAttackPlayers;
     }
 }

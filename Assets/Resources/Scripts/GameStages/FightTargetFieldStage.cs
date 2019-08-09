@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 using UnityEngine;
 
 public class FightTargetFieldStage : GameStage
@@ -79,11 +80,11 @@ public class FightTargetFieldStage : GameStage
 
     public override GameStage OnEnterPress()
     {
-        if (IsCardSelected() && !StageFSM.fightChooseStage.selectedCardToFight.cantAttack)
+        if (IsCardSelected() && !StageFSM.fightChooseStage.selectedCardToFight.HasSimpleAbility(SimpleAbility.CantAttack))
         {
             selectedCardAsTarget = otherPlayer.GetFieldAt(selectedCardID);
-            if ((selectedCardAsTarget.isTapped || selectedCardAsTarget.vulnerableUntapped)
-                ^ StageFSM.fightChooseStage.selectedCardToFight.canAttackUntapped)
+            if ((selectedCardAsTarget.isTapped || selectedCardAsTarget.HasSimpleAbility(SimpleAbility.VulnerableUntapped))
+                ^ StageFSM.fightChooseStage.selectedCardToFight.HasSimpleAbility(SimpleAbility.CanAttackUntapped))
             {
                 return StageFSM.blockerStage;
             }

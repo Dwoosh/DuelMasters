@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Assets.Resources.Scripts.CardScripts.Abilities;
 
 public class CreepingPlagueCard : SpellCard
 {
@@ -28,15 +29,15 @@ public class CreepingPlagueCard : SpellCard
         {
             if (stageFSM.currentGameStage == StageFSM.fightChooseStage && cards.Count == 0)
             {
-                currentPlayer.field.ForEach(x => { if (!x.slayer) { cards.Add(x); } }); //get cards that doesnt have slayer
+                currentPlayer.field.ForEach(x => { if (!x.HasSimpleAbility(SimpleAbility.Slayer)) { cards.Add(x); } }); //get cards that doesnt have slayer
             }
             if(stageFSM.currentGameStage == StageFSM.blockerStage)
             {
-                if (StageFSM.blockerStage.wasBlocked) { chosenCard.slayer = true; } //give slayer if card was blocked
+                if (StageFSM.blockerStage.wasBlocked) { chosenCard.AddSimpleAbility(SimpleAbility.Slayer); } //give slayer if card was blocked
             }
             if(stageFSM.currentGameStage == StageFSM.endStage) //undo slayers at the end of the turn
             {
-                cards.ForEach(x => x.slayer = false);
+                cards.ForEach(x => x.RemoveSimpleAbility(SimpleAbility.Slayer));
                 break;
             }
             yield return null;
