@@ -2,41 +2,493 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46f6f7a-6a3c-4309-bd90-c701168ce6fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Abilities/SimpleAbility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Blends.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BloodySquitoCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BloodySquitoCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneAssassinCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneAssassinCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneSpiderCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneSpiderCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Card.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChaosStrikeCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChaosStrikeCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CreepingPlagueCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CreepingPlagueCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkClownCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkClownCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeadlyFighterBraidClawCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeadlyFighterBraidClawCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DiaNorkCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DiaNorkCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DraglideCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DraglideCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/EmeraldGrassCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/EmeraldGrassCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GatlingSkyterrorCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GatlingSkyterrorCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigagieleCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigagieleCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GranGureCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GranGureCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HunterFishCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HunterFishCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IocantCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IocantCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaUraGigaCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaUraGigaCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MarineFlowerCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MarineFlowerCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NomadHeroGigioCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NomadHeroGigioCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PhantomFishCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PhantomFishCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousDahliaCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousDahliaCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RevolverFishCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RevolverFishCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RubyGrassCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RubyGrassCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SenatineJadeTreeCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SenatineJadeTreeCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SteelSmasherCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SteelSmasherCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SzubsKinCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SzubsKinCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WanderingBraineaterCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WanderingBraineaterCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightChooseStage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightChooseStage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightTargetFieldStage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightTargetFieldStage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightTargetShieldStage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightTargetShieldStage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaHulcusCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaHulcusCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaKnightCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaKnightCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaSniperCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaSniperCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaSoldierCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaSoldierCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaVehicleCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaVehicleCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ArmoredWalkerUrherionCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ArmoredWalkerUrherionCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ArtisanPicoraCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ArtisanPicoraCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AstrocometDragonCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AstrocometDragonCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AuraBlastCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AuraBlastCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BlackFeatherCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BlackFeatherCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BloodySquitoCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BloodySquitoCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BolshackDragonCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BolshackDragonCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneAssassinCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneAssassinCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneSpiderCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneSpiderCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrainSerumCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrainSerumCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrawlerZylerCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrawlerZylerCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BronzeArmTribeCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BronzeArmTribeCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningManeCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningManeCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningPowerCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningPowerCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CandyDropCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CandyDropCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChaosStrikeCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChaosStrikeCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChiliasCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChiliasCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CoilingVinesCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CoilingVinesCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CreepingPlagueCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CreepingPlagueCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrimsonHammerCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrimsonHammerCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrystalMemoryCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrystalMemoryCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkClownCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkClownCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkRavenCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkRavenCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkReversalCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkReversalCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeadlyFighterBraidClawCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeadlyFighterBraidClawCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathSmokeCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathSmokeCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathbladeBeetleCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathbladeBeetleCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathligerCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathligerCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DiaNorkCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DiaNorkCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DimensionGateCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DimensionGateCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DomeShellCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DomeShellCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DraglideCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DraglideCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/EmeraldGrassCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/EmeraldGrassCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ExplosiveFighterUcarnCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ExplosiveFighterUcarnCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FaerieChildCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FaerieChildCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FatalAttackerHorvathCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FatalAttackerHorvathCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FearFangCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FearFangCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FireSweeperBurningHellionCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FireSweeperBurningHellionCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ForestHornetCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ForestHornetCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FreiCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FreiCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GatlingSkyterrorCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GatlingSkyterrorCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GhostTouchCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GhostTouchCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigaberosCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigaberosCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigagieleCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigagieleCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigargonCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigargonCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GoldenWingStrikerCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GoldenWingStrikerCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GranGureCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GranGureCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HanusaCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HanusaCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HolyAweCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HolyAweCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HunterFishCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HunterFishCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IereCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IereCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IllusionaryMerfolkCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IllusionaryMerfolkCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ImmortalBaronCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IocantCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IocantCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingCoralCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingCoralCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingDepthconCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingDepthconCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingRippedHideCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingRippedHideCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LaUraGigaCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LaUraGigaCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LahCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LahCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LaserWingCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LaserWingCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LokCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/LokCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MagmaGazerCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MagmaGazerCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MarineFlowerCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MarineFlowerCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MaskedHorrorCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MaskedHorrorCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MeteosaurCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MeteosaurCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MieleCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MieleCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MightyShouterCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MightyShouterCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MoonlightFlashCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/MoonlightFlashCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NaturalSnareCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NaturalSnareCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NightMasterCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NightMasterCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NomadHeroGigioCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/NomadHeroGigioCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/OnslaughterTricepsCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/OnslaughterTricepsCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PangaeaSongCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PangaeaSongCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PhantomFishCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PhantomFishCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PoisonuousDahliaCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PoisonuousDahliaCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PoisonuousMushroomCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/PoisonuousMushroomCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RaylaCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RaylaCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RedEyeScorpionCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RedEyeScorpionCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ReusolCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ReusolCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RevolverFishCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RevolverFishCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RoaringGreathornCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RoaringGreathornCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RothusCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RothusCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RubyGrassCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/RubyGrassCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SaucerHeadSharkCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SaucerHeadSharkCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ScarletSkyterrorCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ScarletSkyterrorCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SeamineCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SeamineCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SenatineJadeTreeCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SenatineJadeTreeCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SkeletonSoldierCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SkeletonSoldierCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SolarRayCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SolarRayCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SonicWingCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SonicWingCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SpiralGateCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SpiralGateCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StampedingLonghornCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StampedingLonghornCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SteelSmasherCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SteelSmasherCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StingerWormCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StingerWormCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StonesaurCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StonesaurCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StormShellCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/StormShellCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SuperExplosiveVolcanodonCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SuperExplosiveVolcanodonCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SwampWormCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SwampWormCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SzubsKinCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/SzubsKinCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TeleportationCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TeleportationCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TerrorPitCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TerrorPitCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ThornyMandraCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ThornyMandraCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ToelCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ToelCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TornadoFlameCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TornadoFlameCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TowerShellCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TowerShellCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TrihornShepherdCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TrihornShepherdCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TropicoCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/TropicoCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UltimateForceCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UltimateForceCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UnicornFishCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UnicornFishCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UrthCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/UrthCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/VampireSilphyCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/VampireSilphyCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/VirtualTripwireCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/VirtualTripwireCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/WanderingBraineaterCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/WanderingBraineaterCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/WrithingBoneGhoulCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/WrithingBoneGhoulCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ZagaanCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ZagaanCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DM/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaHulcusCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaHulcusCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaKnightCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaKnightCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaSniperCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaSniperCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaSoldierCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaSoldierCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaVehicleCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaVehicleCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ArmoredWalkerUrherionCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ArmoredWalkerUrherionCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ArtisanPicoraCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ArtisanPicoraCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AstrocometDragonCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AstrocometDragonCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AuraBlastCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AuraBlastCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BlackFeatherCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BlackFeatherCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BloodySquitoCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BloodySquitoCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BolshackDragonCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BolshackDragonCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneAssassinCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneAssassinCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneSpiderCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneSpiderCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BrainSerumCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BrainSerumCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BrawlerZylerCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BrawlerZylerCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BronzeArmTribeCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BronzeArmTribeCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BurningManeCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BurningManeCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BurningPowerCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BurningPowerCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CandyDropCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CandyDropCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChaosStrikeCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChaosStrikeCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChiliasCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChiliasCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CoilingVinesCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CoilingVinesCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CreepingPlagueCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CreepingPlagueCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CrimsonHammerCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CrimsonHammerCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CrystalMemoryCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CrystalMemoryCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkClownCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkClownCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkRavenCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkRavenCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkReversalCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkReversalCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeadlyFighterBraidClawCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeadlyFighterBraidClawCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathSmokeCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathSmokeCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathbladeBeetleCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathbladeBeetleCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathligerCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeathligerCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DiaNorkCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DiaNorkCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DimensionGateCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DimensionGateCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DomeShellCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DomeShellCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DraglideCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DraglideCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/EmeraldGrassCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/EmeraldGrassCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ExplosiveFighterUcarnCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ExplosiveFighterUcarnCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FaerieChildCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FaerieChildCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FatalAttackerHorvathCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FatalAttackerHorvathCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FearFangCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FearFangCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FireSweeperBurningHellionCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FireSweeperBurningHellionCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ForestHornetCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ForestHornetCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FreiCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/FreiCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GatlingSkyterrorCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GatlingSkyterrorCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GhostTouchCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GhostTouchCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigaberosCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigaberosCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigagieleCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigagieleCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigargonCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigargonCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GoldenWingStrikerCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GoldenWingStrikerCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GranGureCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GranGureCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HanusaCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HanusaCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HolyAweCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HolyAweCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HunterFishCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HunterFishCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IereCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IereCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IllusionaryMerfolkCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IllusionaryMerfolkCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ImmortalBaronVorgCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ImmortalBaronVorgCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IocantCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IocantCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingCoralCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingCoralCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingDepthconCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingDepthconCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingRippedHideCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/KingRippedHideCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaUraGigaCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaUraGigaCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LahCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LahCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaserWingCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaserWingCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LokCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LokCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MagmaGazerCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MagmaGazerCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MarineFlowerCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MarineFlowerCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MaskedHorrorCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MaskedHorrorCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MeteosaurCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MeteosaurCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MieleCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MieleCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MightyShouterCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MightyShouterCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MoonlightFlashCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MoonlightFlashCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NaturalSnareCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NaturalSnareCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NightMasterCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NightMasterCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NomadHeroGigioCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NomadHeroGigioCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/OnslaughterTricepsCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/OnslaughterTricepsCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PangaeaSongCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PangaeaSongCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PhantomFishCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PhantomFishCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousDahliaCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousDahliaCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousMushroomCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousMushroomCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RaylaCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RaylaCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RedEyeScorpionCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RedEyeScorpionCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ReusolCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ReusolCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RevolverFishCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RevolverFishCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RoaringGreathornCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RoaringGreathornCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RothusCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RothusCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RubyGrassCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RubyGrassCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SaucerHeadSharkCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SaucerHeadSharkCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ScarletSkyterrorCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ScarletSkyterrorCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SeamineCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SeamineCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SenatineJadeTreeCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SenatineJadeTreeCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SkeletonSoldierCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SkeletonSoldierCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SolarRayCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SolarRayCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SonicWingCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SonicWingCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SpiralGateCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SpiralGateCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StampedingLonghornCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StampedingLonghornCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SteelSmasherCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SteelSmasherCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StingerWormCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StingerWormCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StonesaurCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StonesaurCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StormShellCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/StormShellCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SuperExplosiveVolcanodonCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SuperExplosiveVolcanodonCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SwampWormCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SwampWormCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SzubsKinCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SzubsKinCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TeleportationCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TeleportationCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TerrorPitCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TerrorPitCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ThornyMandraCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ThornyMandraCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ToelCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ToelCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TornadoFlameCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TornadoFlameCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TowerShellCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TowerShellCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TrihornShepherdCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TrihornShepherdCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TropicoCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/TropicoCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UltimateForceCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UltimateForceCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UnicornFishCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UnicornFishCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UrthCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/UrthCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/VampireSilphyCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/VampireSilphyCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/VirtualTripwireCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/VirtualTripwireCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WanderingBraineaterCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WanderingBraineaterCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WrithingBoneGhoulCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WrithingBoneGhoulCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ZagaanCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ZagaanCard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardFieldScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardFieldScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,65 +497,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Card.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingCoralCard.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="133" column="34" lean-forward="true" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
+            <state relative-caret-position="32">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
-                <marker date="1565332987633" expanded="true" signature="6:132" ph="..." />
-                <marker date="1565332987633" expanded="true" signature="167:5108" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="962:1152" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="1185:1198" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="1233:1306" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="1346:1402" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="1445:1504" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="1552:1616" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="1661:1728" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="1778:1850" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="1886:1938" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="1979:2036" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="2086:2152" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="2204:2272" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="2325:2394" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="2449:2520" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="2528:2662" ph="/* Main Battle Method ... */" />
-                <marker date="1565332987633" expanded="true" signature="2697:3373" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="3022:3093" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="3273:3344" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="3420:3456" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="3513:3559" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="3619:3666" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="3727:3786" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="3817:3987" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="3850:3981" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4016:4186" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4048:4180" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4209:4371" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4238:4365" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4396:4558" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4424:4552" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4588:4637" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4669:4750" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4781:4928" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4811:4922" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4957:5105" ph="{...}" />
-                <marker date="1565332987633" expanded="true" signature="4988:5099" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Abilities/SimpleAbility.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding>
-                <marker date="1565332460191" expanded="true" signature="71:640" ph="{...}" />
-                <marker date="1565332460191" expanded="true" signature="115:638" ph="{...}" />
-                <marker date="1565332460191" expanded="true" signature="339:637" ph="/* cantAttackPlayers = false; ... */" />
+                <marker date="1565331351622" expanded="false" signature="6:44" ph="..." />
+                <marker date="1565331351622" expanded="true" signature="79:364" ph="{...}" />
+                <marker date="1565331351622" expanded="true" signature="99:362" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -115,40 +518,75 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaUraGigaCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeadlyFighterBraidClawCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IereCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BloodySquitoCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightTargetShieldStage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HunterFishCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IocantCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RevolverFishCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneSpiderCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DiaNorkCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GoldenWingStrikerCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DimensionGateCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ArmoredWalkerUrherionCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaHulcusCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ArtisanPicoraCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CandyDropCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BlackFeatherCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BronzeArmTribeCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AstrocometDragonCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningPowerCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrimsonHammerCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneAssassinCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CoilingVinesCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigargonCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GatlingSkyterrorCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ForestHornetCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaSoldierCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IllusionaryMerfolkCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkRavenCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/EmeraldGrassCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CreepingPlagueCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigaberosCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaVehicleCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GhostTouchCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrystalMemoryCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChaosStrikeCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DomeShellCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkClownCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ExplosiveFighterUcarnCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FearFangCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FreiCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaSniperCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FaerieChildCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IocantCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChiliasCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathbladeBeetleCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GranGureCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AquaKnightCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DiaNorkCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigagieleCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FireSweeperBurningHellionCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingCoralCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/AuraBlastCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneSpiderCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Card.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CrimsonHammerCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SenatineJadeTreeCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CoilingVinesCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneAssassinCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MarineFlowerCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NomadHeroGigioCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigagieleCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SteelSmasherCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WanderingBraineaterCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaHulcusCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GranGureCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkClownCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CreepingPlagueCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RubyGrassCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/EmeraldGrassCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FatalAttackerHorvathCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningManeCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HolyAweCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ImmortalBaronCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathligerCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrainSerumCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HunterFishCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeadlyFighterBraidClawCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrawlerZylerCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Abilities/SimpleAbility.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChaosStrikeCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BloodySquitoCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightChooseStage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GatlingSkyterrorCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PhantomFishCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SzubsKinCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BolshackDragonCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DraglideCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkReversalCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/GameScripts/PlayerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HanusaCard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightTargetFieldStage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousDahliaCard.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DraglideCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathSmokeCard.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -184,6 +622,12 @@
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightChooseStage.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightTargetFieldStage.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightTargetShieldStage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardFieldScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/ObjectPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/cards.json" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ImmortalBaronCard.cs" />
       </list>
     </option>
   </component>
@@ -196,18 +640,18 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="2550" />
-    <option name="y" value="-10" />
-    <option name="width" value="1120" />
-    <option name="height" value="800" />
+    <option name="x" value="2551" />
+    <option name="y" value="-9" />
+    <option name="width" value="2578" />
+    <option name="height" value="1458" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -248,7 +692,17 @@
               <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Resources" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="GameStages" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CardScripts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DM" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="CardScripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Cards" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -283,12 +737,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565332181249</updated>
-      <workItem from="1565332187766" duration="1335000" />
+      <workItem from="1565332187766" duration="1620000" />
+      <workItem from="1565348425390" duration="2527000" />
+      <workItem from="1565350987869" duration="1240000" />
+      <workItem from="1565352272870" duration="582000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1335000" />
+    <option name="totallyTimeSpent" value="5969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,17 +759,9 @@
   <component name="ToolWindowManager">
     <frame x="2553" y="-7" width="2062" height="1166" extended-state="7" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25262105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26010984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32919848" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -320,11 +769,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32919848" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,34 +798,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Abilities/SimpleAbility.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <marker date="1565332460191" expanded="true" signature="71:640" ph="{...}" />
-            <marker date="1565332460191" expanded="true" signature="115:638" ph="{...}" />
-            <marker date="1565332460191" expanded="true" signature="339:637" ph="/* cantAttackPlayers = false; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/AquaHulcusCard.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneAssassinCard.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <marker date="1565331351584" expanded="false" signature="6:44" ph="..." />
-            <marker date="1565331351584" expanded="true" signature="80:399" ph="{...}" />
-            <marker date="1565331351584" expanded="true" signature="100:397" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneAssassinCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <marker date="1565332805883" expanded="false" signature="6:98" ph="..." />
             <marker date="1565332805883" expanded="true" signature="136:449" ph="{...}" />
@@ -377,10 +810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BoneSpiderCard.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BoneSpiderCard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <marker date="1565332816114" expanded="false" signature="6:98" ph="..." />
             <marker date="1565332816114" expanded="true" signature="134:431" ph="{...}" />
@@ -389,10 +822,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/ChaosStrikeCard.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrainSerumCard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351594" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351594" expanded="true" signature="85:363" ph="{...}" />
+            <marker date="1565331351594" expanded="true" signature="105:360" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BrawlerZylerCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351595" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351595" expanded="true" signature="82:353" ph="{...}" />
+            <marker date="1565331351595" expanded="true" signature="102:351" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <marker date="1565352190306" expanded="false" signature="6:88" ph="..." />
+            <marker date="1565352190306" expanded="true" signature="133:767" ph="{...}" />
+            <marker date="1565352190306" expanded="true" signature="250:320" ph="{...}" />
+            <marker date="1565352190306" expanded="true" signature="366:760" ph="{...}" />
+            <marker date="1565352190306" expanded="true" signature="469:577" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <marker date="1565352665676" expanded="false" signature="6:112" ph="..." />
+            <marker date="1565352665676" expanded="true" signature="152:1704" ph="{...}" />
+            <marker date="1565352665676" expanded="true" signature="445:603" ph="{...}" />
+            <marker date="1565352665676" expanded="true" signature="668:843" ph="{...}" />
+            <marker date="1565352665676" expanded="true" signature="890:1067" ph="{...}" />
+            <marker date="1565352665676" expanded="true" signature="979:1061" ph="{...}" />
+            <marker date="1565352665676" expanded="true" signature="1114:1291" ph="{...}" />
+            <marker date="1565352665676" expanded="true" signature="1203:1285" ph="{...}" />
+            <marker date="1565352665676" expanded="true" signature="1358:1483" ph="{...}" />
+            <marker date="1565352665676" expanded="true" signature="1546:1702" ph="{...}" />
+            <marker date="1565352665676" expanded="true" signature="1749:1777" ph="{...}" />
+            <marker date="1565352665676" expanded="true" signature="1826:1862" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BronzeArmTribeCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351595" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351595" expanded="true" signature="84:421" ph="{...}" />
+            <marker date="1565331351595" expanded="true" signature="104:418" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningManeCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351596" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351596" expanded="true" signature="81:328" ph="{...}" />
+            <marker date="1565331351596" expanded="true" signature="101:326" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningPowerCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351596" expanded="false" signature="6:78" ph="..." />
+            <marker date="1565331351596" expanded="true" signature="121:430" ph="{...}" />
+            <marker date="1565331351596" expanded="true" signature="141:423" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CandyDropCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351597" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351597" expanded="true" signature="79:388" ph="{...}" />
+            <marker date="1565331351597" expanded="true" signature="99:386" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChaosStrikeCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <marker date="1565333069292" expanded="false" signature="6:98" ph="..." />
             <marker date="1565333069292" expanded="true" signature="140:509" ph="{...}" />
@@ -401,10 +941,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CreepingPlagueCard.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ChiliasCard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351599" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351599" expanded="true" signature="77:450" ph="{...}" />
+            <marker date="1565331351599" expanded="true" signature="97:443" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CoilingVinesCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351600" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351600" expanded="true" signature="82:441" ph="{...}" />
+            <marker date="1565331351600" expanded="true" signature="102:439" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CreepingPlagueCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <marker date="1565333105749" expanded="false" signature="6:132" ph="..." />
             <marker date="1565333105749" expanded="true" signature="177:1659" ph="{...}" />
@@ -420,284 +984,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/BloodySquitoCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="74" />
-          <folding>
-            <marker date="1565332787263" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565332787263" expanded="true" signature="136:505" ph="{...}" />
-            <marker date="1565332787263" expanded="true" signature="156:503" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DarkClownCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
-          <folding>
-            <marker date="1565333155795" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333155795" expanded="true" signature="133:499" ph="{...}" />
-            <marker date="1565333155795" expanded="true" signature="153:497" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DeadlyFighterBraidClawCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <marker date="1565333166532" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333166532" expanded="true" signature="146:458" ph="{...}" />
-            <marker date="1565333166532" expanded="true" signature="166:456" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DiaNorkCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <marker date="1565333184935" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333184935" expanded="true" signature="131:499" ph="{...}" />
-            <marker date="1565333184935" expanded="true" signature="155:492" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/DraglideCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <marker date="1565333198900" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333198900" expanded="true" signature="132:432" ph="{...}" />
-            <marker date="1565333198900" expanded="true" signature="152:430" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/EmeraldGrassCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <marker date="1565333218321" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333218321" expanded="true" signature="136:491" ph="{...}" />
-            <marker date="1565333218321" expanded="true" signature="156:484" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GatlingSkyterrorCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <marker date="1565333231339" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333231339" expanded="true" signature="140:495" ph="{...}" />
-            <marker date="1565333231339" expanded="true" signature="160:493" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GigagieleCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <marker date="1565333243455" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333243455" expanded="true" signature="133:422" ph="{...}" />
-            <marker date="1565333243455" expanded="true" signature="153:420" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/GranGureCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <marker date="1565333251359" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333251359" expanded="true" signature="132:493" ph="{...}" />
-            <marker date="1565333251359" expanded="true" signature="152:486" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/HunterFishCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-          <folding>
-            <marker date="1565333262067" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333262067" expanded="true" signature="134:465" ph="{...}" />
-            <marker date="1565333262067" expanded="true" signature="154:463" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/IocantCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding>
-            <marker date="1565333270155" expanded="false" signature="6:117" ph="..." />
-            <marker date="1565333270155" expanded="true" signature="149:738" ph="{...}" />
-            <marker date="1565333270155" expanded="true" signature="169:501" ph="{...}" />
-            <marker date="1565333270155" expanded="true" signature="580:735" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/LaUraGigaCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <marker date="1565333277739" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333277739" expanded="true" signature="133:490" ph="{...}" />
-            <marker date="1565333277739" expanded="true" signature="153:487" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/MarineFlowerCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <marker date="1565333286243" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333286243" expanded="true" signature="136:476" ph="{...}" />
-            <marker date="1565333286243" expanded="true" signature="156:474" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/NomadHeroGigioCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <marker date="1565333324274" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333324274" expanded="true" signature="138:447" ph="{...}" />
-            <marker date="1565333324274" expanded="true" signature="158:445" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PhantomFishCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <marker date="1565333342467" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333342467" expanded="true" signature="135:471" ph="{...}" />
-            <marker date="1565333342467" expanded="true" signature="155:469" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/PoisonuousDahliaCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <marker date="1565333350054" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333350054" expanded="true" signature="140:448" ph="{...}" />
-            <marker date="1565333350054" expanded="true" signature="160:446" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RevolverFishCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <marker date="1565333360238" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333360238" expanded="true" signature="136:473" ph="{...}" />
-            <marker date="1565333360238" expanded="true" signature="156:471" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/RubyGrassCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <marker date="1565333368358" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333368358" expanded="true" signature="133:534" ph="{...}" />
-            <marker date="1565333368358" expanded="true" signature="153:532" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SenatineJadeTreeCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <marker date="1565333377842" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333377842" expanded="true" signature="140:495" ph="{...}" />
-            <marker date="1565333377842" expanded="true" signature="160:493" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SteelSmasherCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <marker date="1565333386714" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333386714" expanded="true" signature="136:441" ph="{...}" />
-            <marker date="1565333386714" expanded="true" signature="156:439" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/SzubsKinCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <marker date="1565333393074" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333393074" expanded="true" signature="132:500" ph="{...}" />
-            <marker date="1565333393074" expanded="true" signature="156:493" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/WanderingBraineaterCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <marker date="1565333403960" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333403960" expanded="true" signature="143:493" ph="{...}" />
-            <marker date="1565333403960" expanded="true" signature="163:491" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CoilingVinesCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <marker date="1565331351600" expanded="false" signature="6:44" ph="..." />
-            <marker date="1565331351600" expanded="true" signature="82:441" ph="{...}" />
-            <marker date="1565331351600" expanded="true" signature="102:439" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/CrimsonHammerCard.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrimsonHammerCard.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -709,133 +996,433 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightChooseStage.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CrystalMemoryCard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="85" column="94" lean-forward="true" selection-start-line="85" selection-start-column="94" selection-end-line="85" selection-end-column="94" />
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
-            <marker date="1565333459334" expanded="false" signature="6:151" ph="..." />
-            <marker date="1565333459334" expanded="true" signature="194:3241" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="467:688" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="733:1585" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="795:1158" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="1206:1258" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="1307:1360" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="1404:1459" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="1503:1558" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="1630:1874" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="1668:1868" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="1920:2196" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="1990:2190" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="2242:2537" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="2304:2510" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="2583:2995" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="2848:2893" ph="{...}" />
-            <marker date="1565333459334" expanded="true" signature="3031:3238" ph="{...}" />
+            <marker date="1565331351602" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351602" expanded="true" signature="88:377" ph="{...}" />
+            <marker date="1565331351602" expanded="true" signature="108:375" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightTargetFieldStage.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkClownCard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <marker date="1565333487938" expanded="false" signature="6:132" ph="..." />
-            <marker date="1565333487938" expanded="true" signature="180:3500" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="408:722" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="767:1733" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="836:1195" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="1243:1295" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="1344:1397" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="1443:1500" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="1544:1599" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="1647:1706" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="1778:2020" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="1816:2014" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="2066:2338" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="2134:2332" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="2386:2508" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="2554:3117" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="2683:3090" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="3006:3080" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="3167:3283" ph="{...}" />
-            <marker date="1565333487938" expanded="true" signature="3319:3497" ph="{...}" />
+            <marker date="1565333155795" expanded="false" signature="6:98" ph="..." />
+            <marker date="1565333155795" expanded="true" signature="133:499" ph="{...}" />
+            <marker date="1565333155795" expanded="true" signature="153:497" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/GameStages/FightTargetShieldStage.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkRavenCard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="84" column="103" selection-start-line="84" selection-start-column="103" selection-end-line="84" selection-end-column="103" />
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
-            <marker date="1565333520134" expanded="false" signature="6:98" ph="..." />
-            <marker date="1565333520134" expanded="true" signature="147:3445" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="375:694" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="739:1743" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="839:1201" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="1249:1301" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="1350:1403" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="1451:1510" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="1554:1609" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="1657:1716" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="1788:2031" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="1826:2025" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="2077:2351" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="2146:2345" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="2401:2519" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="2569:3061" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="2810:3034" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="3111:3227" ph="{...}" />
-            <marker date="1565333520134" expanded="true" signature="3263:3442" ph="{...}" />
+            <marker date="1565331351603" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351603" expanded="true" signature="79:381" ph="{...}" />
+            <marker date="1565331351603" expanded="true" signature="99:378" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Card.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DarkReversalCard.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="133" column="34" lean-forward="true" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
-            <marker date="1565332987633" expanded="true" signature="6:132" ph="..." />
-            <marker date="1565332987633" expanded="true" signature="167:5108" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="962:1152" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="1185:1198" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="1233:1306" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="1346:1402" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="1445:1504" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="1552:1616" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="1661:1728" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="1778:1850" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="1886:1938" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="1979:2036" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="2086:2152" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="2204:2272" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="2325:2394" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="2449:2520" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="2528:2662" ph="/* Main Battle Method ... */" />
-            <marker date="1565332987633" expanded="true" signature="2697:3373" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="3022:3093" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="3273:3344" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="3420:3456" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="3513:3559" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="3619:3666" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="3727:3786" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="3817:3987" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="3850:3981" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4016:4186" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4048:4180" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4209:4371" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4238:4365" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4396:4558" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4424:4552" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4588:4637" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4669:4750" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4781:4928" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4811:4922" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4957:5105" ph="{...}" />
-            <marker date="1565332987633" expanded="true" signature="4988:5099" ph="{...}" />
+            <marker date="1565331351603" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351603" expanded="true" signature="87:390" ph="{...}" />
+            <marker date="1565331351603" expanded="true" signature="107:388" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeadlyFighterBraidClawCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565333166532" expanded="false" signature="6:98" ph="..." />
+            <marker date="1565333166532" expanded="true" signature="146:458" ph="{...}" />
+            <marker date="1565333166532" expanded="true" signature="166:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathbladeBeetleCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351605" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351605" expanded="true" signature="86:418" ph="{...}" />
+            <marker date="1565331351605" expanded="true" signature="105:411" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathligerCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351605" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351605" expanded="true" signature="80:394" ph="{...}" />
+            <marker date="1565331351605" expanded="true" signature="100:387" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DeathSmokeCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351604" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351604" expanded="true" signature="85:415" ph="{...}" />
+            <marker date="1565331351604" expanded="true" signature="105:413" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DiaNorkCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565333184935" expanded="false" signature="6:98" ph="..." />
+            <marker date="1565333184935" expanded="true" signature="131:499" ph="{...}" />
+            <marker date="1565333184935" expanded="true" signature="155:492" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DimensionGateCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351606" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351606" expanded="true" signature="88:394" ph="{...}" />
+            <marker date="1565331351606" expanded="true" signature="108:392" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DomeShellCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351607" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351607" expanded="true" signature="79:357" ph="{...}" />
+            <marker date="1565331351607" expanded="true" signature="99:355" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/DraglideCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565333198900" expanded="false" signature="6:98" ph="..." />
+            <marker date="1565333198900" expanded="true" signature="132:432" ph="{...}" />
+            <marker date="1565333198900" expanded="true" signature="152:430" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/EmeraldGrassCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565333218321" expanded="false" signature="6:98" ph="..." />
+            <marker date="1565333218321" expanded="true" signature="136:491" ph="{...}" />
+            <marker date="1565333218321" expanded="true" signature="156:484" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ExplosiveFighterUcarnCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351609" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351609" expanded="true" signature="91:512" ph="{...}" />
+            <marker date="1565331351609" expanded="true" signature="111:510" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FaerieChildCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351609" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351609" expanded="true" signature="81:392" ph="{...}" />
+            <marker date="1565331351609" expanded="true" signature="101:390" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FatalAttackerHorvathCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351610" expanded="false" signature="6:63" ph="..." />
+            <marker date="1565331351610" expanded="true" signature="109:526" ph="{...}" />
+            <marker date="1565331351610" expanded="true" signature="133:361" ph="{...}" />
+            <marker date="1565331351610" expanded="true" signature="381:519" ph="{...}" />
+            <marker date="1565331351610" expanded="true" signature="477:513" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FearFangCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351611" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351611" expanded="true" signature="78:322" ph="{...}" />
+            <marker date="1565331351611" expanded="true" signature="98:320" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FireSweeperBurningHellionCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351611" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351611" expanded="true" signature="95:394" ph="{...}" />
+            <marker date="1565331351611" expanded="true" signature="119:387" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ForestHornetCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351612" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351612" expanded="true" signature="82:332" ph="{...}" />
+            <marker date="1565331351612" expanded="true" signature="102:330" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/FreiCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351612" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351612" expanded="true" signature="74:384" ph="{...}" />
+            <marker date="1565331351612" expanded="true" signature="94:377" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GatlingSkyterrorCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565333231339" expanded="false" signature="6:98" ph="..." />
+            <marker date="1565333231339" expanded="true" signature="140:495" ph="{...}" />
+            <marker date="1565333231339" expanded="true" signature="160:493" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GhostTouchCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351614" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351614" expanded="true" signature="85:337" ph="{...}" />
+            <marker date="1565331351614" expanded="true" signature="105:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigaberosCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351614" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351614" expanded="true" signature="79:487" ph="{...}" />
+            <marker date="1565331351614" expanded="true" signature="99:485" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigagieleCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565333243455" expanded="false" signature="6:98" ph="..." />
+            <marker date="1565333243455" expanded="true" signature="133:422" ph="{...}" />
+            <marker date="1565333243455" expanded="true" signature="153:420" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GigargonCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351615" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351615" expanded="true" signature="78:432" ph="{...}" />
+            <marker date="1565331351615" expanded="true" signature="98:430" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GoldenWingStrikerCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351616" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351616" expanded="true" signature="87:371" ph="{...}" />
+            <marker date="1565331351616" expanded="true" signature="107:369" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/GranGureCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565333251359" expanded="false" signature="6:98" ph="..." />
+            <marker date="1565333251359" expanded="true" signature="132:493" ph="{...}" />
+            <marker date="1565333251359" expanded="true" signature="152:486" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HanusaCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351617" expanded="false" signature="6:78" ph="..." />
+            <marker date="1565331351617" expanded="true" signature="110:422" ph="{...}" />
+            <marker date="1565331351617" expanded="true" signature="130:415" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HolyAweCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351618" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351618" expanded="true" signature="82:407" ph="{...}" />
+            <marker date="1565331351618" expanded="true" signature="102:275" ph="{...}" />
+            <marker date="1565331351618" expanded="true" signature="320:404" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/HunterFishCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565333262067" expanded="false" signature="6:98" ph="..." />
+            <marker date="1565333262067" expanded="true" signature="134:465" ph="{...}" />
+            <marker date="1565333262067" expanded="true" signature="154:463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IereCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351619" expanded="false" signature="6:78" ph="..." />
+            <marker date="1565331351619" expanded="true" signature="108:368" ph="{...}" />
+            <marker date="1565331351619" expanded="true" signature="128:361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IllusionaryMerfolkCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351620" expanded="false" signature="6:63" ph="..." />
+            <marker date="1565331351620" expanded="true" signature="107:522" ph="{...}" />
+            <marker date="1565331351620" expanded="true" signature="127:520" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ImmortalBaronVorgCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/ImmortalBaronCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <marker date="1565352847974" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565352847974" expanded="true" signature="83:340" ph="{...}" />
+            <marker date="1565352847974" expanded="true" signature="107:333" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/IocantCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1565333270155" expanded="false" signature="6:117" ph="..." />
+            <marker date="1565333270155" expanded="true" signature="149:738" ph="{...}" />
+            <marker date="1565333270155" expanded="true" signature="169:501" ph="{...}" />
+            <marker date="1565333270155" expanded="true" signature="580:735" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/KingCoralCard.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1565331351622" expanded="false" signature="6:44" ph="..." />
+            <marker date="1565331351622" expanded="true" signature="79:364" ph="{...}" />
+            <marker date="1565331351622" expanded="true" signature="99:362" ph="{...}" />
           </folding>
         </state>
       </provider>

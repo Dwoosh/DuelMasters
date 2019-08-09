@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using UnityEngine;
 using UnityEngine.UI;
 
-public class CardFieldScript : MonoBehaviour
+public class CardField : MonoBehaviour
 {
     public InputField cardInputField;
     public Text cardAmountText;
@@ -9,7 +11,8 @@ public class CardFieldScript : MonoBehaviour
     public Image cardImage;
     public Button incrementButton;
     public Button decrementButton;
-    
+
+    private CardInfo cardInfo;
     private CardScrollList cardScrollList;
 
     void Start()
@@ -18,14 +21,15 @@ public class CardFieldScript : MonoBehaviour
         decrementButton.onClick.AddListener(HandleDecrementButtonClick);
     }
 
-    public void Setup(Card card, CardScrollList scrollList)
+    public void Setup(CardInfo card, CardScrollList scrollList)
     {
         cardScrollList = scrollList;
-        cardNameText.text = card.cardName;
-        cardImage.sprite = GetSpriteFromResources(card.cardName);
+        cardInfo = card;
+        cardNameText.text = card.name;
+        cardImage.sprite = GetSpriteFromResources(card.name);
     }
 
-    public void HandleIncrementButtonClick()
+    private void HandleIncrementButtonClick()
     {
         var textValue = int.Parse(cardAmountText.text);
         if (textValue < 4)
@@ -34,7 +38,7 @@ public class CardFieldScript : MonoBehaviour
         }
     }
 
-    public void HandleDecrementButtonClick()
+    private void HandleDecrementButtonClick()
     {
         var textValue = int.Parse(cardAmountText.text);
         if (textValue > 0)
@@ -51,6 +55,20 @@ public class CardFieldScript : MonoBehaviour
 
     private static string GetSpecializedName(string cardName)
     {
-        return string.Join("", cardName.Split(',')[0]);
+        var rgx = new Regex("[^a-zA-Z]");
+        cardName = string.Join("", cardName.Split(',')[0]);
+        return rgx.Replace(cardName, "");
     }
+}
+
+[System.Serializable]
+public class CardInfo
+{
+    public string name;
+}
+
+[System.Serializable]
+public class CardInfoList
+{
+    public List<CardInfo> list;
 }

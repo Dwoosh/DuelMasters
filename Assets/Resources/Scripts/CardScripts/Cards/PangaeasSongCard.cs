@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PangaeaSongCard : SpellCard
+public class PangaeasSongCard : SpellCard
 {
 
     void Start()

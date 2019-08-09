@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RoaringGreathornCard : Card
+public class RoaringGreatHornCard : Card
 {
 
     void Start()

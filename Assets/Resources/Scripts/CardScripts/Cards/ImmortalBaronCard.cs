@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ImmortalBaronVorgCard : Card
+public class ImmortalBaronCard : Card
 {
     
     void Start()
