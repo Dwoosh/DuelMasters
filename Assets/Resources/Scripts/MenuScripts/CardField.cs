@@ -58,7 +58,7 @@ public class CardField : MonoBehaviour, IComparable<CardField>
 
     private static Sprite GetSpriteFromResources(string cardName)
     {
-        var path = "Sprites/Cards/" + GetSpecializedName(cardName) + "Sprite.png";
+        var path = "Sprites/CardSprites/" + GetSpecializedName(cardName) + "Sprite.png";
         return Resources.Load<Sprite>(path);
     }
 
@@ -85,5 +85,5 @@ public class CardInfo
 [System.Serializable]
 public class CardInfoList
 {
-    public List<CardInfo> list;
+    public List<CardInfo> list = new List<CardInfo>();
 }

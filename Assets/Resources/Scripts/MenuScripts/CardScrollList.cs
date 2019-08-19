@@ -31,7 +31,7 @@ public class CardScrollList : MonoBehaviour
     
     private CardInfoList LoadCardNamesFromFile()
     {
-        var path = Path.Combine(Application.dataPath, fileName);
+        var path = Path.Combine(Application.dataPath, "Resources/" + fileName);
         if (!File.Exists(path))
         {
             Debug.LogError("Cards file not found!");
