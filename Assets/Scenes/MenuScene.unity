@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cardFieldList: []
-  settingsHolder: {fileID: 0}
+  settingsHolder: {fileID: 39672349}
 --- !u!1 &331976973
 GameObject:
   m_ObjectHideFlags: 0
