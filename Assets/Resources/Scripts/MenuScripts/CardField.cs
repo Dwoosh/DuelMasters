@@ -14,7 +14,10 @@ public class CardField : MonoBehaviour
 
     private CardInfo cardInfo;
     private CardScrollList cardScrollList;
-
+    
+    [SerializeField]
+    private Text cardCountText;
+    
     void Start()
     {
         incrementButton.onClick.AddListener(HandleIncrementButtonClick);
@@ -32,24 +35,30 @@ public class CardField : MonoBehaviour
     private void HandleIncrementButtonClick()
     {
         var textValue = int.Parse(cardAmountText.text);
-        if (textValue < 4)
+        var allCountText = cardCountText.text;
+        var countValue = int.Parse(allCountText.Substring(0, allCountText.Length - 5));
+        if (textValue < 4 && countValue < 40)
         {
             cardAmountText.text = (textValue + 1).ToString();
+            cardCountText.text = (countValue + 1).ToString() + " / 40";
         }
     }
 
     private void HandleDecrementButtonClick()
     {
         var textValue = int.Parse(cardAmountText.text);
+        var allCountText = cardCountText.text;
+        var countValue = int.Parse(allCountText.Substring(0, allCountText.Length - 5));
         if (textValue > 0)
         {
             cardAmountText.text = (textValue - 1).ToString();
+            cardCountText.text = (countValue - 1).ToString() + " / 40";
         }
     }
 
     private static Sprite GetSpriteFromResources(string cardName)
     {
-        var path = "Sprites/Cards/" + GetSpecializedName(cardName);
+        var path = "Sprites/Cards/" + GetSpecializedName(cardName) + "Sprite.png";
         return Resources.Load<Sprite>(path);
     }
 
