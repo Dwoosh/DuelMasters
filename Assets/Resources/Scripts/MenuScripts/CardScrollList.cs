@@ -10,15 +10,9 @@ public class CardScrollList : MonoBehaviour
     
     private const string fileName = "cards.json";
     
-    void Start()
+    public void SetupCardFields()
     {
-        SetupCardFields();
-        
-    }
-
-    private void SetupCardFields()
-    {
-        if (settingsHolder.fields?.Count == 0)
+        if (settingsHolder.fields == null || settingsHolder.fields.Count == 0)
         {
             var fieldsList = LoadCardNamesFromFile();
             foreach (var field in fieldsList.list)
@@ -30,6 +24,8 @@ public class CardScrollList : MonoBehaviour
         else
         {
             cardFieldList.AddRange(settingsHolder.fields);
+            cardFieldList.Sort();
+            settingsHolder.fields.Clear();
         }
     }
     

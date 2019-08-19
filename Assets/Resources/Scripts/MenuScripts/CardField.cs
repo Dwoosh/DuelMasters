@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CardField : MonoBehaviour
+public class CardField : MonoBehaviour, IComparable<CardField>
 {
     public InputField cardInputField;
     public Text cardAmountText;
@@ -66,6 +67,12 @@ public class CardField : MonoBehaviour
         var rgx = new Regex("[^a-zA-Z]");
         cardName = string.Join("", cardName.Split(',')[0]);
         return rgx.Replace(cardName, "");
+    }
+
+    public int CompareTo(CardField other)
+    {
+        if (other == null) return 1;
+        return string.Compare(cardNameText.text, other.cardNameText.text, StringComparison.Ordinal);
     }
 }
 
