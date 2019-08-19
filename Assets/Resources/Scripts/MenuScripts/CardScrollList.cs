@@ -6,7 +6,8 @@ using System.Linq;
 public class CardScrollList : MonoBehaviour
 {
     public List<CardField> cardFieldList;
-
+    public CardSettingsHolderScript settingsHolder;
+    
     private const string fileName = "cards.json";
     
     void Start()
@@ -17,11 +18,18 @@ public class CardScrollList : MonoBehaviour
 
     private void SetupCardFields()
     {
-        var fieldsList = LoadCardNamesFromFile();
-        foreach (var field in fieldsList.list)
+        if (settingsHolder.fields?.Count == 0)
         {
-            var fd = Instantiate(Resources.Load<CardField>("Prefabs/CardInputField"));
-            fd.Setup(field, this);
+            var fieldsList = LoadCardNamesFromFile();
+            foreach (var field in fieldsList.list)
+            {
+                var fd = Instantiate(Resources.Load<CardField>("Prefabs/CardInputField"));
+                fd.Setup(field, this);
+            }
+        }
+        else
+        {
+            cardFieldList.AddRange(settingsHolder.fields);
         }
     }
     

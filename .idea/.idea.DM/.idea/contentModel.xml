@@ -191,6 +191,7 @@
             <e p="MenuScripts" t="Include">
               <e p="CardField.cs" t="Include" />
               <e p="CardScrollList.cs" t="Include" />
+              <e p="CardSettingsHolderScript.cs" t="Include" />
               <e p="ExitOnClick.cs" t="Include" />
               <e p="LoadSceneOnClick.cs" t="Include" />
               <e p="ObjectPool.cs" t="Include" />

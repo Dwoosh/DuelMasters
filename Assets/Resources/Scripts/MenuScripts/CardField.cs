@@ -11,13 +11,12 @@ public class CardField : MonoBehaviour
     public Image cardImage;
     public Button incrementButton;
     public Button decrementButton;
+    public Text cardCountText;
 
     private CardInfo cardInfo;
     private CardScrollList cardScrollList;
-    
-    [SerializeField]
-    private Text cardCountText;
-    
+
+
     void Start()
     {
         incrementButton.onClick.AddListener(HandleIncrementButtonClick);
