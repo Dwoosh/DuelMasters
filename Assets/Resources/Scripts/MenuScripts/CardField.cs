@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,6 +23,7 @@ public class CardField : MonoBehaviour, IComparable<CardField>
     {
         incrementButton.onClick.AddListener(HandleIncrementButtonClick);
         decrementButton.onClick.AddListener(HandleDecrementButtonClick);
+        cardCountText = FindObjectsOfType<Text>().First(x => x.name == "CardCountText");
     }
 
     public void Setup(CardInfo card, CardScrollList scrollList)

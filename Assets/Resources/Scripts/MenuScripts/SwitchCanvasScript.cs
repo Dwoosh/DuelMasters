@@ -8,19 +8,20 @@ public class SwitchCanvasScript : MonoBehaviour
     public Canvas CardListMenu;
     public CardSettingsHolderScript settingsHolder;
 
+
     public void SwitchToMainMenu()
     {
+        CardListMenu.gameObject.SetActive(false);
+        MainMenu.gameObject.SetActive(true);
         MigrateSettingsToHolder();
-        CardListMenu.enabled = false;
-        MainMenu.enabled = true;
     }
 
     public void SwitchToCardListMenu()
     {
+        MainMenu.gameObject.SetActive(false);
+        CardListMenu.gameObject.SetActive(true);
         var scrollList = CardListMenu.GetComponentInChildren<CardScrollList>();
         scrollList.SetupCardFields();
-        MainMenu.enabled = false;
-        CardListMenu.enabled = true;
     }
 
     private void MigrateSettingsToHolder()

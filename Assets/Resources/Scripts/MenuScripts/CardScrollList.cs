@@ -7,6 +7,7 @@ public class CardScrollList : MonoBehaviour
 {
     public List<CardField> cardFieldList;
     public CardSettingsHolderScript settingsHolder;
+    public GameObject listContent;
     
     private const string fileName = "cards.json";
     
@@ -17,7 +18,7 @@ public class CardScrollList : MonoBehaviour
             var fieldsList = LoadCardNamesFromFile();
             foreach (var field in fieldsList.list)
             {
-                var fd = Instantiate(Resources.Load<CardField>("Prefabs/CardInputField"));
+                var fd = Instantiate(Resources.Load<CardField>("Prefabs/CardInputField"), listContent.transform, false);
                 fd.Setup(field, this);
             }
         }
