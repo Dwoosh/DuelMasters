@@ -19,22 +19,16 @@ public class CardField : MonoBehaviour, IComparable<CardField>
     private CardScrollList cardScrollList;
 
 
-    void Start()
-    {
-        incrementButton.onClick.AddListener(HandleIncrementButtonClick);
-        decrementButton.onClick.AddListener(HandleDecrementButtonClick);
-        cardCountText = FindObjectsOfType<Text>().First(x => x.name == "CardCountText");
-    }
-
     public void Setup(CardInfo card, CardScrollList scrollList)
     {
+        cardCountText = FindObjectsOfType<Text>().First(x => x.name == "CardCountText");
         cardScrollList = scrollList;
         cardInfo = card;
         cardNameText.text = card.name;
         cardImage.sprite = GetSpriteFromResources(card.name);
     }
 
-    private void HandleIncrementButtonClick()
+    public void HandleIncrementButtonClick()
     {
         var textValue = int.Parse(cardAmountText.text);
         var allCountText = cardCountText.text;
@@ -46,7 +40,7 @@ public class CardField : MonoBehaviour, IComparable<CardField>
         }
     }
 
-    private void HandleDecrementButtonClick()
+    public void HandleDecrementButtonClick()
     {
         var textValue = int.Parse(cardAmountText.text);
         var allCountText = cardCountText.text;
@@ -60,7 +54,7 @@ public class CardField : MonoBehaviour, IComparable<CardField>
 
     private static Sprite GetSpriteFromResources(string cardName)
     {
-        var path = "Sprites/CardSprites/" + GetSpecializedName(cardName) + "Sprite.png";
+        var path = "Sprites/CardSprites/" + GetSpecializedName(cardName) + "Sprite";
         return Resources.Load<Sprite>(path);
     }
 

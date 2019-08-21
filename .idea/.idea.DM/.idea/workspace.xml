@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c46f6f7a-6a3c-4309-bd90-c701168ce6fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DM/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/CardInputField.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/CardInputField.prefab" afterDir="false" />
@@ -35,10 +36,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+              <folding>
+                <marker date="1566372828730" expanded="true" signature="6:145" ph="..." />
+                <marker date="1566372828730" expanded="true" signature="209:2368" ph="{...}" />
+                <marker date="1566372828730" expanded="true" signature="581:845" ph="{...}" />
+                <marker date="1566372828730" expanded="true" signature="891:1294" ph="{...}" />
+                <marker date="1566372828730" expanded="true" signature="1134:1288" ph="{...}" />
+                <marker date="1566372828730" expanded="true" signature="1340:1724" ph="{...}" />
+                <marker date="1566372828730" expanded="true" signature="1564:1718" ph="{...}" />
+                <marker date="1566372828730" expanded="true" signature="1791:1954" ph="{...}" />
+                <marker date="1566372828730" expanded="true" signature="2017:2173" ph="{...}" />
+                <marker date="1566372828730" expanded="true" signature="2216:2366" ph="{...}" />
+                <marker date="1566372828730" expanded="true" signature="2413:2441" ph="{...}" />
+                <marker date="1566372828730" expanded="true" signature="2490:2549" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/SwitchCanvasScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="176">
               <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <marker date="1566300165637" expanded="false" signature="6:78" ph="..." />
@@ -65,31 +89,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding>
-                <marker date="1566303251014" expanded="true" signature="6:145" ph="..." />
-                <marker date="1566303251014" expanded="true" signature="209:2569" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="534:781" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="846:1021" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="1068:1493" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="1311:1487" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="1540:1942" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="1782:1936" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="2009:2155" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="2218:2374" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="2417:2567" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="2614:2642" ph="{...}" />
-                <marker date="1566303251014" expanded="true" signature="2691:2750" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>incrementButton = GetComponents&lt;</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -213,6 +218,7 @@
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardSettingsHolderScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/SwitchCanvasScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardScrollList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/SpriteSetterScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs" />
       </list>
     </option>
@@ -227,7 +233,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="95" />
-    <option name="y" value="261" />
+    <option name="y" value="260" />
     <option name="width" value="2580" />
     <option name="height" value="1420" />
   </component>
@@ -236,14 +242,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DM" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DM" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DM" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DM" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DM" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DM" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assembly-CSharp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assets" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Resources" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Scripts" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MenuScripts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -276,10 +326,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="15660">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="16944">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15660" />
+      <option name="pid" value="16944" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -299,11 +349,12 @@
       <workItem from="1566220486936" duration="4088000" />
       <workItem from="1566224647552" duration="385000" />
       <workItem from="1566297908412" duration="5014000" />
+      <workItem from="1566369471211" duration="3358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20192000" />
+    <option name="totallyTimeSpent" value="23550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,14 +367,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23564653" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23814279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39980355" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39980355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -358,46 +410,21 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs</url>
-          <line>38</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs" initialLine="38">
+          <line>58</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs" initialLine="58">
             <startOffsets>
-              <option value="1083" />
+              <option value="1938" />
             </startOffsets>
             <endOffsets>
-              <option value="1130" />
+              <option value="1948" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs</url>
-          <line>51</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs" initialLine="50">
-            <startOffsets>
-              <option value="1555" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1602" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/BurningPowerCard.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <marker date="1565331351596" expanded="false" signature="6:78" ph="..." />
-            <marker date="1565331351596" expanded="true" signature="121:430" ph="{...}" />
-            <marker date="1565331351596" expanded="true" signature="141:423" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/CardScripts/Cards/CandyDropCard.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -1005,6 +1032,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3F37B2CA-7BC0-4094-93C9-29A81891A481/be/ae7c036b/UnityEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="97" column="72" lean-forward="true" selection-start-line="97" selection-start-column="72" selection-end-line="97" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/SwitchCanvasScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <marker date="1566300165637" expanded="false" signature="6:78" ph="..." />
+            <marker date="1566300165637" expanded="true" signature="127:931" ph="{...}" />
+            <marker date="1566300165637" expanded="true" signature="278:420" ph="{...}" />
+            <marker date="1566300165637" expanded="true" signature="460:685" ph="{...}" />
+            <marker date="1566300165637" expanded="true" signature="729:929" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardSettingsHolderScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1017,24 +1065,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3F37B2CA-7BC0-4094-93C9-29A81891A481/be/ae7c036b/UnityEvent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/SpriteSetterScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="97" column="72" lean-forward="true" selection-start-line="97" selection-start-column="72" selection-end-line="97" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/SwitchCanvasScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <marker date="1566300165637" expanded="false" signature="6:78" ph="..." />
-            <marker date="1566300165637" expanded="true" signature="127:931" ph="{...}" />
-            <marker date="1566300165637" expanded="true" signature="278:420" ph="{...}" />
-            <marker date="1566300165637" expanded="true" signature="460:685" ph="{...}" />
-            <marker date="1566300165637" expanded="true" signature="729:929" ph="{...}" />
-          </folding>
+        <state relative-caret-position="64">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1057,22 +1091,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Scripts/MenuScripts/CardField.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="363">
+          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
           <folding>
-            <marker date="1566303251014" expanded="true" signature="6:145" ph="..." />
-            <marker date="1566303251014" expanded="true" signature="209:2569" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="534:781" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="846:1021" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="1068:1493" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="1311:1487" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="1540:1942" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="1782:1936" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="2009:2155" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="2218:2374" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="2417:2567" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="2614:2642" ph="{...}" />
-            <marker date="1566303251014" expanded="true" signature="2691:2750" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="6:145" ph="..." />
+            <marker date="1566372828730" expanded="true" signature="209:2368" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="581:845" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="891:1294" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="1134:1288" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="1340:1724" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="1564:1718" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="1791:1954" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="2017:2173" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="2216:2366" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="2413:2441" ph="{...}" />
+            <marker date="1566372828730" expanded="true" signature="2490:2549" ph="{...}" />
           </folding>
         </state>
       </provider>
