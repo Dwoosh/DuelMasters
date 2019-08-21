@@ -50,9 +50,19 @@ public class CardField : MonoBehaviour, IComparable<CardField>
         }
     }
 
-    public void HandleOnValueChangedEvent()
+    public void HandleOnValueChangedEvent(string value)
     {
-        
+        if (!int.TryParse(value, out var passedValue))
+        {
+            SetCardCountTexts();
+            return;
+        }
+        if (passedValue > 4) passedValue = 4;
+        else if (passedValue < 0) passedValue = 0;
+        var change = passedValue - cardCount;
+        cardCount += change;
+        allCardsCount += change;
+        SetCardCountTexts();
     }
     
     private void SetCardCountTexts()
