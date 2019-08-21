@@ -13,15 +13,17 @@ public class CardField : MonoBehaviour, IComparable<CardField>
     public Image cardImage;
     public Button incrementButton;
     public Button decrementButton;
-    public Text cardCountText;
+    public Text allCardCountText;
 
     private CardInfo cardInfo;
     private CardScrollList cardScrollList;
 
+    private int cardCount = 0;
+    private static int allCardsCount = 0;
 
     public void Setup(CardInfo card, CardScrollList scrollList)
     {
-        cardCountText = FindObjectsOfType<Text>().First(x => x.name == "CardCountText");
+        allCardCountText = FindObjectsOfType<Text>().First(x => x.name == "CardCountText");
         cardScrollList = scrollList;
         cardInfo = card;
         cardNameText.text = card.name;
@@ -30,28 +32,35 @@ public class CardField : MonoBehaviour, IComparable<CardField>
 
     public void HandleIncrementButtonClick()
     {
-        var textValue = int.Parse(cardAmountText.text);
-        var allCountText = cardCountText.text;
-        var countValue = int.Parse(allCountText.Substring(0, allCountText.Length - 5));
-        if (textValue < 4 && countValue < 40)
+        if (cardCount < 4 && allCardsCount < 40)
         {
-            cardAmountText.text = (textValue + 1).ToString();
-            cardCountText.text = (countValue + 1).ToString() + " / 40";
+            ++cardCount;
+            ++allCardsCount;
+            SetCardCountTexts();
         }
     }
 
     public void HandleDecrementButtonClick()
     {
-        var textValue = int.Parse(cardAmountText.text);
-        var allCountText = cardCountText.text;
-        var countValue = int.Parse(allCountText.Substring(0, allCountText.Length - 5));
-        if (textValue > 0)
+        if (cardCount > 0 && allCardsCount > 0)
         {
-            cardAmountText.text = (textValue - 1).ToString();
-            cardCountText.text = (countValue - 1).ToString() + " / 40";
+            --cardCount;
+            --allCardsCount;
+            SetCardCountTexts();
         }
     }
 
+    public void HandleOnValueChangedEvent()
+    {
+        
+    }
+    
+    private void SetCardCountTexts()
+    {
+        allCardCountText.text = allCardsCount.ToString() + " / 40";
+        cardInputField.text = cardCount.ToString();
+    }
+    
     private static Sprite GetSpriteFromResources(string cardName)
     {
         var path = "Sprites/CardSprites/" + GetSpecializedName(cardName) + "Sprite";
