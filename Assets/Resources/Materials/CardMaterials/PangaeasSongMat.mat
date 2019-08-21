@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PangeaesSongMat
+  m_Name: PangaeasSongMat
   m_Shader: {fileID: 4800000, guid: 3d8f28c86b5801242bd4180df8d41ba8, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
